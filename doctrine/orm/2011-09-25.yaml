@@ -1,0 +1,8 @@
+title:     SQL injection possibility
+link:      http://www.doctrine-project.org/blog/doctrine-security-fix.html
+cve:       ~
+branches:
+    2.x:
+        time:     2011-09-25 17:37:08
+        versions: [>=2.0.0,<2.0.3]
+reference: composer://doctrine/orm

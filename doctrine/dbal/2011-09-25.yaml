@@ -1,0 +1,11 @@
+title:     SQL injection possibility
+link:      http://www.doctrine-project.org/blog/dbal-security-2011-1.html
+cve:       ~
+branches:
+    2.0.x:
+        time:     2011-08-29 22:36:11
+        versions: [>=2.0.0,<2.0.8]
+    2.1.x:
+        time:     2011-08-29 22:36:11
+        versions: [>=2.1.0,<2.1.2]
+reference: composer://doctrine/dbal
