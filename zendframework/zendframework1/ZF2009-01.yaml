@@ -1,0 +1,8 @@
+title:      LFI vector in Zend_View::setScriptPath() and render()
+link:       http://framework.zend.com/security/advisory/ZF2009-01
+cve:        ~
+branches:
+    1.7.x:
+        time:     2009-02-13 14:43:21
+        versions: [>=1.7.0,<1.7.5]
+reference: composer://zendframework/zendframework1

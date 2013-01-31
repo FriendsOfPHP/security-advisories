@@ -1,0 +1,8 @@
+title:     Potential XSS Vectors in Multiple Zend Framework 2 Components
+link:      http://framework.zend.com/security/advisory/ZF2012-03
+cve: ~
+branches:
+    2.0.x:
+        time:     2012-09-20 15:22:57
+        versions: [>=2.0.0,<2.0.1]
+reference: composer://zendframework/zendframework

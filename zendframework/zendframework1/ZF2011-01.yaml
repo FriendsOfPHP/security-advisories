@@ -1,0 +1,8 @@
+title:     Potential XSS in Development Environment Error View Script
+link:      http://framework.zend.com/security/advisory/ZF2011-01
+cve: ~
+branches:
+    1.x:
+        time:     2012-06-13 17:24:38
+        versions: [>=1.0.0,<1.11.4]
+reference: composer://zendframework/zendframework1
