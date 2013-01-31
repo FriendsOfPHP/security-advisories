@@ -8,4 +8,4 @@ branches:
     2.1.x:
         time:     2012-11-27 19:09:41
         versions: [>=2.1.0,<2.1.4]
-reference: composer://symfony/http-foundation
+reference: composer://symfony/symfony
