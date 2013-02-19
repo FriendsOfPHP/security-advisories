@@ -46,7 +46,7 @@ Contributing security advisories is as easy as it can get:
     Symfony HttpFoundation component for instance);
 
   * Each security issue must be saved in a file where the name is the CVE
-    identifier (prefered) or the date when the security issue was announced
+    identifier (preferred) or the date when the security issue was announced
     followed by an increment (`2012-12-12-1` for instance);
 
   * The file is in the YAML format and **must** contain the following entries
@@ -56,7 +56,7 @@ Contributing security advisories is as easy as it can get:
 
       * `link`:      A link to the official security issue announcement;
 
-      * `reference`: A unique reference to identify the sofware (the only
+      * `reference`: A unique reference to identify the software (the only
         supported scheme is `composer://` followed by the Composer identifier);
 
       * `branches`: A hash of affected branches, where the name is the branch
