@@ -10,7 +10,7 @@ information for convenience and easy consumption.
 Browsing Vulnerabilities
 ------------------------
 
-You can browse the all database entries on http://security.sensiolabs.org/.
+You can browse the all database entries on http://security.sensiolabs.org/database.
 
 Checking for Vulnerabilities
 ----------------------------
