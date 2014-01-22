@@ -1,0 +1,13 @@
+{
+    "name": "sensiolabs/security-advisories",
+    "require": {
+        "symfony/yaml": "~2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien.potencier@gmail.com"
+        }
+    ]
+}
