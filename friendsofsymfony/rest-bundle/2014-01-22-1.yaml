@@ -1,0 +1,8 @@
+title:     Fixed issue with broken validation of JSONP callbacks
+link:      http://symfony.com/blog/fosrestbundle-security-issue-with-jsonp-handler
+cve:       ~
+branches:
+    1.2.x:
+        time:     2014-01-22 12:35:42
+        versions: [>=1.2.0,<1.2.2]
+reference: composer://friendsofsymfony/rest-bundle
