@@ -1,0 +1,11 @@
+title:     Potential XXE/XEE attacks using PHP functions: simplexml_load_*, DOMDocument::loadXML, and xml_parse
+link:      http://framework.zend.com/security/advisory/ZF2014-01
+cve: ~
+branches:
+    2.1.x:
+        time:     2014-02-26 16:02:02
+        versions: [>=2.1.0,<2.1.6]
+    2.2.x:
+        time:     2014-02-26 16:02:02
+        versions: [>=2.2.0,<2.2.6]
+reference: composer://zendframework/zendframework
