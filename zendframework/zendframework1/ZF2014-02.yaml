@@ -1,0 +1,8 @@
+title:     Potential security issue in login mechanism of ZendOpenId and Zend_OpenId consumer
+link:      http://framework.zend.com/security/advisory/ZF2014-02
+cve: ~
+branches:
+    1.12.x:
+        time:     2014-02-17 15:37:54
+        versions: [>=1.12.0,<1.12.4]
+reference: composer://zendframework/zendframework1
