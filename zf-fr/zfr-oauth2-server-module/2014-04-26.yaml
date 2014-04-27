@@ -1,0 +1,8 @@
+title:     Authentication adapter did not verify validity of tokens
+link:      https://github.com/zf-fr/zfr-oauth2-server-module/issues/6
+cve: ~
+branches:
+    0.1.x:
+        time:     2014-04-26 20:04:29
+        versions: [<0.1.2]
+reference: composer://zfr/zfr-oauth2-server-module
