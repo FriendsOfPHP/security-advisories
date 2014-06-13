@@ -1,0 +1,11 @@
+title:     Sendmail transport arbitrary shell execution
+link:      http://blog.swiftmailer.org/post/88660759928/security-fix-swiftmailer-5-2-1-released
+cve:       ~
+branches:
+    4.x:
+        time:     2014-06-13 11:45:24
+        versions: [>=4.0.0,<4.99.99]
+    5.x:
+        time:     2014-06-13 11:45:24
+        versions: [>=5.0.0,<5.2.1]
+reference: composer://swiftmailer/swiftmailer
