@@ -1,0 +1,11 @@
+title:     Risk of mass-assignment vulnerabilities
+link:      http://laravel.com/docs/upgrade#upgrade-4.1.29
+cve:       ~
+branches:
+    4.0.x:
+        time:     2014-05-20 10:21:00
+        versions: [>=4.0.0,<4.0.99]
+    4.1.x:
+        time:     2014-05-20 10:21:00
+        versions: [>=4.1.0,<4.1.29]
+reference: composer://illuminate/database
