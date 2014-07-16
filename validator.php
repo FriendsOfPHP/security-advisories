@@ -61,6 +61,18 @@ foreach ($dir as $file) {
 
             if (!is_array($branch['versions'])) {
                 $messages[$path][] = sprintf('"versions" must be an array for branch "%s".', $name);
+            } else {
+                $hasMax = false;
+                foreach ($branch['versions'] as $version) {
+                    if ('<' === substr($version, 0, 1)) {
+                        $hasMax = true;
+                        break;
+                    }
+                }
+                
+                if (!$hasMax) {
+                    $messages[$path][] = sprintf('"versions" must have an upper bound for branch "%s".', $name);
+                }
             }
         }
     } catch (ParseException $e) {
