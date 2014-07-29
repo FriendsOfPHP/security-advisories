@@ -1,0 +1,8 @@
+title:     Fixed potential path traversal attack and remote code injection
+link:      https://github.com/willdurand/BazingaJsTranslationBundle/releases/tag/v2.1.1
+cve:       ~
+branches:
+    2.1.x:
+        time:     2014-07-29 11:19:06
+        versions: [ <2.1.1 ]
+reference: composer://willdurand/js-translation-bundle
