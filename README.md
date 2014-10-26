@@ -1,11 +1,17 @@
-SensioLabs Security Advisories Database
-=======================================
+PHP Security Advisories Database
+================================
 
-The SensioLabs security advisories database references known security
+The PHP Security Advisories Database references known security
 vulnerabilities in various PHP projects and libraries. This database **must
 not** serve as the primary source of information for security issues, it is
 not authoritative for any referenced software, but it allows to centralize
 information for convenience and easy consumption.
+
+License
+-------
+
+The PHP security advisories database is free and unencumbered software released
+into the public domain.
 
 Browsing Vulnerabilities
 ------------------------
