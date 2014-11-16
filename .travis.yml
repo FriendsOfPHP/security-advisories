@@ -1,3 +1,7 @@
 language: php
-before_script: composer install --prefer-source
-script: php validator.php
+
+install:
+    - travis_retry composer install --no-interaction --prefer-source
+
+script:
+    - php validator.php
