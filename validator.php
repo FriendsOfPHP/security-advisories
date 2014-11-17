@@ -69,7 +69,7 @@ foreach ($dir as $file) {
                         break;
                     }
                 }
-                
+
                 if (!$hasMax) {
                     $messages[$path][] = sprintf('"versions" must have an upper bound for branch "%s".', $name);
                 }
