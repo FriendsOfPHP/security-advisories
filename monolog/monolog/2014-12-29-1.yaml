@@ -1,4 +1,4 @@
-title:     Fixed header injection in NativeMailerHandler
+title:     Header injection in NativeMailerHandler
 link:      https://github.com/Seldaek/monolog/pull/448#issuecomment-68208704
 cve:       ~
 branches:
