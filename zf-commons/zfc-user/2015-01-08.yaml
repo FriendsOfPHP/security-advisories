@@ -1,6 +1,6 @@
 title:     XSS vulnerability in login redirect param
 link:      https://github.com/ZF-Commons/ZfcUser/issues/550
-cve: ~
+cve: CVE-2015-1039
 branches:
     1.x:
         time:     2015-01-08 14:18:45
