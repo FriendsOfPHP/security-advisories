@@ -4,5 +4,5 @@ cve:       ~
 branches:
     2.1.x:
         time:     2015-02-24 17:46:34
-        versions: [>=2.1.0,<2.1.1]
+        versions: [>=2.1.0,<2.1.2]
 reference: composer://thelia/backoffice-default-template
