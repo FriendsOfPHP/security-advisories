@@ -2,6 +2,12 @@ title:     Potential SQL injection in PostgreSQL Zend\Db adapter
 link:      http://framework.zend.com/security/advisory/ZF2015-02
 cve:       CVE-2015-0270
 branches:
+    2.0.x:
+        time:     2015-02-18 19:15:09
+        versions: [>=2.0.0,<2.0.99]
+    2.1.x:
+        time:     2015-02-18 19:15:09
+        versions: [>=2.1.0,<2.1.99]
     2.2.x:
         time:     2015-02-18 19:15:09
         versions: [>=2.2.0,<2.2.10]
