@@ -1,6 +1,6 @@
-title:     SQL injection vector when manually quoting values for sqlsrv extension, using null byte
-link:      http://framework.zend.com/security/advisory/ZF2014-06
-cve:       CVE-2014-8089
+title:     Anonymous authentication in ldap_bind() function of PHP, using null byte
+link:      http://framework.zend.com/security/advisory/ZF2014-05
+cve:       CVE-2014-8088
 branches:
     2.0.x:
         time:     2014-09-16 22:00:00
@@ -14,4 +14,4 @@ branches:
     2.3.x:
         time:     2014-09-16 22:00:00
         versions: [>=2.3.0,<2.3.3]
-reference: composer://zendframework/zendframework
+reference: composer://zendframework/zend-ldap
