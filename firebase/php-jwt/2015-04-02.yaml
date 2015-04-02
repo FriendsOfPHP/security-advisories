@@ -1,0 +1,8 @@
+title:     Critical vulnerabilities in JSON Web Token libraries
+link:      https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/
+cve:       ~
+branches:
+    master:
+        time:     2015-04-01 18:08:35
+        versions: [<2.0.0]
+reference: composer://firebase/php-jwt
