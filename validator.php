@@ -9,13 +9,38 @@ use Symfony\Component\Yaml\Exception\ParseException;
 
 $parser = new Parser();
 $messages = array();
-$dir = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator(__DIR__));
+
+$advisoryFilter = function (SplFileInfo $file) {
+    if ($file->isFile() && __DIR__ === $file->getPath()) {
+        return false; // We want to skip root files
+    }
+
+    if ($file->isDir()) {
+        if (__DIR__.DIRECTORY_SEPARATOR.'vendor' === $file->getPathname()) {
+            return false; // We want to skip the vendor dir
+        }
+
+        $dirName = $file->getFilename();
+        if ('.' === $dirName[0]) {
+            return false; // Exclude hidden folders (.git and IDE folders at the root)
+        }
+    }
+
+    return true; // any other file gets checks and any other folder gets iterated
+};
+
+$dir = new \RecursiveIteratorIterator(new RecursiveCallbackFilterIterator(new \RecursiveDirectoryIterator(__DIR__), $advisoryFilter));
 foreach ($dir as $file) {
-    if (!$file->isFile() || 'yaml' !== $file->getExtension()) {
+    if (!$file->isFile()) {
         continue;
     }
 
     $path = str_replace(__DIR__.'/', '', $file->getPathname());
+
+    if ('yaml' !== $file->getExtension()) {
+        $messages[$path][] = 'The file extension should be ".yaml".';
+        continue;
+    }
 
     try {
         $data = $parser->parse(file_get_contents($file));
@@ -34,12 +59,17 @@ foreach ($dir as $file) {
             }
         }
 
-        if (0 !== strpos($data['reference'], 'composer://')) {
+        if (isset($data['reference']) && 0 !== strpos($data['reference'], 'composer://')) {
             $messages[$path][] = 'Reference must start with "composer://"';
+        }
+
+        if (!isset($data['branches'])) {
+            continue; // Don't validate branches when not set to avoid notices
         }
 
         if (!is_array($data['branches'])) {
             $messages[$path][] = '"branches" must be an array.';
+            continue;  // Don't validate branches when not set to avoid notices
         }
 
         foreach ($data['branches'] as $name => $branch) {
@@ -53,13 +83,13 @@ foreach ($dir as $file) {
                 }
             }
 
-            foreach (array('time', 'versions') as $key) {
-                if (!isset($branch[$key])) {
-                    $messages[$path][] = sprintf('Key "%s" is required for branch "%s".', $key, $name);
-                }
+            if (!isset($branch['time'])) {
+                $messages[$path][] = sprintf('Key "time" is required for branch "%s".', $name);
             }
 
-            if (!is_array($branch['versions'])) {
+            if (!isset($branch['versions'])) {
+                $messages[$path][] = sprintf('Key "versions" is required for branch "%s".', $name);
+            } elseif (!is_array($branch['versions'])) {
                 $messages[$path][] = sprintf('"versions" must be an array for branch "%s".', $name);
             } else {
                 $hasMax = false;
@@ -81,9 +111,9 @@ foreach ($dir as $file) {
 }
 
 if ($messages) {
-    foreach ($messages as $file => $messages) {
+    foreach ($messages as $file => $fileMessages) {
         echo "$file\n";
-        foreach ($messages as $message) {
+        foreach ($fileMessages as $message) {
             echo "    $message\n";
         }
     }
