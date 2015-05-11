@@ -2,7 +2,11 @@
 
 // validates that all security advisories are valid
 
-require __DIR__.'/vendor/autoload.php';
+if (!is_file($autoloader = __DIR__.'/vendor/autoload.php')) {
+	echo "Dependencies are not installed, please run `composer install` first!\n";
+	exit(1);
+}
+require $autoloader;
 
 use Symfony\Component\Yaml\Parser;
 use Symfony\Component\Yaml\Exception\ParseException;
