@@ -3,8 +3,8 @@
 // validates that all security advisories are valid
 
 if (!is_file($autoloader = __DIR__.'/vendor/autoload.php')) {
-	echo "Dependencies are not installed, please run `composer install` first!\n";
-	exit(1);
+    echo "Dependencies are not installed, please run 'composer install' first!\n";
+    exit(1);
 }
 require $autoloader;
 
