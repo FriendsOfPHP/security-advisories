@@ -39,7 +39,7 @@ foreach ($dir as $file) {
         continue;
     }
 
-    $path = str_replace(__DIR__.'/', '', $file->getPathname());
+    $path = str_replace(__DIR__.DIRECTORY_SEPARATOR, '', $file->getPathname());
 
     if ('yaml' !== $file->getExtension()) {
         $messages[$path][] = 'The file extension should be ".yaml".';
@@ -63,8 +63,16 @@ foreach ($dir as $file) {
             }
         }
 
-        if (isset($data['reference']) && 0 !== strpos($data['reference'], 'composer://')) {
-            $messages[$path][] = 'Reference must start with "composer://"';
+        if (isset($data['reference'])) {
+            if (0 !== strpos($data['reference'], 'composer://')) {
+                $messages[$path][] = 'Reference must start with "composer://"';
+            } else {
+                $composerPackage = substr($data['reference'], 11);
+
+                if (str_replace(DIRECTORY_SEPARATOR, '/', dirname($path)) !== $composerPackage) {
+                    $messages[$path][] = 'Reference composer package must match the folder name';
+                }
+            }
         }
 
         if (!isset($data['branches'])) {
