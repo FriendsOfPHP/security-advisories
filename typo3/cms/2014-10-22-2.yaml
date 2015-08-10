@@ -1,0 +1,7 @@
+title:     Arbitrary Shell Execution in Swiftmailer library
+link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-002/
+branches:
+    6.2.x:
+        time:     2014-10-22 09:14:25
+        versions: [>=6.2.0,<6.2.6]
+reference: composer://typo3/cms
