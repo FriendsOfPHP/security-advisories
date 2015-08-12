@@ -1,0 +1,13 @@
+---------------------------------------------------------------------------
+
+by GrahamCampbell at 2015-08-12T17:59:12Z
+
+It actually has less capacity, but fewer people use it. :P
+
+---------------------------------------------------------------------------
+
+by stof at 2015-08-12T18:05:32Z
+
+> It actually has less capacity, but fewer people use it. :P
+
+they are scaling the capacity much more easily AFAICT, meaning it does not block when there is more demand: it scales.
