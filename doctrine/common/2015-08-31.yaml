@@ -3,21 +3,21 @@ link:      http://www.doctrine-project.org/2015/08/31/security_misconfiguration_
 cve:       CVE-2015-5723
 branches:
     2.0.x:
-        time:     2015-08-31 14:22:00
+        time:     2015-08-31 13:02:01
         versions: [>=2.0.0,<2.0.99]
     2.1.x:
-        time:     2015-08-31 14:22:00
+        time:     2015-08-31 13:02:01
         versions: [>=2.1.0,<2.1.99]
     2.2:
-        time:     2015-08-31 14:22:00
+        time:     2015-08-31 13:02:01
         versions: [>=2.2.0,<2.2.99]
     2.3:
-        time:     2015-08-31 14:22:00
+        time:     2015-08-31 13:02:01
         versions: [>=2.3.0,<2.3.99]
     2.4:
-        time:     2015-08-31 14:22:00
+        time:     2015-08-31 14:42:59
         versions: [>=2.4.0,<2.4.3]
     2.5:
-        time:     2015-08-31 14:22:00
+        time:     2015-08-31 13:02:01
         versions: [>=2.5.0,<2.5.1]
 reference: composer://doctrine/common
