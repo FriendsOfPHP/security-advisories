@@ -2,7 +2,7 @@ title:     Forced Redirect to External Website
 link:      http://www.orocrm.com/blog/news/orocrm-security-announcement
 cve:       ~
 branches:
-    1.7:
+    "1.7":
         time:     2015-07-08 13:47:00
         versions: [>=1.7.0,<1.7.4]
 reference: composer://oro/platform
