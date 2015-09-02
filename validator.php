@@ -84,6 +84,8 @@ foreach ($dir as $file) {
             continue;  // Don't validate branches when not set to avoid notices
         }
 
+        $upperBoundWithoutLowerBound = null;
+
         foreach ($data['branches'] as $name => $branch) {
             if (!preg_match('/^([\d\.\-]+(\.x)?(\-dev)?|master)$/', $name)) {
                 $messages[$path][] = sprintf('Invalid branch name "%s".', $name);
@@ -104,16 +106,29 @@ foreach ($dir as $file) {
             } elseif (!is_array($branch['versions'])) {
                 $messages[$path][] = sprintf('"versions" must be an array for branch "%s".', $name);
             } else {
-                $hasMax = false;
+                $upperBound = null;
+                $hasMin = false;
                 foreach ($branch['versions'] as $version) {
                     if ('<' === substr($version, 0, 1)) {
-                        $hasMax = true;
-                        break;
+                        $upperBound = $version;
+                        continue;
+                    }
+                    if ('>' === substr($version, 0, 1)) {
+                        $hasMin = true;
                     }
                 }
 
-                if (!$hasMax) {
+                if (null === $upperBound) {
                     $messages[$path][] = sprintf('"versions" must have an upper bound for branch "%s".', $name);
+                }
+
+                if (!$hasMin && null === $upperBoundWithoutLowerBound) {
+                    $upperBoundWithoutLowerBound = $upperBound;
+                }
+
+                // Branches can omit the lower bound only if their upper bound is the same than for other branches without lower bound.
+                if (!$hasMin && $upperBoundWithoutLowerBound !== $upperBound) {
+                    $messages[$path][] = sprintf('"versions" must have a lower bound for branch "%s" to avoid overlapping lower branches.', $name);
                 }
             }
         }
