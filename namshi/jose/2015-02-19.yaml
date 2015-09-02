@@ -7,11 +7,11 @@ branches:
         versions: [<1.1.2]
     "1.2":
         time:     2015-02-19 10:59:35
-        versions: [<1.2.2]
+        versions: [>=1.2.0,<1.2.2]
     "2.0":
         time:     2015-02-19 10:59:35
-        versions: [<2.0.3]
+        versions: [>=2.0.0,<2.0.3]
     "2.1":
         time:     2015-02-19 10:59:35
-        versions: [<2.1.2]
+        versions: [>=2.1.0,<2.1.2]
 reference: composer://namshi/jose
