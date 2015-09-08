@@ -1,0 +1,8 @@
+title:     SS-2015-010: XSS in Director::force_redirect()
+link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-010-xss-in-directorforce-redirect/
+cve:       ~
+branches:
+    3.1.x:
+        time:     2015-03-20 15:07:00
+        versions: [>=3.1.0,<3.1.12]
+reference: composer://silverstripe/framework
