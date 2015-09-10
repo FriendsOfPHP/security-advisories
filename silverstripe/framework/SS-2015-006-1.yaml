@@ -1,0 +1,8 @@
+title:     SS-2015-006: XSS In GridField print
+link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-006/
+cve:       ~
+branches:
+    3.1.x:
+        time:     2015-02-12 15:55:00
+        versions: [>=3.1.0,<3.1.10]
+reference: composer://silverstripe/framework
