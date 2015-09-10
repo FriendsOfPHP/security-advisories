@@ -3,6 +3,6 @@ link:      http://www.silverstripe.org/software/download/security-releases/ss-20
 cve:       ~
 branches:
     3.1.x:
-        time:     2015-05-25 15:12:00
+        time:     2015-05-29 12:53:14 +1200
         versions: [>=3.1.0,<3.1.13]
 reference: composer://silverstripe/framework
