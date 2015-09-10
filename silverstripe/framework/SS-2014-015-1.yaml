@@ -1,0 +1,8 @@
+title:     SS-2014-015: IE requests not properly behaving with rewritehashlinks
+link:      http://www.silverstripe.org/software/download/security-releases/ss-2014-015-ie-requests-not-properly-behaving-with-rewritehashlinks/
+cve:       ~
+branches:
+    3.0.x,3.1.x:
+        time:     2014-06-26 12:10:00
+        versions: [>=3.1.0,<=3.1.11,>=3.0.0,<=3.0.12]
+reference: composer://silverstripe/framework
