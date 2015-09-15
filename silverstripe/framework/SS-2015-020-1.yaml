@@ -1,0 +1,8 @@
+title:     SS-2015-020: Privilege Escalation Risk in Security Admin
+link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-020/
+cve:       ~
+branches:
+    3.1.x:
+        time:     2015-09-14 11:11:00
+        versions: [=3.1.14-rc1]
+reference: composer://silverstripe/framework
