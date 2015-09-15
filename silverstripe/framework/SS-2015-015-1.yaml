@@ -1,0 +1,8 @@
+title:     SS-2015-015: XSS in dev/build returnURL Parameter
+link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-015/
+cve:       ~
+branches:
+    3.1.x:
+        time:     2015-09-14 09:17:00
+        versions: [>=3.1.0,<3.1.14]
+reference: composer://silverstripe/framework
