@@ -8,4 +8,4 @@ branches:
     3.1.x:
         time:     2015-03-19 16:54:00
         versions: [>=3.1.0,<3.1.11]
-reference: composer://framework/cms
+reference: composer://silverstripe/cms
