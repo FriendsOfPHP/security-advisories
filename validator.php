@@ -72,6 +72,12 @@ foreach ($dir as $file) {
                 if (str_replace(DIRECTORY_SEPARATOR, '/', dirname($path)) !== $composerPackage) {
                     $messages[$path][] = 'Reference composer package must match the folder name';
                 }
+
+                $packagistUrl = sprintf('https://packagist.org/packages/%s.json', $composerPackage);
+
+                if(404 == explode(' ', get_headers($packagistUrl)[0], 3)[1]) {
+                    $messages[$path][] = sprintf('Invalid composer package');
+                }
             }
         }
 
