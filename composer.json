@@ -3,7 +3,7 @@
     "require": {
         "symfony/yaml": "~2.4"
     },
-    "license": "MIT",
+    "license": "Unlicense",
     "authors": [
         {
             "name": "Fabien Potencier",
