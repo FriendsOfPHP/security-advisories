@@ -1,9 +1,10 @@
 {
     "name": "sensiolabs/security-advisories",
-    "require": {
+    "description": "Database of known security vulnerabilities in various PHP projects and libraries",
+    "require-dev": {
         "symfony/yaml": "~2.4"
     },
-    "license": "MIT",
+    "license": "Unlicense",
     "authors": [
         {
             "name": "Fabien Potencier",
