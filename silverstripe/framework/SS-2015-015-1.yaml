@@ -1,4 +1,4 @@
-title:     SS-2015-015: XSS in dev/build returnURL Parameter
+title:     "SS-2015-015: XSS in dev/build returnURL Parameter"
 link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-015/
 cve:       ~
 branches:
