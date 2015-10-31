@@ -1,4 +1,4 @@
-title:     SS-2015-004: TreeDropdownField and TreeMultiSelectField XSS
+title:     "SS-2015-004: TreeDropdownField and TreeMultiSelectField XSS"
 link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-004/
 cve:       ~
 branches:
