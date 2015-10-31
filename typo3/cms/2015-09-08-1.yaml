@@ -1,4 +1,4 @@
-title:     Frontend: Unauthenticated Path Disclosure
+title:     "Frontend: Unauthenticated Path Disclosure"
 link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2015-008/
 branches:
     6.2.x:
