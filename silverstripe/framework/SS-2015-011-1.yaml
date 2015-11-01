@@ -1,4 +1,4 @@
-title:     SS-2015-011: Potential SQL Injection Vulnerability
+title:     "SS-2015-011: Potential SQL Injection Vulnerability"
 link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-011/
 cve:       ~
 branches:
