@@ -1,4 +1,4 @@
-title:     "SS-2015-014: Vulnerability on "isDev", "isTest" and "flush" $_GET validation"
+title:     "SS-2015-014: Vulnerability on 'isDev', 'isTest' and 'flush' $_GET validation"
 link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-014/
 cve:       ~
 branches:
