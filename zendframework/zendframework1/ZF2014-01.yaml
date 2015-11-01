@@ -1,4 +1,4 @@
-title:     Potential XXE/XEE attacks using PHP functions: simplexml_load_*, DOMDocument::loadXML, and xml_parse
+title:     "Potential XXE/XEE attacks using PHP functions: simplexml_load_*, DOMDocument::loadXML, and xml_parse"
 link:      http://framework.zend.com/security/advisory/ZF2014-01
 cve: ~
 branches:

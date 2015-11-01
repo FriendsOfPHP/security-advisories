@@ -1,4 +1,4 @@
-title:     SS-2015-006: XSS In GridField print
+title:     "SS-2015-006: XSS In GridField print"
 link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-006/
 cve:       ~
 branches:
