@@ -1,5 +1,5 @@
 title:     Privilege Escalation in TYPO3 Neos
-link:      http://typo3.org/teams/security/security-bulletins/typo3-neos/typo3-neos-sa-2015-001/
+link:      https://www.neos.io/news/neos-sa-2015-001.html
 cve:       ~
 branches:
     1.1.x:
