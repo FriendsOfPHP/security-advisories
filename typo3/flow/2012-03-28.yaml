@@ -1,5 +1,5 @@
 title:     Insecure Unserialize Vulnerability in FLOW3
-link:      http://typo3.org/teams/security/security-bulletins/typo3-flow/flow3-sa-2012-001/
+link:      https://www.neos.io/news/flow-sa-2012-001.html
 cve:       ~
 branches:
     1.0.x:
