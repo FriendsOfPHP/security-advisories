@@ -1,0 +1,35 @@
+title: Remote File Inclusion through View template name manipulation
+link: http://bakery.cakephp.org/2015/11/05/cakephp_3015_314_2612_276_released.html
+cve: ~
+branches:
+    2.0.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.0.0,<2.0.99]
+    2.1.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.1.0,<2.1.99]
+    2.2.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.2.0,<2.2.99]
+    2.3.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.3.0,<2.3.99]
+    2.4.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.4.0,<2.4.99]
+    2.5.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.5.0,<2.5.9]
+    2.6.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.6.0,<2.6.12]
+    2.7.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=2.7.0,<2.7.6]
+    3.0.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=3.0.0,<3.0.15]
+    3.1.x:
+        time:     2015-11-05 22:08:00
+        versions: [>=3.1.0,<3.1.3]
+reference: composer://cakephp/cakephp
