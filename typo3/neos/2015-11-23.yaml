@@ -1,0 +1,11 @@
+title:     XSS vulnerabilities in Neos
+link:      https://www.neos.io/news/neos-sa-2015-002.html
+cve:       ~
+branches:
+    1.2.x:
+        time:     2015-11-23 21:03:00
+        versions: [>=1.2.0,<1.2.13]
+    2.0.x:
+        time:     2015-11-23 21:03:00
+        versions: [>=2.0.0,<2.0.4]
+reference: composer://typo3/neos
