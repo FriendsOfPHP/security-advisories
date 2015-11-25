@@ -1,0 +1,7 @@
+title:     Potential Information Disclosure and Insufficient Entropy vulnerability in Zend\Captcha\Word
+link:      http://framework.zend.com/security/advisory/ZF2015-09
+branches:
+    2.4.x:
+        time:     2015-11-23 14:30:00
+        versions: [>=2.0.0,<2.4.9]
+reference: composer://zendframework/zendframework
