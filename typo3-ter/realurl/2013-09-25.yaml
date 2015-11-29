@@ -1,0 +1,8 @@
+title:     "TYPO3-EXT-SA-2013-015: SQL Injection vulnerability in extension RealURL: speaking paths for TYPO3 (realurl)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-015/
+cve:
+branches:
+    master:
+        time:     2013-09-25 12:00
+        versions: [<=1.12.6]
+reference: composer://typo3-ter/realurl

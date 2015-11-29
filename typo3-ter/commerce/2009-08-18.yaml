@@ -1,0 +1,8 @@
+title:     "TYPO3-SA-2009-011: Cross-Site Scripting vulnerability in extension Commerce (commerce)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2009-011/
+cve:
+branches:
+    master:
+        time:     2009-08-18 12:00
+        versions: [<=0.9.8]
+reference: composer://typo3-ter/commerce

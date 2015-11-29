@@ -1,0 +1,8 @@
+title:     "TYPO3-SA-2011-007: SQL Injection vulnerability in extension Faceted Search (ke_search)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2011-007/
+cve:
+branches:
+    master:
+        time:     2011-06-29 12:00
+        versions: [<=0.3.0]
+reference: composer://typo3-ter/ke-search

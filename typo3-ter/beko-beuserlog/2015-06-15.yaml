@@ -1,0 +1,8 @@
+title:     "TYPO3-EXT-SA-2015-007: Cross-Site Scripting in extension BE User Log (beko_beuserlog)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-007/
+cve:
+branches:
+    master:
+        time:     2015-06-15 12:00
+        versions: [<=1.1.1]
+reference: composer://typo3-ter/beko-beuserlog

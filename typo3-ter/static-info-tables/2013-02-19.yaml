@@ -1,0 +1,8 @@
+title:     "TYPO3-EXT-SA-2013-004: Cross-Site Scripting vulnerability in extension Static Info Tables (static_info_tables)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-004/
+cve:
+branches:
+    master:
+        time:     2013-02-19 12:00
+        versions: [<=2.3.0]
+reference: composer://typo3-ter/static-info-tables

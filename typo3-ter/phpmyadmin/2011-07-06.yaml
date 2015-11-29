@@ -1,0 +1,8 @@
+title:     "TYPO3-SA-2011-008: Directory Traversal and Code Injection vulnerability in extension phpMyAdmin (phpmyadmin)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2011-008/
+cve:
+branches:
+    master:
+        time:     2011-07-06 12:00
+        versions: [<=4.11.1]
+reference: composer://typo3-ter/phpmyadmin

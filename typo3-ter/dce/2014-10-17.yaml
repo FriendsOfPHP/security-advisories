@@ -1,0 +1,8 @@
+title:     "TYPO3-EXT-SA-2014-015: Information Disclosure vulnerability in Dynamic Content Elements (dce)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-015/
+cve:
+branches:
+    master:
+        time:     2014-10-17 12:00
+        versions: [>=0.7.0,<=0.11.4]
+reference: composer://typo3-ter/dce

@@ -1,0 +1,8 @@
+title:     "TYPO3-EXT-SA-2014-005: Access Bypass in extensions 'Yet Another Gallery' (yag) and 'Tools for Extbase development' (pt_extbase)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-005/
+cve:
+branches:
+    master:
+        time:     2014-02-12 12:00
+        versions: [<=1.5.0]
+reference: composer://typo3-ter/pt-extbase

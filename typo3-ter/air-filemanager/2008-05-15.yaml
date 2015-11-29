@@ -1,0 +1,8 @@
+title:     "TYPO3-20080515-2: Multiple vulnerabilities in extension Frontend Filemanager (air_filemanager)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080515-2/
+cve:
+branches:
+    master:
+        time:     2008-05-15 12:00
+        versions: [<=0.6.0]
+reference: composer://typo3-ter/air-filemanager

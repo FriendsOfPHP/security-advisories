@@ -1,0 +1,8 @@
+title:     "TYPO3-EXT-SA-2012-013: Several Vulnerabilities in extension commerce (commerce)"
+link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2012-013/
+cve:
+branches:
+    master:
+        time:     2012-12-21 12:00
+        versions: [<=0.12.7]
+reference: composer://typo3-ter/commerce
