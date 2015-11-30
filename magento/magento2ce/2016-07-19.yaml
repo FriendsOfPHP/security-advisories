@@ -9,3 +9,4 @@ branches:
         time:     2014-02-13 11:12:34
         versions: ['>=2.1', '<2.2']
 reference: composer://magento/magento2ce
+composer-repository: false
