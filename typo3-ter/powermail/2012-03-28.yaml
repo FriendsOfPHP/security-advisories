@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2012-004: Cross-Site Scripting vulnerability in extension powermail for TYPO3 (powermail)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2012-004/
-cve:
+cve:       ~
 branches:
     master:
         time:     2012-03-28 12:00

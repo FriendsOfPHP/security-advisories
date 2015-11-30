@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2011-001: Several vulnerabilities in extension phpMyAdmin (phpmyadmin)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2011-001/
-cve:
+cve:       ~
 branches:
     master:
         time:     2011-07-25 12:00

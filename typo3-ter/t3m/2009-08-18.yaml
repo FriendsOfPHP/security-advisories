@@ -1,6 +1,6 @@
 title:     "TYPO3-SA-2009-012: Blind SQL Injection vulnerability in extension T3M E-Mail Marketing Tool (t3m)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2009-012/
-cve:
+cve:       ~
 branches:
     master:
         time:     2009-08-18 12:00

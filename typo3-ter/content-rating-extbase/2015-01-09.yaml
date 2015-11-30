@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2015-003: Multiple vulnerabilities in Content Rating Extbase (content_rating_extbase)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-003/
-cve:
+cve:       ~
 branches:
     master:
         time:     2015-01-09 12:00

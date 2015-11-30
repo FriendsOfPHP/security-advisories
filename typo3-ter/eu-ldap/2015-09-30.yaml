@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2015-016: Information Disclosure in extension 'LDAP' (eu_ldap)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-016/
-cve:
+cve:       ~
 branches:
     master:
         time:     2015-09-30 12:00

@@ -1,6 +1,6 @@
 title:     "TYPO3-20080513-4: Multiple vulnerabilities in extension Statistics (ke_stats)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080513-4/
-cve:
+cve:       ~
 branches:
     master:
         time:     2008-05-13 12:00

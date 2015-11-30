@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2014-004: Mass Assignment in extension Direct Mail Subscription (direct_mail_subscription)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-004/
-cve:
+cve:       ~
 branches:
     master:
         time:     2014-02-12 12:00

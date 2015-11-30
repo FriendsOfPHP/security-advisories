@@ -1,6 +1,6 @@
 title:     "TYPO3-SA-2010-007: Cross-Site Scripting vulnerability in extension mm_forum (mm_forum)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2010-007/
-cve:
+cve:       ~
 branches:
     master:
         time:     2010-03-16 12:00

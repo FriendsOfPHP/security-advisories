@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2015-020: Cross-Site Request Forgery in extension 'Typo3 Quixplorer' (t3quixplorer)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-020/
-cve:
+cve:       ~
 branches:
     master:
         time:     2015-09-30 12:00

@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2012-006: Cross-Site Scripting vulnerability in extension Basic SEO Features (seo_basics)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2012-006/
-cve:
+cve:       ~
 branches:
     master:
         time:     2012-03-28 12:00

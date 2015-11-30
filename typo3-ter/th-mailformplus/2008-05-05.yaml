@@ -1,6 +1,6 @@
 title:     "TYPO3-20080505-1: Multiple vulnerabilities in extension MailformPlus (th_mailformplus)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080505-1/
-cve:
+cve:       ~
 branches:
     master:
         time:     2008-05-05 12:00

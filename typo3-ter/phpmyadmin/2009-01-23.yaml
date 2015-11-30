@@ -1,6 +1,6 @@
 title:     "TYPO3-SA-2009-015: XSS and SQL injection vulnerabilities in extension 'phpMyAdmin' (phpmyadmin)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2009-015/
-cve:
+cve:       ~
 branches:
     master:
         time:     2009-01-23 12:00

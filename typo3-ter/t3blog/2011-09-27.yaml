@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2011-013: Cross-Site scripting vulnerability in extension t3blog (t3blog)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2011-013/
-cve:
+cve:       ~
 branches:
     master:
         time:     2011-09-27 12:00

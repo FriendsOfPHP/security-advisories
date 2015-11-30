@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2013-009: Several vulnerabilities in extension Apache Solr for TYPO3 (solr)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-009/
-cve:
+cve:       ~
 branches:
     master:
         time:     2013-09-25 12:00

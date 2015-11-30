@@ -1,6 +1,6 @@
 title:     "TYPO3-20080527-2: SQL Injection in extension 'Library for Frontend plugins' (sg_zfelib)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080527-2/
-cve:
+cve:       ~
 branches:
     master:
         time:     2008-05-27 12:00

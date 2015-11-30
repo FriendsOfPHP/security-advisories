@@ -1,6 +1,6 @@
 title:     "TYPO3-EXT-SA-2013-010: SQL Injection vulnerability in extension Multishop (multishop)"
 link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-010/
-cve:
+cve:       ~
 branches:
     master:
         time:     2013-06-03 12:00
