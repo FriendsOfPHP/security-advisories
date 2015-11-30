@@ -1,8 +1,9 @@
-title:     "TYPO3-20081020-2: SQL Injection in extension Commerce (commerce)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20081020-2/
-cve:       ~
+title:               "TYPO3-20081020-2: SQL Injection in extension Commerce (commerce)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20081020-2/
+cve:                 ~
 branches:
     master:
         time:     2008-10-20 12:00
         versions: [<=0.9.6]
-reference: composer://typo3-ter/commerce
+reference:           composer://typo3-ter/commerce
+composer-repository: https://composer.typo3.org

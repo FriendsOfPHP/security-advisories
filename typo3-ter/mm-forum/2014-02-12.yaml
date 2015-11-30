@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2014-001: Several vulnerabilities in extension mm_forum (mm_forum)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-001/
-cve:       ~
+title:               "TYPO3-EXT-SA-2014-001: Several vulnerabilities in extension mm_forum (mm_forum)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-001/
+cve:                 ~
 branches:
     master:
         time:     2014-02-12 12:00
         versions: [<=1.9.2]
-reference: composer://typo3-ter/mm-forum
+reference:           composer://typo3-ter/mm-forum
+composer-repository: https://composer.typo3.org

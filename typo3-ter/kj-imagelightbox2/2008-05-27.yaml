@@ -1,8 +1,9 @@
-title:     "TYPO3-20080527-1: Cross Site Scripting vulnerability in extension 'KJ: Image Lightbox v2' (kj_imagelightbox2)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080527-1/
-cve:       ~
+title:               "TYPO3-20080527-1: Cross Site Scripting vulnerability in extension 'KJ: Image Lightbox v2' (kj_imagelightbox2)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080527-1/
+cve:                 ~
 branches:
     master:
         time:     2008-05-27 12:00
         versions: [<=1.4.2]
-reference: composer://typo3-ter/kj-imagelightbox2
+reference:           composer://typo3-ter/kj-imagelightbox2
+composer-repository: https://composer.typo3.org

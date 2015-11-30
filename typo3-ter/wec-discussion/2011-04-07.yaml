@@ -1,8 +1,9 @@
-title:     "TYPO3-SA-2011-003: SQL Injection vulnerabilities in extension 'WEC Discussion Forum' (wec_discussion)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2011-003/
-cve:       ~
+title:               "TYPO3-SA-2011-003: SQL Injection vulnerabilities in extension 'WEC Discussion Forum' (wec_discussion)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2011-003/
+cve:                 ~
 branches:
     master:
         time:     2011-04-07 12:00
         versions: [<=2.1.0]
-reference: composer://typo3-ter/wec-discussion
+reference:           composer://typo3-ter/wec-discussion
+composer-repository: https://composer.typo3.org

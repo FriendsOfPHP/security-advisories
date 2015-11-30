@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2012-002: Information disclosure vulnerabilities in extension 'Front End User Registration' (sr_feuser_register)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2012-002/
-cve:       ~
+title:               "TYPO3-EXT-SA-2012-002: Information disclosure vulnerabilities in extension 'Front End User Registration' (sr_feuser_register)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2012-002/
+cve:                 ~
 branches:
     master:
         time:     2012-02-23 12:00
         versions: [<=2.6.1]
-reference: composer://typo3-ter/sr-feuser-register
+reference:           composer://typo3-ter/sr-feuser-register
+composer-repository: https://composer.typo3.org

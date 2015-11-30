@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2014-016: Cross-Site Scripting vulnerability in extension phpMyAdmin (phpmyadmin)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-016/
-cve:       ~
+title:               "TYPO3-EXT-SA-2014-016: Cross-Site Scripting vulnerability in extension phpMyAdmin (phpmyadmin)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-016/
+cve:                 ~
 branches:
     master:
         time:     2014-11-05 12:00
         versions: [>=4.18.0,<=4.18.3]
-reference: composer://typo3-ter/phpmyadmin
+reference:           composer://typo3-ter/phpmyadmin
+composer-repository: https://composer.typo3.org

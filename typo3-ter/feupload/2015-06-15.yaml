@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2015-006: Arbitrary Code Execution in extension Frontend User Upload (feupload)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-006/
-cve:       ~
+title:               "TYPO3-EXT-SA-2015-006: Arbitrary Code Execution in extension Frontend User Upload (feupload)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-006/
+cve:                 ~
 branches:
     master:
         time:     2015-06-15 12:00
         versions: [<=0.5.0]
-reference: composer://typo3-ter/feupload
+reference:           composer://typo3-ter/feupload
+composer-repository: https://composer.typo3.org

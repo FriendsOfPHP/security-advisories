@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2013-011: Cross-Site Scripting vulnerability in extension Front End User Registration (sr_feuser_register)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-011/
-cve:       ~
+title:               "TYPO3-EXT-SA-2013-011: Cross-Site Scripting vulnerability in extension Front End User Registration (sr_feuser_register)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-011/
+cve:                 ~
 branches:
     master:
         time:     2013-08-05 12:00
         versions: [<=3.0.1]
-reference: composer://typo3-ter/sr-feuser-register
+reference:           composer://typo3-ter/sr-feuser-register
+composer-repository: https://composer.typo3.org

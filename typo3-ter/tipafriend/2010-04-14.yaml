@@ -1,8 +1,9 @@
-title:     "TYPO3-SA-2010-010: Vulnerabilitiy in extension Tip-A-Friend (tipafriend)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2010-010/
-cve:       ~
+title:               "TYPO3-SA-2010-010: Vulnerabilitiy in extension Tip-A-Friend (tipafriend)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2010-010/
+cve:                 ~
 branches:
     master:
         time:     2010-04-14 12:00
         versions: [>=1.2.3,<=1.2.3]
-reference: composer://typo3-ter/tipafriend
+reference:           composer://typo3-ter/tipafriend
+composer-repository: https://composer.typo3.org

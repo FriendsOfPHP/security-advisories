@@ -1,8 +1,9 @@
-title:     "TYPO3-SA-2010-009: Vulnerabilitiy in extension Frontend User Registration (sr_feuser_register)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2010-009/
-cve:       ~
+title:               "TYPO3-SA-2010-009: Vulnerabilitiy in extension Frontend User Registration (sr_feuser_register)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2010-009/
+cve:                 ~
 branches:
     master:
         time:     2010-04-14 12:00
         versions: [<=2.5.24]
-reference: composer://typo3-ter/sr-feuser-register
+reference:           composer://typo3-ter/sr-feuser-register
+composer-repository: https://composer.typo3.org

@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2014-003: Insecure Unserialize in extension News (tt_news)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-003/
-cve:       ~
+title:               "TYPO3-EXT-SA-2014-003: Insecure Unserialize in extension News (tt_news)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-003/
+cve:                 ~
 branches:
     master:
         time:     2014-02-12 12:00
         versions: [<=3.5.1]
-reference: composer://typo3-ter/tt-news
+reference:           composer://typo3-ter/tt-news
+composer-repository: https://composer.typo3.org

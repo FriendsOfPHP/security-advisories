@@ -1,8 +1,9 @@
-title:     "TYPO3-20080701-3: Multiple vulnerabilities in extension Send-A-Card (sr_sendcard)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080701-3/
-cve:       ~
+title:               "TYPO3-20080701-3: Multiple vulnerabilities in extension Send-A-Card (sr_sendcard)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080701-3/
+cve:                 ~
 branches:
     master:
         time:     2008-07-01 12:00
         versions: [<=2.2.2]
-reference: composer://typo3-ter/sr-sendcard
+reference:           composer://typo3-ter/sr-sendcard
+composer-repository: https://composer.typo3.org

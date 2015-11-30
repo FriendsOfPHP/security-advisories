@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2011-002: Multiple SQL Injection vulnerabilities in extension 'Website Photo Gallery' (jm_gallery)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2011-002/
-cve:       ~
+title:               "TYPO3-EXT-SA-2011-002: Multiple SQL Injection vulnerabilities in extension 'Website Photo Gallery' (jm_gallery)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2011-002/
+cve:                 ~
 branches:
     master:
         time:     2011-08-03 12:00
         versions: [<=0.9.1]
-reference: composer://typo3-ter/jm-gallery
+reference:           composer://typo3-ter/jm-gallery
+composer-repository: https://composer.typo3.org

@@ -1,8 +1,9 @@
-title:     "TYPO3-EXT-SA-2015-018: Information Disclosure in extension 'Adminer' (t3adminer)"
-link:      http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-018/
-cve:       ~
+title:               "TYPO3-EXT-SA-2015-018: Information Disclosure in extension 'Adminer' (t3adminer)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-018/
+cve:                 ~
 branches:
     master:
         time:     2015-09-30 12:00
         versions: [<=7.0.1]
-reference: composer://typo3-ter/t3adminer
+reference:           composer://typo3-ter/t3adminer
+composer-repository: https://composer.typo3.org
