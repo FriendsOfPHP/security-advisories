@@ -4,5 +4,5 @@ cve:       CVE-2014-8088
 branches:
     1.12.x:
         time:     2014-09-16 22:00:00
-        versions: [>=1.12.0,<1.12.9]
+        versions: ['>=1.12.0', '<1.12.9']
 reference: composer://zendframework/zendframework1

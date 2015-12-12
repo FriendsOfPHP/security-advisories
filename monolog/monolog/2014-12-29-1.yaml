@@ -4,5 +4,5 @@ cve:       ~
 branches:
     1.x:
         time:     2014-12-29 13:23:35
-        versions: [>=1.8.0,<1.12.0]
+        versions: ['>=1.8.0', '<1.12.0']
 reference: composer://monolog/monolog

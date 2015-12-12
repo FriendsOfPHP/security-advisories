@@ -76,7 +76,7 @@ Contributing security advisories is as easy as it can get:
 
           * `versions`: An array of constraints describing affected versions
             for this branch (this is the same format as the one used for
-            Composer -- `[>=2.0.0,<2.0.17]`).
+            Composer -- `['>=2.0.0', '<2.0.17']`).
 
   * If you have a CVE identifier, add it under the `cve` key.
 

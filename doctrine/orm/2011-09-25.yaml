@@ -4,5 +4,5 @@ cve:       ~
 branches:
     2.x:
         time:     2011-09-25 17:37:08
-        versions: [>=2.0.0,<2.0.3]
+        versions: ['>=2.0.0', '<2.0.3']
 reference: composer://doctrine/orm

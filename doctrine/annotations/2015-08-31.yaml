@@ -4,5 +4,5 @@ cve:       CVE-2015-5723
 branches:
     1.2.x:
         time:     2015-08-31 12:36:03
-        versions: [>=1.0.0,<1.2.7]
+        versions: ['>=1.0.0', '<1.2.7']
 reference: composer://doctrine/annotations

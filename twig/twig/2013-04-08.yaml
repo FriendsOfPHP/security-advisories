@@ -4,5 +4,5 @@ cve:       ~
 branches:
     1.x:
         time:     2013-04-08 13:16:10
-        versions: [>=1.0.0,<1.12.3]
+        versions: ['>=1.0.0', '<1.12.3']
 reference: composer://twig/twig

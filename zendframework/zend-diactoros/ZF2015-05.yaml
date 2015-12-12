@@ -4,5 +4,5 @@ cve:       CVE-2015-3257
 branches:
     1.0.x:
         time:     2015-06-23 15:55:00
-        versions: [>=1.0.0,<1.0.4]
+        versions: ['>=1.0.0', '<1.0.4']
 reference: composer://zendframework/zend-diactoros

@@ -4,5 +4,5 @@ cve:       CVE-2015-5723
 branches:
     3.x:
         time:     2015-07-24 0:41:41
-        versions: [>=3.0.0,<3.2.1]
+        versions: ['>=3.0.0', '<3.2.1']
 reference: composer://aws/aws-sdk-php

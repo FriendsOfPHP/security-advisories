@@ -3,8 +3,8 @@ link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-
 branches:
     6.2.x:
         time:     2014-12-10 10:07:58
-        versions: [>=6.2.0,<6.2.9]
+        versions: ['>=6.2.0', '<6.2.9']
     7.0.x:
         time:     2014-12-10 10:08:02
-        versions: [>=7.0.0,<7.0.2]
+        versions: ['>=7.0.0', '<7.0.2']
 reference: composer://typo3/cms

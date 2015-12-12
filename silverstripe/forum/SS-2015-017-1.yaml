@@ -7,5 +7,5 @@ branches:
         versions: [<=0.6.1]
     0.7.x:
         time:     2015-09-14 10:38:00
-        versions: [>=0.7.0,<=0.7.3]
+        versions: ['>=0.7.0', '<=0.7.3']
 reference: composer://silverstripe/forum

@@ -4,5 +4,5 @@ cve:       ~
 branches:
     3.0.x:
         time:     2015-05-07 11:30:00
-        versions: [>=3.0.0,<3.0.4]
+        versions: ['>=3.0.0', '<3.0.4']
 reference: composer://cakephp/cakephp

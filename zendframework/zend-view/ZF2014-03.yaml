@@ -4,8 +4,8 @@ cve: ~
 branches:
     2.2.x:
         time:     2014-02-26 16:02:02
-        versions: [>=2.0.0,<2.2.7]
+        versions: ['>=2.0.0', '<2.2.7']
     2.3.x:
         time:     2014-02-26 16:02:02
-        versions: [>=2.3.0,<2.3.1]
+        versions: ['>=2.3.0', '<2.3.1']
 reference: composer://zendframework/zend-view

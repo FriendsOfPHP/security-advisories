@@ -4,5 +4,5 @@ cve:       CVE-2015-5723
 branches:
     1.0.x:
         time:     2015-09-15 18:52:15
-        versions: [>=1.0.0,<1.0.3]
+        versions: ['>=1.0.0', '<1.0.3']
 reference: composer://zfcampus/zf-apigility-doctrine

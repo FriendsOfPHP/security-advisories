@@ -4,5 +4,5 @@ cve:       ~
 branches:
     3.1.x:
         time:     2015-09-14 10:44:00
-        versions: [>=3.1.0,<3.1.14]
+        versions: ['>=3.1.0', '<3.1.14']
 reference: composer://silverstripe/framework

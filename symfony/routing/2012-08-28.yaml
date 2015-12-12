@@ -4,5 +4,5 @@ cve:       ~
 branches:
     2.0.x:
         time:     2012-08-27 19:17:44
-        versions: [>=2.0.0,<2.0.17]
+        versions: ['>=2.0.0', '<2.0.17']
 reference: composer://symfony/routing

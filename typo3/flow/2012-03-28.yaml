@@ -4,5 +4,5 @@ cve:       ~
 branches:
     1.0.x:
         time:     2012-03-28 09:32:37
-        versions: [>=1.0.0,<1.0.4]
+        versions: ['>=1.0.0', '<1.0.4']
 reference: composer://typo3/flow

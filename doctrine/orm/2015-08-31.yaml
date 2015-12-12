@@ -4,8 +4,8 @@ cve:       CVE-2015-5723
 branches:
     "2.4":
         time:     2015-08-31 13:19:01
-        versions: [>=2.0.0,<2.4.8]
+        versions: ['>=2.0.0', '<2.4.8']
     "2.5":
         time:     2015-08-31 12:59:39
-        versions: [>=2.5.0,<2.5.1]
+        versions: ['>=2.5.0', '<2.5.1']
 reference: composer://doctrine/orm

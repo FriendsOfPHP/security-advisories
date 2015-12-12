@@ -4,5 +4,5 @@ cve:       ~
 branches:
     2.0.x:
         time:     2012-11-08 08:33:49
-        versions: [>=2.0.0,<2.0.6]
+        versions: ['>=2.0.0', '<2.0.6']
 reference: composer://symfony/symfony
