@@ -33,6 +33,11 @@ $advisoryFilter = function (SplFileInfo $file) {
     return true; // any other file gets checks and any other folder gets iterated
 };
 
+$isAcceptableVersionConstraint = function ($versionString) {
+    return (bool) preg_match('/^(\\<|\\>)(=){0,1}(\d+)(\.\d+)*$/', $versionString);
+};
+
+/* @var $dir \SplFileInfo[] */
 $dir = new \RecursiveIteratorIterator(new RecursiveCallbackFilterIterator(new \RecursiveDirectoryIterator(__DIR__), $advisoryFilter));
 foreach ($dir as $file) {
     if (!$file->isFile()) {
@@ -115,6 +120,10 @@ foreach ($dir as $file) {
                 $upperBound = null;
                 $hasMin = false;
                 foreach ($branch['versions'] as $version) {
+                    if (! $isAcceptableVersionConstraint($version)) {
+                        $messages[$path][] = sprintf('Version constraint "%s" is not in an acceptable format.', $version);
+                    }
+
                     if ('<' === substr($version, 0, 1)) {
                         $upperBound = $version;
                         continue;
