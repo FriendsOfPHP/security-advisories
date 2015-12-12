@@ -4,5 +4,5 @@ cve:       CVE-2015-5161
 branches:
     1.12.x:
         time:     2015-08-03 15:13:58
-        versions: [>=1.12.0,<1.12.14]
+        versions: ['>=1.12.0', '<1.12.14']
 reference: composer://zendframework/zendframework1

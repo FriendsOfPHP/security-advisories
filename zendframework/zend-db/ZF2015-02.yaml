@@ -4,14 +4,14 @@ cve:       CVE-2015-0270
 branches:
     2.0.x:
         time:     2015-02-18 19:15:09
-        versions: [>=2.0.0,<2.0.99]
+        versions: ['>=2.0.0', '<2.0.99']
     2.1.x:
         time:     2015-02-18 19:15:09
-        versions: [>=2.1.0,<2.1.99]
+        versions: ['>=2.1.0', '<2.1.99']
     2.2.x:
         time:     2015-02-18 19:15:09
-        versions: [>=2.2.0,<2.2.10]
+        versions: ['>=2.2.0', '<2.2.10']
     2.3.x:
         time:     2015-02-18 19:15:09
-        versions: [>=2.3.0,<2.3.5]
+        versions: ['>=2.3.0', '<2.3.5']
 reference: composer://zendframework/zend-db

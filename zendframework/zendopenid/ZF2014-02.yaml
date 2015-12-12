@@ -4,5 +4,5 @@ cve: ~
 branches:
     2.0.x:
         time:     2014-02-17 15:37:54
-        versions: [>=2.0.0,<2.0.2]
+        versions: ['>=2.0.0', '<2.0.2']
 reference: composer://zendframework/zendopenid

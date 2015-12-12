@@ -4,5 +4,5 @@ cve:       ~
 branches:
     1.2.x:
         time:     2012-07-10 17:28:35
-        versions: [>=1.2.0,<1.2.4]
+        versions: ['>=1.2.0', '<1.2.4']
 reference: composer://friendsofsymfony/user-bundle

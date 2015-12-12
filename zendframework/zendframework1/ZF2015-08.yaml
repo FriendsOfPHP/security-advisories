@@ -3,5 +3,5 @@ link:      http://framework.zend.com/security/advisory/ZF2015-08
 branches:
     1.12.x:
         time:     2015-09-15 15:50:03
-        versions: [>=1.12.0,<1.12.16]
+        versions: ['>=1.12.0', '<1.12.16']
 reference: composer://zendframework/zendframework1

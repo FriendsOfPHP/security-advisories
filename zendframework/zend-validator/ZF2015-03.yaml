@@ -4,5 +4,5 @@ cve:       CVE-2015-1786
 branches:
     2.3.x:
         time:     2015-03-12 13:58:47
-        versions: [>=2.3.0,<2.3.6]
+        versions: ['>=2.3.0', '<2.3.6']
 reference: composer://zendframework/zend-validator

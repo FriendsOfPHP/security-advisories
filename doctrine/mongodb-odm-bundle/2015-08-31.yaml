@@ -4,5 +4,5 @@ cve:       CVE-2015-5723
 branches:
     "3.0":
         time:     2015-08-31 13:34:00
-        versions: [>=2.0.0,<3.0.1]
+        versions: ['>=2.0.0', '<3.0.1']
 reference: composer://doctrine/mongodb-odm-bundle

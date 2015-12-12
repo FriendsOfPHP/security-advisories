@@ -4,5 +4,5 @@ cve:       ~
 branches:
     1.12.x:
         time:     2014-06-11 13:46:00
-        versions: [>=1.12.0,<1.12.7]
+        versions: ['>=1.12.0', '<1.12.7']
 reference: composer://zendframework/zendframework1
