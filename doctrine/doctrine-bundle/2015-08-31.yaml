@@ -4,5 +4,5 @@ cve:       CVE-2015-5723
 branches:
     master:
         time:     2015-08-31 14:47:06
-        versions: [<1.5.2']
+        versions: ['<1.5.2']
 reference: composer://doctrine/doctrine-bundle
