@@ -34,7 +34,7 @@ $advisoryFilter = function (SplFileInfo $file) {
 };
 
 $isAcceptableVersionConstraint = function ($versionString) {
-    return (bool) preg_match('/^(\\<|\\>)(=){0,1}(([1-9]\d*)|0)(\.([1-9]\d*)|0)*(-(alpha|beta|rc)[1-9]\d*){0,1}$/', $versionString);
+    return (bool) preg_match('/^(\\<|\\>)(=){0,1}(([1-9]\d*)|0)(\.(([1-9]\d*)|0))*(-(alpha|beta|rc)[1-9]\d*){0,1}$/', $versionString);
 };
 
 /* @var $dir \SplFileInfo[] */
