@@ -1,0 +1,28 @@
+title:     "Multiple Cross-Site Scripting vulnerabilities in frontend"
+link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2015-013/
+branches:
+    6.2.x:
+        time:     2015-12-15 11:38:00
+        versions: ['>=6.2.0', '<6.2.16']
+    7.0.x:
+        time:     2015-12-15 11:38:00
+        versions: ['>=7.0.0', '<7.1.0']
+    7.1.x:
+        time:     2015-12-15 11:38:00
+        versions: ['>=7.1.0', '<7.2.0']
+    7.2.x:
+        time:     2015-12-15 11:38:00
+        versions: ['>=7.2.0', '<7.3.0']
+    7.3.x:
+        time:     2015-12-15 11:38:00
+        versions: ['>=7.3.0', '<7.4.0']
+    7.4.x:
+        time:     2015-12-15 11:38:00
+        versions: ['>=7.4.0', '<7.5.0']
+    7.5.x:
+        time:     2015-12-15 11:38:00
+        versions: ['>=7.5.0', '<7.6.0']
+    7.6.x:
+          time:     2015-12-15 11:38:00
+          versions: ['>=7.6.0', '<7.6.1']
+reference: composer://typo3/cms
