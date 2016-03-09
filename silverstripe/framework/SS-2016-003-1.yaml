@@ -1,0 +1,14 @@
+title:     'SS-2016-003: Hostname, IP and Protocol Spoofing through HTTP Headers'
+link:      http://www.silverstripe.org/download/security-releases/ss-2016-003/
+cve:       ~
+branches:
+    3.1.x:
+        time:     2016-02-18 11:05:00
+        versions: ['>=3.1.0', '<=3.1.16']
+    3.2.x:
+        time:     2016-02-18 11:05:00
+        versions: ['>=3.2.0', '<=3.2.1']
+    3.3.x:
+        time:     2016-02-18 11:05:00
+        versions: ['>3.2', '<3.3.0']
+reference: composer://silverstripe/framework
