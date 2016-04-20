@@ -1,0 +1,7 @@
+title:     Potential Insufficient Entropy Vulnerability in ZF1
+link:      http://framework.zend.com/security/advisory/ZF2016-01
+branches:
+    1.12.x:
+        time:     2016-04-13 17:30:00
+        versions: ['>=1.12.0', '<1.12.18']
+reference: composer://zendframework/zendframework1
