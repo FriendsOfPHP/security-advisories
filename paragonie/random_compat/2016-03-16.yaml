@@ -1,0 +1,8 @@
+title:     Uses insecure CSPRNG (openssl_random_pseudo_bytes())
+link:      https://github.com/paragonie/random_compat/issues/96
+cve:       ~
+branches:
+    1.x:
+        time:     ~
+        versions: ['^1.0']
+reference: composer://paragonie/random_compat
