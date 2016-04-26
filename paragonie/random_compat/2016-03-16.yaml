@@ -4,5 +4,5 @@ cve:       ~
 branches:
     1.x:
         time:     ~
-        versions: ['^1.0']
+        versions: ['<2.0']
 reference: composer://paragonie/random_compat
