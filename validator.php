@@ -132,9 +132,11 @@ final class Validate extends Command
                         } else {
                             $composerPackage = substr($data['reference'], 11);
 
-                            if (str_replace(DIRECTORY_SEPARATOR, '/', dirname($path)) !== $composerPackage) {
+                            //check if the folder containing the issue ends with the referenced package name
+                            if ((substr($file->getPath(), -1) == $composerPackage)) {
                                 $messages[$path][] = 'Reference composer package must match the folder name';
                             }
+                            
 
                             $packagistUrl = sprintf('https://packagist.org/packages/%s.json', $composerPackage);
 
