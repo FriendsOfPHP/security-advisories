@@ -3,6 +3,6 @@ link:      https://github.com/paragonie/random_compat/issues/96
 cve:       ~
 branches:
     1.x:
-        time:     ~
+        time:     2016-03-16 00:00:00
         versions: ['<2.0']
 reference: composer://paragonie/random_compat
