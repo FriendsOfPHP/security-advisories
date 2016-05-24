@@ -1,0 +1,16 @@
+title:     "Missing Access Check in TYPO3 CMS"
+link:      https://typo3.org/teamssecuritysecurity-bulletins/security-bulletins-single-view/article/missing-access-check-in-typo3-cms/
+branches:
+    6.2.x:
+        time:     2016-05-24 10:39:00
+        versions: ['>=6.2.0', '<6.2.25']
+    7.6.x:
+        time:     2016-05-24 09:55:00
+        versions: ['>=7.6.0', '<7.6.8']
+    8.0.x:
+        time:     2016-05-24 10:39:00
+        versions: ['>=8.0.0', '<8.1.1']
+    8.1.x:
+        time:     2016-05-24 10:01:00
+        versions: ['>=8.1.0', '<8.1.1']
+reference: composer://typo3/cms
