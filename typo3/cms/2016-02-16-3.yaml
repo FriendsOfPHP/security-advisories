@@ -1,0 +1,7 @@
+title:     "Cross-Site Scripting in legacy form component"
+link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2016-003/
+branches:
+    6.2.x:
+        time:     2016-02-16 12:32:00
+        versions: ['>=6.2.0', '<6.2.18']
+reference: composer://typo3/cms
