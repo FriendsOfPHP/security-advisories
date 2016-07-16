@@ -1,0 +1,8 @@
+title:     Potential SQL injection in ORDER and GROUP statements of Zend_Db_Select
+link:      http://framework.zend.com/security/advisory/ZF2016-02
+cve:       CVE-2016-6233
+branches:
+    1.12.x:
+        time:     2016-07-06 17:01:58
+        versions: ['>=1.12.9', '<1.12.19']
+reference: composer://zendframework/zendframework1
