@@ -1,0 +1,10 @@
+title:     "XML External Entity (XXE) Processing in TYPO3 Core"
+link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2016-005/
+branches:
+    6.2.x:
+        time:     2016-02-23 12:28:00
+        versions: ['>=6.2.0', '<6.2.19']
+    7.6.x:
+        time:     2016-02-23 12:28:00
+        versions: ['>=7.6.0', '<7.6.4']
+reference: composer://typo3/cms
