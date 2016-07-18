@@ -4,5 +4,5 @@ cve:       CVE-2016-6233
 branches:
     1.12.x:
         time:     2016-07-06 17:01:58
-        versions: ['>=1.12.9', '<1.12.19']
+        versions: ['<1.12.19']
 reference: composer://zendframework/zendframework1
