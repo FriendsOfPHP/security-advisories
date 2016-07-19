@@ -1,0 +1,7 @@
+title:     Link injection
+link:      https://simplesamlphp.org/security/201606-01
+branches:
+    master:
+        time:     2016-06-06 10:50:00
+        versions: ['<1.14.4']
+reference: composer://simplesamlphp/simplesamlphp
