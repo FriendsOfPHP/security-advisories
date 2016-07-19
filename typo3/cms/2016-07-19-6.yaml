@@ -1,0 +1,13 @@
+title:     "Environment Variable Injection"
+link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2016-019
+branches:
+    8.0.x:
+        time:     2016-07-19 13:03:00
+        versions: ['>=8.0.0', '<8.1.0']
+    8.1.x:
+        time:     2016-07-19 13:03:00
+        versions: ['>=8.1.0', '<8.2.0']
+    8.2.x:
+        time:     2016-07-19 13:03:00
+        versions: ['>=8.2.0', '<8.2.1']
+reference: composer://typo3/cms
