@@ -108,7 +108,7 @@ final class Validate extends Command
                         }
 
                         // Temporary expception for #161 - magento/magento2ce package is not provided by packagist
-                        if($composerPackage != 'magento/magento2ce') {
+                        if ('magento/magento2ce' != $composerPackage) {
                             $packagistUrl = sprintf('https://packagist.org/packages/%s.json', $composerPackage);
 
                             if (404 == explode(' ', get_headers($packagistUrl)[0], 3)[1]) {
