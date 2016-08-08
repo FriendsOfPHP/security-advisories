@@ -1,0 +1,11 @@
+title:     Unauthenticated crypto and weak IV in Magento\Framework\Encryption
+link:      http://www.openwall.com/lists/oss-security/2016/07/19/3
+cve:       ~
+branches:
+    2.0:
+        time:     2014-02-13 11:12:34
+        versions: ['>=2.0', '<2.1']
+    2.1:
+        time:     2014-02-13 11:12:34
+        versions: ['>=2.1', '<2.2']
+reference: composer://magento/magento2ce
