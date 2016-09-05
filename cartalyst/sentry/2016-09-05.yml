@@ -4,5 +4,5 @@ cve:       ~
 branches:
     2.1:
         time:     2016-10-04 20:18:00
-        versions: ['>=2.1']
+        versions: ['<2.1']
 reference: composer://cartalyst/sentry
