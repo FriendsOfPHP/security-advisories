@@ -1,0 +1,8 @@
+title:     Null reset codes were allowed
+link:      http://haxx.ml/post/149975211631/how-i-hacked-your-cfp-and-probably-some-other
+cve:       ~
+branches:
+    2.1:
+        time:     2016-10-04 20:18:00
+        versions: ['<2.1']
+reference: composer://cartalyst/sentry
