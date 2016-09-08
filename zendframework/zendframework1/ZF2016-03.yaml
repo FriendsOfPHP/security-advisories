@@ -1,0 +1,7 @@
+title:     Potential SQL injection in ORDER and GROUP functions of ZF1
+link:      https://framework.zend.com/security/advisory/ZF2016-03
+branches:
+    1.12.x:
+        time:     2016-09-02 12:48:00
+        versions: ['<1.12.20']
+reference: composer://zendframework/zendframework1
