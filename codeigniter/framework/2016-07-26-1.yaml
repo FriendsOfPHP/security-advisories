@@ -1,0 +1,8 @@
+title: Critical SQL injection bug in the ODBC database driver
+link: http://forum.codeigniter.com/thread-65803.html
+cve: ~
+branches:
+    3.0:
+        time:     2015-07-26 19:42:05
+        versions: ['<=3.0.6']
+reference: composer://codeigniter/framework
