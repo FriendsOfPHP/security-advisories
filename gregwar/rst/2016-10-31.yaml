@@ -1,0 +1,7 @@
+title:     Local File Inclusion Vulnerability
+link:      https://hackerone.com/reports/179034
+cve:       ~
+branches:
+    master:
+        versions: ['<1.0.3']
+reference: composer://gregwar/rst
