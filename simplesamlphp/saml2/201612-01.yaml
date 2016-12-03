@@ -3,11 +3,11 @@ link:      https://simplesamlphp.org/security/201612-01
 branches:
     1.9.x:
         time:     2016-11-29 13:12:00
-        versions: ['<1.9.1']
+        versions: ['>=1.9.0', '<1.9.1']
     1.10.x:
         time:     2016-11-29 13:12:00
-        versions: ['<1.10.3']
+        versions: ['>=1.10.0', '<1.10.3']
     2.3.x:
         time:     2016-11-29 13:12:00
-        versions: ['<2.3.3']
+        versions: ['>=2.3.0', '<2.3.3']
 reference: composer://simplesamlphp/saml2
