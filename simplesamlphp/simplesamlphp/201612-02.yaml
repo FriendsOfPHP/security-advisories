@@ -1,0 +1,7 @@
+title:     Incorrect signature verification
+link:      https://simplesamlphp.org/security/201612-02
+branches:
+    1.14.x:
+        time:     2016-12-03 13:14:00
+        versions: ['<1.14.11']
+reference: composer://simplesamlphp/simplesamlphp
