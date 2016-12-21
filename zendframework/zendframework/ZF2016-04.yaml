@@ -1,0 +1,19 @@
+title:     Potential remote code execution in zend-mail via Sendmail adapter
+link:      https://framework.zend.com/security/advisory/ZF2016-04
+branches:
+    2.0.x:
+        time:     2016-12-19 15:29:00
+        versions: ['>=2.0.0', '<2.1.0']
+    2.1.x:
+        time:     2016-12-19 15:29:00
+        versions: ['>=2.1.0', '<2.2.0']
+    2.2.x:
+        time:     2016-12-19 15:29:00
+        versions: ['>=2.2.0', '<2.3.0']
+    2.3.x:
+        time:     2016-12-19 15:29:00
+        versions: ['>=2.3.0', '<2.4.0']
+    2.4.x:
+        time:     2016-12-19 15:29:00
+        versions: ['>=2.4.0', '<2.4.11']
+reference: composer://zendframework/zendframework
