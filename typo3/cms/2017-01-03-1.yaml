@@ -1,0 +1,7 @@
+title:     Remote Code Execution in third party library swiftmailer
+link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2017-001/
+branches:
+    6.2.x:
+        time:     2017-01-03 13:29:00
+        versions: ['>=6.2.0', '<6.2.30']
+reference: composer://typo3/cms
