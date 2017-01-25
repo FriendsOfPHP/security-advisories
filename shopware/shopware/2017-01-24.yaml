@@ -15,5 +15,5 @@ branches:
         versions: ['>=5.1.0', '<5.2.0']
     5.2:
         time:     2017-01-19 08:19:00
-        versions: ['>=5.2.0', '<5.2.15']
+        versions: ['>=5.2.0', '<5.2.16']
 reference: composer://shopware/shopware
