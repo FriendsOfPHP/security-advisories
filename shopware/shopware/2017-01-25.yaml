@@ -1,0 +1,19 @@
+title:     Remote Code Execution Vulnerability
+link:      http://en.community.shopware.com/_detail_1989.html
+branches:
+    4.2:
+        time:     2017-01-24 15:56:00
+        versions: ['>=4.2.0', '<4.3.0']
+    4.3:
+        time:     2017-01-24 15:56:00
+        versions: ['>=4.3.0', '<4.4.0']
+    5.0:
+        time:     2017-01-24 15:56:00
+        versions: ['>=5.0.0', '<5.1.0']
+    5.1:
+        time:     2017-01-24 15:56:00
+        versions: ['>=5.1.0', '<5.2.0']
+    5.2:
+        time:     2017-01-24 15:56:00
+        versions: ['>=5.2.0', '<5.2.16']
+reference: composer://shopware/shopware
