@@ -115,12 +115,11 @@ final class Validate extends Command
                             $messages[$path][] = 'Reference composer package must match the folder name';
                         }
 
-                        // Temporary expception for #161 - magento/magento2ce package is not provided by packagist
-                        if ('magento/magento2ce' != $composerPackage) {
-                            if (empty($data['composer-repository'])) {
-                                $data['composer-repository'] = 'https://packagist.org';
-                            }
+                        if (!isset($data['composer-repository'])) {
+                            $data['composer-repository'] = 'https://packagist.org';
+                        }
 
+                        if (!empty($data['composer-repository'])) {
                             $composerRepository = $this->getComposerRepository($data['composer-repository']);
 
                             $found = false;
