@@ -8,6 +8,10 @@ if (!is_file($autoloader = __DIR__.'/vendor/autoload.php')) {
 }
 require $autoloader;
 
+use Composer\Config;
+use Composer\IO\NullIO;
+use Composer\Repository\ComposerRepository;
+use Composer\Repository\RepositoryInterface;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\ProgressBar;
@@ -23,12 +27,16 @@ use Symfony\Component\Yaml\Parser;
 final class Validate extends Command
 {
     private $parser;
+    private $composerRepositories = array();
+    private $composerConfig;
 
     public function __construct()
     {
         parent::__construct('validate');
 
         $this->parser = new Parser();
+        $this->composerConfig = new Config(false);
+        $this->composerConfig->merge(array('config' => array('cache-dir' => sys_get_temp_dir().'/php-security-advisories')));
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
@@ -84,7 +92,7 @@ final class Validate extends Command
                 $data = $this->parser->parse(file_get_contents($file));
 
                 // validate first level keys
-                if ($keys = array_diff(array_keys($data), array('reference', 'branches', 'title', 'link', 'cve'))) {
+                if ($keys = array_diff(array_keys($data), array('reference', 'branches', 'title', 'link', 'cve', 'composer-repository'))) {
                     foreach ($keys as $key) {
                         $messages[$path][] = sprintf('Key "%s" is not supported.', $key);
                     }
@@ -107,12 +115,22 @@ final class Validate extends Command
                             $messages[$path][] = 'Reference composer package must match the folder name';
                         }
 
-                        // Temporary expception for #161 - magento/magento2ce package is not provided by packagist
-                        if ('magento/magento2ce' != $composerPackage) {
-                            $packagistUrl = sprintf('https://packagist.org/packages/%s.json', $composerPackage);
+                        if (!isset($data['composer-repository'])) {
+                            $data['composer-repository'] = 'https://packagist.org';
+                        }
 
-                            if (404 == explode(' ', get_headers($packagistUrl)[0], 3)[1]) {
-                                $messages[$path][] = sprintf('Invalid composer package');
+                        if (!empty($data['composer-repository'])) {
+                            $composerRepository = $this->getComposerRepository($data['composer-repository']);
+
+                            $found = false;
+                            foreach ($composerRepository->search($composerPackage, RepositoryInterface::SEARCH_NAME) as $package) {
+                                if ($package['name'] === $composerPackage) {
+                                    $found = true;
+                                    break;
+                                }
+                            }
+                            if (!$found) {
+                                $messages[$path][] = sprintf('Invalid composer package (not found in repository %s)', $data['composer-repository']);
                             }
                         }
                     }
@@ -228,6 +246,23 @@ final class Validate extends Command
         }
 
         return count($messages);
+    }
+
+    private function getComposerRepository($uri)
+    {
+        if (!isset($this->composerRepositories[$uri])) {
+            $repository = new ComposerRepository(
+                array(
+                    'url' => $uri,
+                ),
+                new NullIO(),
+                $this->composerConfig
+            );
+
+            $this->composerRepositories[$uri] = $repository;
+        }
+
+        return $this->composerRepositories[$uri];
     }
 }
 
