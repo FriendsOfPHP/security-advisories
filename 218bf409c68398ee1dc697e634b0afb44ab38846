@@ -1,0 +1,5 @@
+---------------------------------------------------------------------------
+
+by thewilkybarkid at 2017-01-31T09:52:53Z
+
+I've allowed `composer-repository` to be `false` to cater for #165.
