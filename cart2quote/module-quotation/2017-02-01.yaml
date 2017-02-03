@@ -1,0 +1,12 @@
+title:     Remote Code Execution in Qquoteadv/controllers/DownloadController.php
+link:      https://cart2quote.zendesk.com/hc/en-us/articles/115000616303--FIXED-Security-Vulnerability-in-downloadCustomOptionAction
+cve:       ~
+branches:
+    4.x:
+        time:     2017-02-01 10:45:00
+        versions: ['>=4.1.6', '<=4.4.5']
+    5.x:
+        time:     2017-02-01 10:45:00
+        versions:  ['>=5.0.0', '<5.4.4']
+reference: composer://cart2quote/module-quotation
+composer-repository: false
