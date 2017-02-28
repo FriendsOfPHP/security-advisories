@@ -1,0 +1,25 @@
+title:     Cross-Site Scripting in TYPO3 CMS
+link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2017-003/
+branches:
+    7.6.x:
+        time:     2017-02-28 10:23:00
+        versions: ['>=7.6.0', '<7.6.16']
+    8.1.x:
+        time:     2017-02-28 10:23:00
+        versions: ['>=8.1.0', '<8.2.0']
+    8.2.x:
+        time:     2017-02-28 10:23:00
+        versions: ['>=8.2.0', '<8.3.0']
+    8.3.x:
+        time:     2017-02-28 10:23:00
+        versions: ['>=8.3.0', '<8.4.0']
+    8.4.x:
+        time:     2017-02-28 10:23:00
+        versions: ['>=8.4.0', '<8.5.0']
+    8.5.x:
+        time:     2017-02-28 10:23:00
+        versions: ['>=8.5.0', '<8.6.0']
+    8.6.x:
+        time:     2017-02-28 10:23:00
+        versions: ['>=8.6.0', '<8.6.1']
+reference: composer://typo3/cms
