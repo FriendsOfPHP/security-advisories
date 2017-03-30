@@ -1,0 +1,7 @@
+title:     Incorrect IV generation for encryption
+link:      https://simplesamlphp.org/security/201703-02
+branches:
+    1.14.x:
+        time:     2017-03-30 09:51:00
+        versions: ['>=1.14.0', '<1.14.12']
+reference: composer://simplesamlphp/simplesamlphp

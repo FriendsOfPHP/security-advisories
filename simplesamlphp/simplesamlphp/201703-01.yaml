@@ -1,0 +1,13 @@
+title:     Multiple timing side-channel issues
+link:      https://simplesamlphp.org/security/201703-01
+branches:
+    1.12.x:
+        time:     2017-03-17 09:34:24
+        versions: ['>=1.12.0', '<1.13.0']
+    1.13.x:
+        time:     2017-03-17 09:34:24
+        versions: ['>=1.13.0', '<1.14.0']
+    1.14.x:
+        time:     2017-03-17 09:34:24
+        versions: ['>=1.14.0', '<1.14.12']
+reference: composer://simplesamlphp/simplesamlphp
