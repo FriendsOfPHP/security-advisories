@@ -1,0 +1,9 @@
+title: Remote Code Execution
+link: https://github.com/dedalozzo/pygmentize/issues/1
+cve: ~
+branches:
+    master:
+        time: ~
+        versions: ['<=1.1']
+reference: composer://3f/pygmentize
+
