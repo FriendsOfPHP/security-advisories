@@ -1,0 +1,11 @@
+title:     Cookie leakage to wrong origins and non-restricted cookie acceptance
+link:      https://github.com/amphp/artax/releases/tag/v2.0.6
+cve:       ~
+branches:
+    2.x:
+        time:     2017-05-09 19:42:02
+        versions: ['>=2', '<2.0.6']
+    1.x:
+        time:     2017-05-09 19:42:02
+        versions: ['<1.0.6']
+reference: composer://amphp/artax
