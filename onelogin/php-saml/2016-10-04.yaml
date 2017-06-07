@@ -1,0 +1,8 @@
+title:     Vulnerability to Response Wrapping attacks resulting in a malicious user gaining unauthorized access to a system.
+link:      https://github.com/onelogin/php-saml/commit/9d31baa97a57b0989020f62d24307c29e325dac3
+cve:       CVE-2016-1000253
+branches:
+    "2.x":
+        time:     2016-10-04 15:39:00
+        versions: [<2.10.0]
+reference: composer://onelogin/php-saml
