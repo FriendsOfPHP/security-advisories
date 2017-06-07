@@ -1,0 +1,9 @@
+title:     Remote code execution in Flow Swift Mailer package
+link:      https://www.neos.io/blog/flow-sa-2017-01.html
+cve:       ~
+branches:
+    5.4.x:
+        time:     2017-01-06 10:20:00
+        versions: ['<5.4.5']
+
+reference: composer://neos/swiftmailer
