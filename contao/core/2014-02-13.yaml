@@ -2,16 +2,10 @@ title:     PHP object injection vulnerability allows for arbitrary code executio
 link:      https://contao.org/en/news/major-security-hole-found-in-contao.html
 cve:       ~
 branches:
-    2.11.x:
+    2.x:
         time:     2014-02-13 11:12:34
-        versions: ['>=2.11.0', '<2.11.16']
-    3.0.x:
+        versions: ['>=2.0.0', '<2.11.16']
+    3.x:
         time:     2014-02-13 11:12:34
-        versions: ['>=3.0.0', '<3.1.0']
-    3.1.x:
-        time:     2014-02-13 11:12:34
-        versions: ['>=3.1.0', '<3.2.0']
-    3.2.x:
-        time:     2014-02-13 11:12:34
-        versions: ['>=3.2.0', '<3.2.7']
+        versions: ['>=3.0.0', '<3.2.7']
 reference: composer://contao/core
