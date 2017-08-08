@@ -1,0 +1,7 @@
+title:     Invalid token creation and validation
+link:      https://simplesamlphp.org/security/201708-01
+branches:
+    1.14.x:
+        time:     2017-06-28 14:13:10
+        versions: ['>=1.14.0', '<1.14.15']
+reference: composer://simplesamlphp/simplesamlphp
