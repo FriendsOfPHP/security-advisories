@@ -1,0 +1,7 @@
+title:     Cross Site Scripting (XSS) in the consentAdmin module
+link:      https://simplesamlphp.org/security/201709-01
+branches:
+    1.14.x:
+        time:     2017-08-25 11:35:00
+        versions: ['>=1.14.0', '<1.14.16']
+reference: composer://simplesamlphp/simplesamlphp
