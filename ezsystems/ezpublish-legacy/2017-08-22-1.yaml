@@ -1,0 +1,10 @@
+title:     EZSA-2017-005 XSS issue in search
+link:      http://share.ez.no/community-project/security-advisories/ezsa-2017-005-xss-issue-in-search
+branches:
+    5.4.x:
+        time:     2017-05-26 15:23:00
+        versions: ['>=5.4.0','<5.4.10']
+    5.3.x:
+        time:     2017-08-18 12:27:00
+        versions: ['>=5.3.0','<5.3.12.1']
+reference: composer://ezsystems/ezpublish-legacy
