@@ -1,0 +1,13 @@
+title:     EZSA-2017-006 Information disclosure in backend content tree menu
+link:      http://share.ez.no/community-project/security-advisories/ezsa-2017-006-information-disclosure-in-backend-content-tree-menu
+branches:
+    2017.08.x:
+        time:     2017-09-11 11:09:00
+        versions: ['>=2017.08.0','<2017.08.1.1']
+    5.4.x:
+        time:     2017-08-21 13:16:00
+        versions: ['>=5.4.0','<5.4.10.1']
+    5.3.x:
+        time:     2017-08-21 13:22:00
+        versions: ['>=5.3.0','<5.3.12.2']
+reference: composer://ezsystems/ezpublish-legacy
