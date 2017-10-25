@@ -1,0 +1,13 @@
+title:     Signature validation bypass
+link:      https://simplesamlphp.org/security/201710-01
+branches:
+    1.12.x:
+        time:     2017-10-25 09:54:00
+        versions: ['>=1.12.0', '<1.13.0']
+    1.13.x:
+        time:     2017-10-25 09:54:00
+        versions: ['>=1.13.0', '<1.14.0']
+    1.14.x:
+        time:     2017-10-25 09:54:00
+        versions: ['>=1.14.0', '<1.14.17']
+reference: composer://simplesamlphp/simplesamlphp
