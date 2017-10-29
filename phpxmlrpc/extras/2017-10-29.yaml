@@ -1,0 +1,8 @@
+title:     XSS in class documenting_xmlrpc_server
+link:      https://github.com/gggeek/phpxmlrpc-extras/releases/tag/0.6.1
+cve:       ~
+branches:
+    master:
+        time:     2017-10-29 12:24:59
+        versions: [<6.0.1]
+reference: composer://phpxmlrpc/extras
