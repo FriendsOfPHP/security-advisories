@@ -1,0 +1,8 @@
+title:     Arbitrary code execution via a crafted email address
+link:      https://github.com/zetacomponents/Mail/issues/58
+reference: composer://zetacomponents/mail
+cve:       CVE-2017-15806
+branches:
+    master:
+        time:     2017-11-1 19:02:00
+        versions: ['<1.8.2']
