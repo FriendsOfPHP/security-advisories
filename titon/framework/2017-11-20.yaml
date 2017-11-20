@@ -1,0 +1,8 @@
+title:      Remote Code Execution via Chosen-Ciphertext Attack
+link:       https://github.com/titon/framework/issues/93
+cve:        ~
+branches:
+    0.x:
+        time:     ~
+        versions: ['>=0.0.0', '<9.9.99']
+reference: composer://titon/framework

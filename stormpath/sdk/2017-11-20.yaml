@@ -1,0 +1,8 @@
+title:      Insecure Random Number Generator
+link:       https://github.com/stormpath/stormpath-sdk-php/issues/132
+cve:        ~
+branches:
+    0.x:
+        time:     ~
+        versions: ['>=0.0.0', '<9.9.99']
+reference: composer://stormpath/sdk
