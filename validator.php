@@ -162,8 +162,11 @@ final class Validate extends Command
                         }
                     }
 
-                    if (!isset($branch['time'])) {
-                        $messages[$path][] = sprintf('Key "time" is required for branch "%s".', $name);
+                    if (!isset($branch['time']) && !isset($branch['unfixed'])) {
+                        $messages[$path][] = sprintf(
+                            'Key "time" is required for branch "%s", unless "unfixed" is specified too.',
+                            $name
+                        );
                     }
 
                     if (!isset($branch['versions'])) {
@@ -188,7 +191,7 @@ final class Validate extends Command
                         }
 
                         if (null === $upperBound) {
-                            $messages[$path][] = sprintf('"versions" must have an upper bound for branch "%s".', $name);
+                            $messages[$path][] = sprintf('"versions" must have an upper bound for branch "%s" unless "unfixed" is also specified.', $name);
                         }
 
                         if (!$hasMin && null === $upperBoundWithoutLowerBound) {
