@@ -1,0 +1,8 @@
+title: Critical vulnerabilities in JSON Web Token libraries
+link: https://auth0.com/blog/2015/03/31/critical-vulnerabilities-in-json-web-token-libraries/
+cve: ~
+branches:
+  master: 
+    time: 2016-08-30 10:37:36
+    versions: [<=2.2.0]
+reference: composer://gree/jose
