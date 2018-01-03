@@ -4,5 +4,5 @@ cve:       ~
 branches:
     master:
         time:     2017-10-29 12:24:59
-        versions: [<6.0.1]
+        versions: [<0.6.1]
 reference: composer://phpxmlrpc/extras
