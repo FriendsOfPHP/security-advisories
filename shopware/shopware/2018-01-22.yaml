@@ -1,0 +1,10 @@
+title:     'Non-Persistent XSS'
+link:      'http://en.community.shopware.com/_detail_2048.html'
+branches:
+    5.2:
+        time:     2018-01-22 12:30:00
+        versions: ['>=5.2.0', '<5.3.0']
+    5.3:
+        time:     2018-01-22 12:30:00
+        versions: ['>=5.3.0', '<5.3.7']
+reference: composer://shopware/shopware
