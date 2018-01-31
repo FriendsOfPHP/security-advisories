@@ -1,0 +1,13 @@
+title:     Denial of Service in timestamp validation function
+link:      https://simplesamlphp.org/security/201801-01
+branches:
+    1.10.x:
+        time:     2018-01-25 10:26:00
+        versions: ['<1.10.4']
+    2.x:
+        time:     2018-01-25 10:25:00
+        versions: ['>=2.0', '<2.3.5']
+    3.x:
+        time:     2018-01-25 10:23:00
+        versions: ['>=3.0', '<3.1.1']
+reference: composer://simplesamlphp/saml2

@@ -1,0 +1,7 @@
+title:     Use of insecure connection charset (sqlauth module)
+link:      https://simplesamlphp.org/security/201801-03
+branches:
+    1.15.x:
+        time:     2018-01-31 10:34:00
+        versions: ['<1.15.2']
+reference: composer://simplesamlphp/simplesamlphp
