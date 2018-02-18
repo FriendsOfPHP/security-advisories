@@ -4,5 +4,5 @@ cve:       ~
 branches:
     "2.0":
         time:     2018-02-16 13:38:00
-        versions: ['>=2.0.0-alpha1', '<=3']
+        versions: ['>=2.0.0-alpha1', '<3']
 reference: composer://propel/propel
