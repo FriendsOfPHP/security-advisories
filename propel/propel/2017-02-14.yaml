@@ -3,6 +3,6 @@ link:      https://github.com/propelorm/Propel2/issues/1463
 cve:       ~
 branches:
     "2.0":
-        time:     2018-02-16 13:38:00
-        versions: ['>=2.0.0-alpha1', '<3']
+        time:     2018-02-19 13:04:00
+        versions: ['>=2.0.0-alpha1', '<=2.0.0-alpha7']
 reference: composer://propel/propel
