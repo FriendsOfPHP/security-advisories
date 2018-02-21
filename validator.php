@@ -162,7 +162,7 @@ final class Validate extends Command
                         }
                     }
 
-                    if (!isset($branch['time'])) {
+                    if (!array_key_exists('time', $branch)) {
                         $messages[$path][] = sprintf('Key "time" is required for branch "%s".', $name);
                     }
 
