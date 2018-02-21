@@ -71,8 +71,9 @@ Contributing security advisories is as easy as it can get:
 
           * `time`: The date when the security issue was fixed (most of the
             time the date of the commit that fixed the issue (`2012-08-27
-            19:17:44`) -- this information must be as accurate as possible as
+            19:17:44`)) -- this information must be as accurate as possible as
             it is used to determined if a software is affected or not;
+            optional if and only if `unfixed` is also specified
 
           * `versions`: An array of constraints describing affected versions
             for this branch (this is the same format as the one used for
