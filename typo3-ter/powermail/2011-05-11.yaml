@@ -1,0 +1,9 @@
+title:               "TYPO3-SA-2011-004: Blind SQL Injection vulnerability in extension 'powermail' (powermail)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2011-004/
+cve:                 ~
+branches:
+    master:
+        time:     2011-05-11 12:00
+        versions: [>=1.6.0,<=1.6.2]
+reference:           composer://typo3-ter/powermail
+composer-repository: https://composer.typo3.org

@@ -1,0 +1,9 @@
+title:               "TYPO3-SA-2009-018: Cross-Site Scripting vulnerability in extension Direct Mail (direct_mail)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2009-018/
+cve:                 ~
+branches:
+    master:
+        time:     2009-12-01 12:00
+        versions: [<=2.6.4]
+reference:           composer://typo3-ter/direct-mail
+composer-repository: https://composer.typo3.org

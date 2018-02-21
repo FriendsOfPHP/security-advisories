@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2012-010: Cross-site scripting vulnerability in extension Seminars (seminars)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2012-010/
+cve:                 ~
+branches:
+    master:
+        time:     2012-07-03 12:00
+        versions: [<=0.9.3]
+reference:           composer://typo3-ter/seminars
+composer-repository: https://composer.typo3.org

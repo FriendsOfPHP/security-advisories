@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2015-004: Information Disclosure in Direct Mail Subscription (direct_mail_subscription)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-004/
+cve:                 ~
+branches:
+    master:
+        time:     2015-01-16 12:00
+        versions: [>=2.0.1,<=2.0.1]
+reference:           composer://typo3-ter/direct-mail-subscription
+composer-repository: https://composer.typo3.org

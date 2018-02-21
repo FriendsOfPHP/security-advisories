@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2014-019: Multiple vulnerabilities in Drag Drop Mass Upload (ameos_dragndropupload)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2014-019/
+cve:                 ~
+branches:
+    master:
+        time:     2014-12-15 12:00
+        versions: [<=3.1.1]
+reference:           composer://typo3-ter/ameos-dragndropupload
+composer-repository: https://composer.typo3.org

@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2015-017: Cross-Site Scripting in extension 'News system' (news)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-017/
+cve:                 ~
+branches:
+    master:
+        time:     2015-09-30 12:00
+        versions: [<=3.2.1]
+reference:           composer://typo3-ter/news
+composer-repository: https://composer.typo3.org

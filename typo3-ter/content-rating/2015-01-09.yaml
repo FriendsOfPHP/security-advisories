@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2015-002: Multiple vulnerabilities in Content Rating (content_rating)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-002/
+cve:                 ~
+branches:
+    master:
+        time:     2015-01-09 12:00
+        versions: [<=1.0.3]
+reference:           composer://typo3-ter/content-rating
+composer-repository: https://composer.typo3.org

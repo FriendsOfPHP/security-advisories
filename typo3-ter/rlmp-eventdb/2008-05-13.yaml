@@ -1,0 +1,9 @@
+title:               "TYPO3-20080513-3: Cross Site Scripting vulnerability in extension Event Database (rlmp_eventdb)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-20080513-3/
+cve:                 ~
+branches:
+    master:
+        time:     2008-05-13 12:00
+        versions: [<=1.1.1]
+reference:           composer://typo3-ter/rlmp-eventdb
+composer-repository: https://composer.typo3.org

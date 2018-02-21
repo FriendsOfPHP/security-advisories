@@ -1,0 +1,9 @@
+title:               "TYPO3-SA-2010-011: Vulnerabilitiy in extension 404 Error Page Handling (error_404_handling)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2010-011/
+cve:                 ~
+branches:
+    master:
+        time:     2010-04-14 12:00
+        versions: [<=0.1.1]
+reference:           composer://typo3-ter/error-404-handling
+composer-repository: https://composer.typo3.org

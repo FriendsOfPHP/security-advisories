@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2012-009: Cross-site scripting vulnerability in extension powermail for TYPO3 (powermail)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2012-009/
+cve:                 ~
+branches:
+    master:
+        time:     2012-06-07 12:00
+        versions: [<=1.6.6]
+reference:           composer://typo3-ter/powermail
+composer-repository: https://composer.typo3.org

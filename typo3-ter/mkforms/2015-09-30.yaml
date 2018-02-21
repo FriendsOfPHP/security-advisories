@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2015-022: Arbitrary Code Execution in extension 'MK Forms' (mkforms)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2015-022/
+cve:                 ~
+branches:
+    master:
+        time:     2015-09-30 12:00
+        versions: [<=1.0.23]
+reference:           composer://typo3-ter/mkforms
+composer-repository: https://composer.typo3.org

@@ -1,0 +1,9 @@
+title:               "TYPO3-SA-2009-009: Cross-Site Scripting vulnerability in extension Modern Guestbook / Commenting System (ve_guestbook)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2009-009/
+cve:                 ~
+branches:
+    master:
+        time:     2009-06-16 12:00
+        versions: [<=2.7.1]
+reference:           composer://typo3-ter/ve-guestbook
+composer-repository: https://composer.typo3.org

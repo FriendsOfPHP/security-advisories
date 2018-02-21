@@ -1,0 +1,9 @@
+title:               "TYPO3-SA-2011-005: Cross-Site Scripting and Open Redirection vulnerability in extension phpMyAdmin (phpmyadmin)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-sa-2011-005/
+cve:                 ~
+branches:
+    master:
+        time:     2011-05-23 12:00
+        versions: [<=4.10.3]
+reference:           composer://typo3-ter/phpmyadmin
+composer-repository: https://composer.typo3.org

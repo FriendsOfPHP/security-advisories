@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2011-011: Multiple XSS vulnerabilities in extension phpMyAdmin (phpmyadmin)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2011-011/
+cve:                 ~
+branches:
+    master:
+        time:     2011-09-15 12:00
+        versions: [<=4.11.4]
+reference:           composer://typo3-ter/phpmyadmin
+composer-repository: https://composer.typo3.org

@@ -1,0 +1,9 @@
+title:               "TYPO3-EXT-SA-2013-016: SQL Injection vulnerability in extension Formhandler (formhandler)"
+link:                http://typo3.org/teams/security/security-bulletins/typo3-extensions/typo3-ext-sa-2013-016/
+cve:                 ~
+branches:
+    master:
+        time:     2013-09-25 12:00
+        versions: [<=1.6.1]
+reference:           composer://typo3-ter/formhandler
+composer-repository: https://composer.typo3.org
