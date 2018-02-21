@@ -1,0 +1,33 @@
+---------------------------------------------------------------------------
+
+by stof at 2018-02-21T11:24:54Z
+
+Not making any change to the validator looks weird to me. Does it work ?
+
+And for unfixed vulnerabilities, we also need to be able to mark all versions as impacted (so no upper bound)
+
+---------------------------------------------------------------------------
+
+by fabpot at 2018-02-21T11:29:06Z
+
+The validator does not care about the value of the `time` entry, it just validates that it's present.
+
+For the upper bound, it's just a matter of using a very high version, I don't think we need anything special here. As done in #241 (even if I would use a version a bit higher than `9`, let's say `999`).
+
+---------------------------------------------------------------------------
+
+by fabpot at 2018-02-21T11:29:52Z
+
+I think trying to keep the current semantic as much as possible is important here.
+
+---------------------------------------------------------------------------
+
+by stof at 2018-02-21T11:31:41Z
+
+but setting to `null` will not be considered as there when checking with `isset`
+
+---------------------------------------------------------------------------
+
+by fabpot at 2018-02-21T11:33:36Z
+
+@stof indeed, fixed
