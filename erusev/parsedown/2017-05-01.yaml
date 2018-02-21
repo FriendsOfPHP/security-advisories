@@ -1,0 +1,7 @@
+title:     Cross-Site Scripting
+link:      https://github.com/erusev/parsedown/pull/495
+branches:
+    1.x:
+        time:     ~
+        versions: ['<=1.6.4']
+reference: composer://erusev/parsedown
