@@ -1,5 +1,6 @@
 title:     EZSA-2017-005 XSS issue in search
 link:      http://share.ez.no/community-project/security-advisories/ezsa-2017-005-xss-issue-in-search
+cve:       CVE-2017-1000431
 branches:
     5.4.x:
         time:     2017-05-26 15:23:00
