@@ -1,0 +1,13 @@
+title:     EZSA-2018-001 Several vulnerabilities in Forgot password, Information collector, XML text, and Matrix field type features
+link:      http://share.ez.no/community-project/security-advisories/ezsa-2018-001-several-vulnerabilities-in-forgot-password-information-collector-xml-text-and-matrix-field-type-features
+branches:
+    2017.12.x:
+        time:     2018-02-26 14:30:00
+        versions: ['>=2017.12.0','<2017.12.2.1']
+    5.4.x:
+        time:     2018-02-06 16:04:00
+        versions: ['>=5.4.0','<5.4.11.3']
+    5.3.x:
+        time:     2018-02-06 16:21:00
+        versions: ['>=5.3.0','<5.3.12.3']
+reference: composer://ezsystems/ezpublish-legacy
