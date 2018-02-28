@@ -3,5 +3,5 @@ link:      https://github.com/erusev/parsedown/pull/495
 branches:
     1.x:
         time:     ~
-        versions: ['<=1.6.4']
+        versions: ['<1.7.0']
 reference: composer://erusev/parsedown
