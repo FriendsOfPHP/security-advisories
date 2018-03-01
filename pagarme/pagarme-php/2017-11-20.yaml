@@ -2,7 +2,7 @@ title:      Padding Oracle Vulnerability in RSA Encryption
 link:       https://github.com/pagarme/pagarme-php/issues/29
 cve:        ~
 branches:
-    3.x:
+    2.x:
         time:     ~
-        versions: ['>=0.0.0', '<9.9.99']
+        versions: ['>=0.0.0', '<3.0.0']
 reference: composer://pagarme/pagarme-php
