@@ -1,5 +1,5 @@
 title:     Hijacked authentication cookies vulnerability
-link:      http://laravel.com/docs/upgrade#upgrade-4.1.26
+link:      https://laravel.com/docs/5.3/upgrade#upgrade-4.1.26
 cve:       ~
 branches:
     4.0.x:
