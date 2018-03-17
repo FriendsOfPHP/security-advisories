@@ -1,0 +1,7 @@
+title:     XSS vulnerability in login redirect param
+link:      https://github.com/socalnick/scnsocialauth/issues/184
+branches:
+    master:
+        time:     2015-01-16 06:44:44
+        versions: [<1.15.2]
+reference: composer://socalnick/scn-social-auth

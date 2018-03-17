@@ -1,0 +1,8 @@
+title:     Header injection in NativeMailerHandler
+link:      https://github.com/Seldaek/monolog/pull/448#issuecomment-68208704
+cve:       ~
+branches:
+    1.x:
+        time:     2014-12-29 13:23:35
+        versions: [>=1.8.0,<1.12.0]
+reference: composer://monolog/monolog

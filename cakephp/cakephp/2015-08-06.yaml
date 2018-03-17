@@ -1,0 +1,29 @@
+title: Direct access of prefixed controller actions
+link: http://bakery.cakephp.org/2015/08/06/cakephp_2_5_9_2_6_10_2_7_2_released.html
+cve: ~
+branches:
+    2.0.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.0.0,<2.0.99]
+    2.1.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.1.0,<2.1.99]
+    2.2.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.2.0,<2.2.99]
+    2.3.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.3.0,<2.3.99]
+    2.4.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.4.0,<2.4.99]
+    2.5.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.5.0,<2.5.9]
+    2.6.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.6.0,<2.6.11]
+    2.7.x:
+        time:     2015-08-06 22:08:00
+        versions: [>=2.7.0,<2.7.2]
+reference: composer://cakephp/cakephp

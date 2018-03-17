@@ -1,0 +1,17 @@
+title:     Insufficient input validation allows for code injection and remote execution
+link:      https://contao.org/en/news/new-security-hole-found-in-contao.html
+cve:       ~
+branches:
+    2.11.x:
+        time:     2014-04-07 10:30:27
+        versions: [>=2.11.0,<2.11.17]
+    3.0.x:
+        time:     2014-04-07 10:30:27
+        versions: [>=3.0.0,<3.1.0]
+    3.1.x:
+        time:     2014-04-07 10:30:27
+        versions: [>=3.1.0,<3.2.0]
+    3.2.x:
+        time:     2014-04-07 10:30:27
+        versions: [>=3.2.0,<3.2.9]
+reference: composer://contao/core

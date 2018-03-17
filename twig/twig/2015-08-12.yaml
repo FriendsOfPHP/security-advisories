@@ -1,0 +1,8 @@
+title:     Remote code execution in templates
+link:      https://symfony.com/blog/security-release-twig-1-20-0
+cve:       ~
+branches:
+    1.x:
+        time:     2015-08-12 15:53:50
+        versions: [<1.20.0]
+reference: composer://twig/twig

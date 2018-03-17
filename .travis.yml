@@ -1,3 +1,12 @@
 language: php
-before_script: composer install --prefer-source
-script: php validator.php
+
+sudo: false
+
+cache:
+    - $HOME/.composer/cache/files
+
+install:
+    - travis_retry composer install
+
+script:
+    - php validator.php
