@@ -1,5 +1,6 @@
 title:     Cross-Site Scripting
 link:      https://github.com/erusev/parsedown/pull/495
+cve:       CVE-2018-1000162
 branches:
     1.x:
         time:     ~
