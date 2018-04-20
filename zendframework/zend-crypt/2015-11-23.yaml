@@ -1,5 +1,5 @@
 title:      Potential Information Disclosure in Zend\Crypt\PublicKey\Rsa\PublicKey
-link:       http://framework.zend.com/security/advisory/ZF2015-10
+link:       https://framework.zend.com/security/advisory/ZF2015-10
 cve:        CVE-2015-7503
 branches:
     2.4.x:

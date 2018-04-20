@@ -1,5 +1,5 @@
 title:     Invalid CSRF validation of null or incorrectly formatted token identifiers
-link:      http://framework.zend.com/security/advisory/ZF2015-03
+link:      https://framework.zend.com/security/advisory/ZF2015-03
 cve:       CVE-2015-1786
 branches:
     2.3.x:

@@ -1,5 +1,5 @@
 title:     Security Misconfiguration Vulnerability in various Doctrine projects
-link:      http://www.doctrine-project.org/2015/08/31/security_misconfiguration_vulnerability_in_various_doctrine_projects.html
+link:      https://www.doctrine-project.org/2015/08/31/security_misconfiguration_vulnerability_in_various_doctrine_projects.html
 cve:       CVE-2015-5723
 branches:
     "3.0":

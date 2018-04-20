@@ -1,5 +1,5 @@
 title:     Local file disclosure via XXE injection in Zend_XmlRpc
-link:      http://framework.zend.com/security/advisory/ZF2012-01
+link:      https://framework.zend.com/security/advisory/ZF2012-01
 cve: ~
 branches:
     1.x:

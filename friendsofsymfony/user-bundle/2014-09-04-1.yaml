@@ -1,5 +1,5 @@
 title:     Entropy is lost in the TokenGenerator
-link:      http://symfony.com/blog/fosuserbundle-entropy-of-generated-tokens-is-lost
+link:      https://symfony.com/blog/fosuserbundle-entropy-of-generated-tokens-is-lost
 cve:       ~
 branches:
     1.2.x:

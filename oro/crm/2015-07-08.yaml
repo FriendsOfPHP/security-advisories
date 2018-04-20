@@ -1,5 +1,5 @@
 title:     Forced Redirect to External Website
-link:      http://www.orocrm.com/blog/news/orocrm-security-announcement
+link:      https://www.orocrm.com/blog/news/orocrm-security-announcement
 cve:       ~
 branches:
     "1.7":

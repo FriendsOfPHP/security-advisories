@@ -1,5 +1,5 @@
 title:     Potential XSS and Open Redirect vectors in zend-diactoros
-link:      http://framework.zend.com/security/advisory/ZF2015-05
+link:      https://framework.zend.com/security/advisory/ZF2015-05
 cve:       CVE-2015-3257
 branches:
     1.0.x:

@@ -1,5 +1,5 @@
 title:     XXE/XEE vector when using ZendXml on multibyte payloads
-link:      http://framework.zend.com/security/advisory/ZF2015-06
+link:      https://framework.zend.com/security/advisory/ZF2015-06
 cve:       CVE-2015-5161
 branches:
     1.0.x:

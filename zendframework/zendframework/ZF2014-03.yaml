@@ -1,5 +1,5 @@
 title:     Potential XSS vector in multiple view helpers
-link:      http://framework.zend.com/security/advisory/ZF2014-03
+link:      https://framework.zend.com/security/advisory/ZF2014-03
 cve: ~
 branches:
     2.2.x:

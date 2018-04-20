@@ -1,5 +1,5 @@
 title:     Potential SQL Injection Vector When Using PDO_MySql
-link:      http://framework.zend.com/security/advisory/ZF2011-02
+link:      https://framework.zend.com/security/advisory/ZF2011-02
 cve: ~
 branches:
     1.10.x:

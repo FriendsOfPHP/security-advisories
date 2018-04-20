@@ -1,5 +1,5 @@
 title:     SQL injection possibility
-link:      http://www.doctrine-project.org/blog/doctrine-security-fix.html
+link:      https://www.doctrine-project.org/blog/doctrine-security-fix.html
 cve:       ~
 branches:
     2.x:

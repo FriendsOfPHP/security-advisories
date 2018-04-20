@@ -1,5 +1,5 @@
 title:     Potential CRLF injection attacks in mail and HTTP headers
-link:      http://framework.zend.com/security/advisory/ZF2015-04
+link:      https://framework.zend.com/security/advisory/ZF2015-04
 cve:       CVE-2015-3154
 branches:
     1.12.x:

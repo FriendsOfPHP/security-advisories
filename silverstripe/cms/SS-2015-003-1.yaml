@@ -1,5 +1,5 @@
 title:     "SS-2015-003: History XSS Vulnerability"
-link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-003/
+link:      https://www.silverstripe.org/software/download/security-releases/ss-2015-003/
 cve:       ~
 branches:
     3.1.x:

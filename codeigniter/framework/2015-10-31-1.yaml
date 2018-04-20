@@ -1,5 +1,5 @@
 title: XSS attack vector in Security Library method xss_clean()
-link: http://www.codeigniter.com/user_guide/changelog.html#version-3-0-3
+link: https://www.codeigniter.com/user_guide/changelog.html#version-3-0-3
 cve: ~
 branches:
     master:

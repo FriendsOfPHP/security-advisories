@@ -1,5 +1,5 @@
 title:     SQL injection possibility
-link:      http://www.doctrine-project.org/blog/dbal-security-2011-1.html
+link:      https://www.doctrine-project.org/blog/dbal-security-2011-1.html
 cve:       ~
 branches:
     2.0.x:

@@ -1,5 +1,5 @@
 title:     XML decoding attack vector through external entities
-link:      http://symfony.com/blog/security-release-symfony-2-0-11-released
+link:      https://symfony.com/blog/security-release-symfony-2-0-11-released
 cve:       ~
 branches:
     2.0.x:
