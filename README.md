@@ -60,7 +60,8 @@ Contributing security advisories is as easy as it can get:
 
       * `title`:     A text that describes the security issue in a few words;
 
-      * `link`:      A link to the official security issue announcement;
+      * `link`:      A link to the official security issue announcement (HTTPS
+        links are preferred over HTTP ones);
 
       * `reference`: A unique reference to identify the software (the only
         supported scheme is `composer://` followed by the Composer identifier);
