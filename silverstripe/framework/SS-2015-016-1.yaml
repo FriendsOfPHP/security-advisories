@@ -1,5 +1,5 @@
 title:     "SS-2015-016: XSS in install.php"
-link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-016/
+link:      https://www.silverstripe.org/software/download/security-releases/ss-2015-016/
 cve:       ~
 branches:
     3.1.x:

@@ -1,5 +1,5 @@
 title:     Denial of Service vector via XEE injection
-link:      http://framework.zend.com/security/advisory/ZF2012-02
+link:      https://framework.zend.com/security/advisory/ZF2012-02
 cve: ~
 branches:
     1.x:

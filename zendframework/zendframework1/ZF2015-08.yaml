@@ -1,5 +1,5 @@
 title:     Potential SQL injection vector using null byte for PDO (MsSql, SQLite)
-link:      http://framework.zend.com/security/advisory/ZF2015-08
+link:      https://framework.zend.com/security/advisory/ZF2015-08
 branches:
     1.12.x:
         time:     2015-09-15 15:50:03

@@ -1,5 +1,5 @@
 title:     Potential SQL injection in the ORDER implementation of Zend_Db_Select
-link:      http://framework.zend.com/security/advisory/ZF2014-04
+link:      https://framework.zend.com/security/advisory/ZF2014-04
 cve:       ~
 branches:
     1.12.x:

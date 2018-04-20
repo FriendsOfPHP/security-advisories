@@ -1,5 +1,5 @@
 title: Critical SQL injection bug in the ODBC database driver
-link: http://forum.codeigniter.com/thread-65803.html
+link: https://forum.codeigniter.com/thread-65803.html
 cve: ~
 branches:
     "3.0":

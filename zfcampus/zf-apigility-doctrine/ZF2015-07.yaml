@@ -1,5 +1,5 @@
 title:     Filesystem Permissions Issues in Multiple Components
-link:      http://framework.zend.com/security/advisory/ZF2015-07
+link:      https://framework.zend.com/security/advisory/ZF2015-07
 cve:       CVE-2015-5723
 branches:
     1.0.x:

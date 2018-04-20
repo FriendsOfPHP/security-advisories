@@ -1,5 +1,5 @@
 title:     Potential XSS in Development Environment Error View Script
-link:      http://framework.zend.com/security/advisory/ZF2011-01
+link:      https://framework.zend.com/security/advisory/ZF2011-01
 cve: ~
 branches:
     1.x:

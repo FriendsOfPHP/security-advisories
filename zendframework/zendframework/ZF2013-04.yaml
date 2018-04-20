@@ -1,5 +1,5 @@
 title:     Potential Remote Address Spoofing Vector in Zend\Http\PhpEnvironment\RemoteAddress
-link:      http://framework.zend.com/security/advisory/ZF2013-04
+link:      https://framework.zend.com/security/advisory/ZF2013-04
 cve: ~
 branches:
     2.2.x:

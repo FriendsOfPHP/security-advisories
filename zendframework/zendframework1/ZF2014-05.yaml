@@ -1,5 +1,5 @@
 title:     Anonymous authentication in ldap_bind() function of PHP, using null byte
-link:      http://framework.zend.com/security/advisory/ZF2014-05
+link:      https://framework.zend.com/security/advisory/ZF2014-05
 cve:       CVE-2014-8088
 branches:
     1.12.x:

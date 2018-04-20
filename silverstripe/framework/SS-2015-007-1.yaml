@@ -1,5 +1,5 @@
 title:     "SS-2015-007: XSS In FormAction"
-link:      http://www.silverstripe.org/software/download/security-releases/ss-2015-007/
+link:      https://www.silverstripe.org/software/download/security-releases/ss-2015-007/
 cve:       ~
 branches:
     3.1.x:

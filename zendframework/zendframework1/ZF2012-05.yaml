@@ -1,5 +1,5 @@
 title:     Potential XML eXternal Entity injection vectors in Zend Framework 1 Zend_Feed component
-link:      http://framework.zend.com/security/advisory/ZF2012-05
+link:      https://framework.zend.com/security/advisory/ZF2012-05
 cve: ~
 branches:
     1.11.x:
