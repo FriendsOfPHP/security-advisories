@@ -1,0 +1,7 @@
+title: Potential SQL injection vector
+link: https://github.com/ADOdb/ADOdb/pull/401
+branches:
+    master:
+        time:     2018-03-06 15:40:00
+        versions: ['<5.20.12']
+reference: composer://adodb/adodb-php
