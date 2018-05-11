@@ -4,5 +4,5 @@ cve:       ~
 branches:
     master:
         time:     2018-04-16 17:23:00
-        versions: ['<=1.8.0']
+        versions: ['<1.8.1']
 reference: composer://fuel/core
