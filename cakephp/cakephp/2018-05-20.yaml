@@ -1,0 +1,14 @@
+title: XSS in some development error pages
+link: https://bakery.cakephp.org/2018/05/20/cakephp_364_3517_3414_released.html
+cve: ~
+branches:
+    3.4.x:
+        time:     2018-05-20 22:08:00
+        versions: ['>=3.4.0', '<3.4.14']
+    3.5.x:
+        time:     2018-05-20 22:08:00
+        versions: ['>=3.5.0', '<3.5.17']
+    3.6.x:
+        time:     2018-05-20 22:08:00
+        versions: ['>=3.6.0', '<3.6.4']
+reference: composer://cakephp/cakephp
