@@ -8,5 +8,8 @@ branches:
     "2.1":
         time:     2014-02-13 11:12:34
         versions: ['>=2.1', '<2.2']
+    "2.2":
+        time:     2014-02-13 11:12:34
+        versions: ['>=2.2', '<2.3']
 reference: composer://magento/magento2ce
 composer-repository: false
