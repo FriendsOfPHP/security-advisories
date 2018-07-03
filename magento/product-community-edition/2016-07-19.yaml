@@ -11,5 +11,5 @@ branches:
     "2.2":
         time:     2014-02-13 11:12:34
         versions: ['>=2.2', '<2.2.5']
-reference: composer://magento/magento2ce
+reference: composer://magento/product-community-edition
 composer-repository: false

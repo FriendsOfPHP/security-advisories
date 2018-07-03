@@ -8,5 +8,5 @@ branches:
     "2.2":
         time:     2018-06-27 00:00:00
         versions: ['>=2.2', '<2.2.5']
-reference: composer://magento/magento2ce
+reference: composer://magento/product-community-edition
 composer-repository: false
