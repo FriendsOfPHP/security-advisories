@@ -1,0 +1,14 @@
+title: CSRF vulnerability in the admin panel
+link: https://sylius.com/blog/csrf-vulnerability-in-admin-panel/
+cve: ~
+branches:
+    1.0.x:
+        time: 2018-07-08 23:47:50
+        versions: ['>=1.0.0', '<1.0.17']
+    1.1.x:
+        time: 2018-07-09 00:09:14
+        versions: ['>=1.1.0', '<1.1.9']
+    1.2.x:
+        time: 2018-07-09 00:26:07
+        versions: ['>=1.2.0', '<1.2.2']
+reference: composer://sylius/admin-bundle
