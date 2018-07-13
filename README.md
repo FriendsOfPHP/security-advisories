@@ -70,7 +70,7 @@ Contributing security advisories is as easy as it can get:
         name (like `2.0.x`), and the value is a hash with the following
         entries:
 
-          * `time`: The date when the security issue was fixed or null if the
+          * `time`: The date and time in UTC when the security issue was fixed or null if the
             issue is not fixed yet (most of the time, the date of the **merge**
             commit that fixed the issue in the following format `2012-08-27
             19:17:44`) -- this information must be as accurate as possible as it
