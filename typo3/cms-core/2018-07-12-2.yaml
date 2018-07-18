@@ -1,0 +1,10 @@
+title:     Insecure Deserialization & Arbitrary Code Execution in TYPO3 CMS
+link:      https://typo3.org/security/advisory/typo3-core-sa-2018-002/
+branches:
+    8.x:
+        time:     2018-07-12 09:34:56
+        versions: ['>=8.0.0', '<8.7.17']
+    9.x:
+        time:     2018-07-12 09:34:56
+        versions: ['>=9.0.0', '<9.3.2']
+reference: composer://typo3/cms-core
