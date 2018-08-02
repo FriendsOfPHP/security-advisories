@@ -1,0 +1,7 @@
+title:     URL Rewrite vulnerability
+link:      https://framework.zend.com/security/advisory/ZF2018-01
+branches:
+  1.0.x:
+    time:     2018-06-11 15:28:00
+    versions: ['>=1.0.0', '<1.8.4']
+reference: composer://zendframework/zend-diactoros
