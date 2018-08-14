@@ -1,0 +1,7 @@
+title:     URL Rewrite vulnerability
+link:      https://framework.zend.com/security/advisory/ZF2018-01
+branches:
+  master:
+    time:     2018-06-11 15:28:00
+    versions: ['<2.5.0']
+reference: composer://zendframework/zendframework
