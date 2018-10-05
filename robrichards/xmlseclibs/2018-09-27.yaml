@@ -1,0 +1,13 @@
+title:     Filter input to avoid XPath injection
+link:      https://github.com/robrichards/xmlseclibs/commit/649032643f7aac493e91ca318da0339aec72aa4a
+branches:
+  1.x:
+    time:     ~
+    versions: ['>=1.0.0', '<2.0.0']
+  2.x:
+    time:     ~
+    versions: ['>=2.0.0', '<3.0.0']
+  3.x:
+    time:     2018-02-15 08:11:00
+    versions: ['>=3.0.0', '<3.0.2']
+reference: composer://robrichards/xmlseclibs
