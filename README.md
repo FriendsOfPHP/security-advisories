@@ -13,18 +13,13 @@ License
 The PHP security advisories database is free and unencumbered software released
 into the public domain.
 
-Browsing Vulnerabilities
-------------------------
-
-You can browse the database entries on https://security.sensiolabs.org/database.
-
 Checking for Vulnerabilities
 ----------------------------
 
 There are several possibilities to check for vulnerabilities in your
 applications beside manual checks:
 
- * Upload your `composer.lock` file on https://security.sensiolabs.org/;
+ * Upload your `composer.lock` file on https://security.symfony.com/;
 
  * Use the [CLI tool][1]:
 
@@ -32,12 +27,12 @@ applications beside manual checks:
 
  * Use the web service:
 
-        curl -H "Accept: text/plain" https://security.sensiolabs.org/check_lock -F lock=@/path/to/composer.lock
+        curl -H "Accept: text/plain" https://security.symfony.com/check_lock -F lock=@/path/to/composer.lock
 
    It will return all vulnerabilities detected in your dependencies in plain
    text. You can also retrieve the information in the JSON format:
 
-        curl -H "Accept: application/json" https://security.sensiolabs.org/check_lock -F lock=@/path/to/composer.lock
+        curl -H "Accept: application/json" https://security.symfony.com/check_lock -F lock=@/path/to/composer.lock
 
 Contributing
 ------------
