@@ -10,6 +10,6 @@ branches:
         versions: ['>=2.1', '<2.2']
     "2.2":
         time:     2018-06-27 14:12:00
-        versions: ['>=2.2', '<2.2.5']
+        versions: ['>=2.2', '<2.2.6']
 reference: composer://magento/product-community-edition
 composer-repository: false
