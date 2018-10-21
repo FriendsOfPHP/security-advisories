@@ -1,0 +1,28 @@
+title: Injection in DefaultMailSystem::mail() - Critical - Remote Code Execution
+link: https://www.drupal.org/sa-core-2018-006
+branches:
+    7.x:
+        time:     2018-10-17 22:19:00
+        versions: ['>=7.0','<7.60']
+    8.0.x:
+        time:     ~
+        versions: ['>=8.0.0','<8.1.0']
+    8.1.x:
+        time:     ~
+        versions: ['>=8.1.0','<8.2.0']
+    8.2.x:
+        time:     ~
+        versions: ['>=8.2.0','<8.3.0']
+    8.3.x:
+        time:     ~
+        versions: ['>=8.3.0','<8.4.0']
+    8.4.x:
+        time:     ~
+        versions: ['>=8.4.0','<8.5.0']
+    8.5.x:
+        time:     2018-10-17 22:19:00
+        versions: ['>=8.5.0','<8.5.8']
+    8.6.x:
+        time:     2018-10-17 22:19:00
+        versions: ['>=8.6.0','<8.6.2']
+reference: composer://drupal/core
