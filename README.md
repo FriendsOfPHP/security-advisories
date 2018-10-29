@@ -34,7 +34,7 @@ applications beside manual checks:
 
         curl -H "Accept: application/json" https://security.symfony.com/check_lock -F lock=@/path/to/composer.lock
 
-It is therefore convenient to include the call to the Symfony Web Service in any build plans or existing Continuous Integration workflow, so that you can check for any new unaddressed vulnerabilities every time your application is built. Simply include the curl command (from above) in any build.sh file. 
+It is convenient to include the call to the Symfony Web Service in any build plans or existing Continuous Integration workflow, so that you can check for any new unaddressed vulnerabilities every time your application is built. Simply include the curl command (from above) in any build.sh (or equivalent) file (pointng to the local composer.lock). 
 
 Contributing
 ------------
