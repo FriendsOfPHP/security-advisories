@@ -1,0 +1,8 @@
+title:     Possible DOS attack with long user-submitted passwords (correct fix for CVE-2013-5958)
+link:      https://github.com/symfony/polyfill/pull/155
+cve:       CVE-2013-5958
+branches:
+  1.x:
+    time:     2018-10-31 12:19:00
+    versions: ['>=1.0.0', '<1.10.0']
+reference: composer://symfony/polyfill
