@@ -3,7 +3,7 @@ link:      http://share.ez.no/community-project/security-advisories/ezsa-2017-00
 branches:
     2017.08.x:
         time:     2017-09-11 11:09:00
-        versions: ['>=2017.8.0','<2017.8.1.1']
+        versions: ['>=2011.0.0','<2017.8.1.1']
     5.4.x:
         time:     2017-08-21 13:16:00
         versions: ['>=5.4.0','<5.4.10.1']

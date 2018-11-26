@@ -1,0 +1,22 @@
+title:     EZSA-2018-008 REST API returns list of all SiteAccesses
+link:      http://share.ez.no/community-project/security-advisories/ezsa-2018-008-rest-api-returns-list-of-all-siteaccesses
+reference: composer://ezsystems/ezpublish-kernel
+branches:
+    7.3.x:
+        time:     2018-11-21 10:36:00
+        versions: ['>=7.3.0','<7.3.2.1']
+    7.2.x:
+        time:     2018-10-19 14:53:00
+        versions: ['>=7.0.0','<7.2.4.1']
+    6.13.x:
+        time:     2018-11-21 10:30:00
+        versions: ['>=6.8.0','<6.13.5.1']
+    6.7.x:
+        time:     2018-11-20 15:14:00
+        versions: ['>=6.0.0','<6.7.9.1']
+    5.4.x:
+        time:     2018-10-25 12:25:00
+        versions: ['>=5.4.0','<5.4.13.1']
+    5.3.x:
+        time:     2018-10-19 14:12:00
+        versions: ['>=5.3.0','<5.3.12.1']
