@@ -4,6 +4,6 @@ cve:       ~
 branches:
     1.x:
         time:     2018-11-28 00:00:00
-        versions: ['<1.9.4.0']
+        versions: ['>=1.5.0.0', '<1.9.4.0']
 reference: composer://magento/magento1ce
 composer-repository: false
