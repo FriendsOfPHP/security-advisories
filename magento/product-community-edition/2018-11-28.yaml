@@ -3,10 +3,10 @@ link:      https://magento.com/security/patches/magento-2.2.7-and-2.1.16-securit
 cve:       ~
 branches:
     "2.1":
-        time:     2018-11-28 00:00:00
+        time:     2018-11-28 15:41:00
         versions: ['>=2.1', '<2.1.16']
     "2.2":
-        time:     2018-11-28 00:00:00
+        time:     2018-11-28 15:58:00
         versions: ['>=2.2', '<2.2.7']
 reference: composer://magento/product-community-edition
 composer-repository: false
