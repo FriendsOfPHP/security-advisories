@@ -1,0 +1,10 @@
+title:     Security Misconfiguration in Install Tool Cookie
+link:      https://typo3.org/security/advisory/typo3-core-sa-2018-009/
+branches:
+    8.x:
+        time:     2018-12-11 14:13:00
+        versions: ['>=8.0.0', '<8.7.21']
+    9.x:
+        time:     2018-07-12 14:13:00
+        versions: ['>=9.0.0', '<9.5.2']
+reference: composer://typo3/cms-core
