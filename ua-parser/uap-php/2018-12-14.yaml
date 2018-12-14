@@ -1,0 +1,9 @@
+title: Denial of service
+link: https://github.com/ua-parser/uap-core/pull/363
+cve: ~
+branches:
+    master:
+        time:       '2018-12-14 12:44:10'
+        versions:   ['<3.8.0']
+
+reference: composer://ua-parser/uap-php
