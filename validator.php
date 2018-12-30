@@ -201,6 +201,11 @@ final class Validate extends Command
                         }
                     }
                 }
+
+                if (isset($data['cve']) && $data['cve'] !== $file->getBasename('.yaml')) {
+                    $messages[$path][] = sprintf('The filename should be %s.yaml.', $data['cve']);
+                }
+
             } catch (ParseException $e) {
                 $messages[$path][] = sprintf('YAML is not valid (%s).', $e->getMessage());
             }
