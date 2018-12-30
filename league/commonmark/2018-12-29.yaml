@@ -1,0 +1,7 @@
+title:     XSS vulnerability with unsafe link protocols
+link:      https://github.com/thephpleague/commonmark/issues/337
+branches:
+    0.x:
+        time:     2018-12-29 20:39:28
+        versions: ['>=0.15.6', '<0.18.1']
+reference: composer://league/commonmark
