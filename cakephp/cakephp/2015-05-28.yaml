@@ -1,6 +1,5 @@
 title:     Denial of Service attack through XML payloads
 link:      https://bakery.cakephp.org/2015/05/28/cakephp_2_6_6_and_3_0_6_released.html
-cve:       ~
 branches:
     3.0.x:
         time:     2015-05-28 11:30:00

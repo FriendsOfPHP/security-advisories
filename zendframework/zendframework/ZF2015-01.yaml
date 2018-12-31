@@ -1,6 +1,5 @@
 title:     Session validation vulnerability
 link:      https://framework.zend.com/security/advisory/ZF2015-01
-cve:       ~
 branches:
     2.0.x:
         time:     2015-01-14 22:00:00

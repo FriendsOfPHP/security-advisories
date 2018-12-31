@@ -1,6 +1,5 @@
 title:     "SS-2015-013: X-Forwarded-Host request hostname injection"
 link:      https://www.silverstripe.org/software/download/security-releases/ss-2015-013/
-cve:       ~
 branches:
     3.1.x:
         time:     2015-05-29 12:53:14 +1200

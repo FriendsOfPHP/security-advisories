@@ -1,6 +1,5 @@
 title:     SUPEE-10975 - Security enhancements that help close RCE,XSS,CSRF and other vulnerabilities
 link:      https://magento.com/security/patches/supee-10975
-cve:       ~
 branches:
     1.x:
         time:     2018-11-26 10:00:58

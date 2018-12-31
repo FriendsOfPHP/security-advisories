@@ -1,6 +1,5 @@
 title:     'SS-2015-026: Form field validation message XSS vulnerability'
 link:      https://www.silverstripe.org/download/security-releases/ss-2015-026/
-cve:       ~
 branches:
     3.0.x:
         time:     2015-11-11 14:31:00

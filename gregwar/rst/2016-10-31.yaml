@@ -1,6 +1,5 @@
 title:     Local File Inclusion Vulnerability
 link:      https://hackerone.com/reports/179034
-cve:       ~
 branches:
     master:
         time: 2016-10-31 09:00:00

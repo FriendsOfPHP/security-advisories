@@ -1,6 +1,5 @@
 title:     Exploit of encryption failure vulnerability
 link:      https://medium.com/@taylorotwell/laravel-security-release-5-6-15-and-5-5-40-56f1257933a0
-cve:       ~
 branches:
     4.0.x:
         time:     ~

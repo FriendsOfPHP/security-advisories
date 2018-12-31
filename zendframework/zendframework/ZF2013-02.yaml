@@ -1,6 +1,5 @@
 title:     Potential Information Disclosure and Insufficient Entropy vulnerabilities in Zend\Math\Rand and Zend\Validate\Csrf Components
 link:      https://framework.zend.com/security/advisory/ZF2013-02
-cve: ~
 branches:
     2.0.x:
         time:     2013-03-13 15:05:23

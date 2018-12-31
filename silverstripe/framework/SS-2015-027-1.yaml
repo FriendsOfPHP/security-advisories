@@ -1,6 +1,5 @@
 title:     'SS-2015-027: HtmlEditor embed url sanitisation'
 link:      https://www.silverstripe.org/download/security-releases/ss-2015-027/
-cve:       ~
 branches:
     3.0.x:
         time:     2015-11-13 10:30:00

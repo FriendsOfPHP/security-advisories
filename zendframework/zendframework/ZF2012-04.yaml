@@ -1,6 +1,5 @@
 title:     Potential Proxy Injection Vulnerabilities in Multiple Zend Framework 2 Components
 link:      https://framework.zend.com/security/advisory/ZF2012-04
-cve: ~
 branches:
     2.0.x:
         time:     2012-09-29 16:19:54

@@ -1,6 +1,5 @@
 title:     ImageMagick driver does not escape all shell arguments.
 link:      https://fuelphp.com/security-advisories
-cve:       ~
 branches:
     master:
         time:     2016-09-27 08:06:00

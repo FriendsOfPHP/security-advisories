@@ -1,6 +1,5 @@
 title:     Incorrect CSRF validation
 link:      https://bakery.cakephp.org/2015/05/07/cakephp_3_0_4_released.html
-cve:       ~
 branches:
     3.0.x:
         time:     2015-05-07 11:30:00

@@ -1,6 +1,5 @@
 title:     "SS-2015-017: Forum Module CSRF Vulnerability"
 link:      https://www.silverstripe.org/software/download/security-releases/ss-2015-017/
-cve:       ~
 branches:
     0.6.x:
         time:     2015-09-14 10:38:00

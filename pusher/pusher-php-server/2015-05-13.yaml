@@ -1,6 +1,5 @@
 title:     Exploit in the private channel authentication
 link:      https://blog.pusher.com/update-on-security/
-cve:       ~
 branches:
     master:
         time:     2015-05-13 10:53:19

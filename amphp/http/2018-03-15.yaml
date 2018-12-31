@@ -1,6 +1,5 @@
 title:     Incorrect header injection check
 link:      https://github.com/amphp/http/releases/tag/v1.0.1
-cve:       ~
 branches:
     master:
         time:     2018-03-15 17:25:00

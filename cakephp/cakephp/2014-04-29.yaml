@@ -1,6 +1,5 @@
 title:     SecurityComponent cross form submission issue
 link:      https://bakery.cakephp.org/2014/04/29/CakePHP-1-3-18-and-2-4-8-released.html
-cve:       ~
 branches:
     2.0.x:
         time:     2014-04-29 11:30:00

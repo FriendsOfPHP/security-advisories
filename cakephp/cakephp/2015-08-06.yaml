@@ -1,6 +1,5 @@
 title: Direct access of prefixed controller actions
 link: https://bakery.cakephp.org/2015/08/06/cakephp_2_5_9_2_6_10_2_7_2_released.html
-cve: ~
 branches:
     2.0.x:
         time:     2015-08-06 22:08:00

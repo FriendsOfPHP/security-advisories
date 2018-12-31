@@ -1,6 +1,5 @@
 title:     Magento 2.2.5 and 2.1.14 Security update
 link:      https://magento.com/security/patches/magento-2.2.5-and-2.1.14-security-update
-cve:       ~
 branches:
     "2.1":
         time:     2018-06-27 00:00:00

@@ -1,6 +1,5 @@
 title:     Attackers able to impersonate users
 link:      https://github.com/namshi/jose/commit/009f86d6ced000b806b2f602c0b7393060ebb34e
-cve:       ~
 branches:
     "1.1":
         time:     2015-02-19 10:59:35

@@ -1,6 +1,5 @@
 title:     SUPEE-9652 - Remote Code Execution using mail vulnerability
 link:      https://magento.com/security/patches/supee-9652
-cve:       ~
 branches:
     1.x:
         time:     2017-02-07 00:00:00

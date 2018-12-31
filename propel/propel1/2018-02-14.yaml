@@ -1,6 +1,5 @@
 title:     SQL injection possible with limit() on MySQL
 link:      https://github.com/propelorm/Propel/issues/1052
-cve:       ~
 branches:
     "1.0":
         time:     2018-02-16 13:38:00

@@ -1,6 +1,5 @@
 title:     Arbitrary shell execution
 link:      https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/3.0.1
-cve:       ~
 branches:
     3.0.x:
         time:     2017-05-18 04:24:49

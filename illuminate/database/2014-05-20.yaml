@@ -1,6 +1,5 @@
 title:     Risk of mass-assignment vulnerabilities
 link:      https://laravel.com/docs/5.1/upgrade#upgrade-4.1.29
-cve:       ~
 branches:
     4.0.x:
         time:     2014-05-20 10:21:00

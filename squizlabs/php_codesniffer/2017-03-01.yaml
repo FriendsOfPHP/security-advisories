@@ -1,6 +1,5 @@
 title:     Arbitrary shell execution
 link:      https://github.com/squizlabs/PHP_CodeSniffer/releases/tag/2.8.1
-cve:       ~
 branches:
     # The 1.x branch is unsupported, mark all versions as vulnerable.
     1.x:

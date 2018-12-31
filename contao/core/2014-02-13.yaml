@@ -1,6 +1,5 @@
 title:     PHP object injection vulnerability allows for arbitrary code execution
 link:      https://contao.org/en/news/major-security-hole-found-in-contao.html
-cve:       ~
 branches:
     2.x:
         time:     2014-02-13 11:12:34

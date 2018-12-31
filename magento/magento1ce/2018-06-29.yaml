@@ -1,6 +1,5 @@
 title:     SUPEE-10752 - Multiple security enhancements vulnerabilities
 link:      https://magento.com/security/patches/supee-10752
-cve:       ~
 branches:
     1.x:
         time:     2018-06-29 00:00:00

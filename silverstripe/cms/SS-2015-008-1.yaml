@@ -1,6 +1,5 @@
 title:     "SS-2015-008: SiteTree Creation Permission Vulnerability"
 link:      https://www.silverstripe.org/software/download/security-releases/ss-2015-008-sitetree-creation-permission-vulnerability/
-cve:       ~
 branches:
     3.0.x:
         time:     2015-03-19 16:54:00

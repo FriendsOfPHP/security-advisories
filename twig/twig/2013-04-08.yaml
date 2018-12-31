@@ -1,6 +1,5 @@
 title:     Vulnerability in the filesystem loader
 link:      http://blog.twig.sensiolabs.org/post/47461911874/security-release-twig-1-12-3-released
-cve:       ~
 branches:
     1.x:
         time:     2013-04-08 13:16:10

@@ -1,6 +1,5 @@
 title: Remote File Inclusion through View template name manipulation
 link: https://bakery.cakephp.org/2015/11/05/cakephp_3015_314_2612_276_released.html
-cve: ~
 branches:
     2.0.x:
         time:     2015-11-05 22:08:00

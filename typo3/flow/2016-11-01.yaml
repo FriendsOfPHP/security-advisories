@@ -1,6 +1,5 @@
 title:     Time-Based Information Disclosure Vulnerability in Flow
 link:      https://www.neos.io/blog/flow-sa-2016-001.html
-cve:       ~
 branches:
     2.3.x:
         time:     2016-11-01 17:00:00

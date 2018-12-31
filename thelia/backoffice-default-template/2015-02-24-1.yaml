@@ -1,6 +1,5 @@
 title:     XSS injection in backoffice
 link:      https://thelia.net/version-2-1-2-with-security-fix
-cve:       ~
 branches:
     2.1.x:
         time:     2015-02-24 17:46:34

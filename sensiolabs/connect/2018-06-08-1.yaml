@@ -1,6 +1,5 @@
 title:     Missing state parameter in OAuth requests leading to CSRF vulnerability
 link:      https://github.com/sensiolabs/connect/pull/63
-cve:       ~
 branches:
     "master":
         time:     2017-05-30 11:55:16

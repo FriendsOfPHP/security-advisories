@@ -1,6 +1,5 @@
 title: CSRF vulnerability in the admin panel
 link: https://sylius.com/blog/csrf-vulnerability-in-admin-panel/
-cve: ~
 branches:
     1.0.x:
         time: 2018-07-08 23:47:50

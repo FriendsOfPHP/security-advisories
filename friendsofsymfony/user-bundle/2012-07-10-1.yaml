@@ -1,6 +1,5 @@
 title:     Fixed the user refreshing to check the identity by primary key instead of username
 link:      https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Changelog.md
-cve:       ~
 branches:
     1.2.x:
         time:     2012-07-10 12:35:42

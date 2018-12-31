@@ -1,6 +1,5 @@
 title:     Fixes a security issue where the session could be hijacked
 link:      https://github.com/FriendsOfSymfony/FOSUserBundle/blob/master/Changelog.md
-cve:       ~
 branches:
     1.2.x:
         time:     2012-07-10 17:28:35

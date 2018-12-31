@@ -1,6 +1,5 @@
 title: XSS in some development error pages
 link: https://bakery.cakephp.org/2018/05/20/cakephp_364_3517_3414_released.html
-cve: ~
 branches:
     3.4.x:
         time:     2018-05-20 22:08:00

@@ -1,6 +1,5 @@
 title:     Insecure state generation
 link:      https://github.com/laravel/socialite/pull/91
-cve:       ~
 branches:
     1.0.x:
         time:     2015-07-23 13:53:00

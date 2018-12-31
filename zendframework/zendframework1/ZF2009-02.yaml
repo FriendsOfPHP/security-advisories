@@ -1,6 +1,5 @@
 title:      XSS vector in Zend_Filter_StripTags
 link:       https://framework.zend.com/security/advisory/ZF2009-02
-cve:        ~
 branches:
     1.7.x:
         time:     2009-02-27 09:00:13

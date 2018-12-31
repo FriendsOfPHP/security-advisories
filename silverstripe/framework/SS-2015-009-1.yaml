@@ -1,6 +1,5 @@
 title:     "SS-2015-009: XSS In rewritten hash links"
 link:      https://www.silverstripe.org/software/download/security-releases/ss-2015-009-xss-in-rewritten-hash-links/
-cve:       ~
 branches:
     3.0.x:
         time:     2015-03-20 14:57:00

@@ -1,6 +1,5 @@
 title:      Insecure Random Number Generator
 link:       https://github.com/stormpath/stormpath-sdk-php/issues/132
-cve:        ~
 branches:
     0.x:
         time:     ~

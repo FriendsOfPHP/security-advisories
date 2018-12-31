@@ -1,6 +1,5 @@
 title:     User authentication bypass
 link:      https://thelia.net/version-2-1-3-with-security-fix
-cve:       ~
 branches:
     2.1.x:
         time:     2015-04-13 12:10:12

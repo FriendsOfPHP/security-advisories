@@ -1,6 +1,5 @@
 title:     State guessing vulnerability
 link:      https://github.com/laravel/socialite/pull/93
-cve:       ~
 branches:
     1.0.x:
         time:     2015-08-03 12:55:00

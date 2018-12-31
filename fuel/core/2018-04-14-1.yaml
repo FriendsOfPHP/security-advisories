@@ -1,6 +1,5 @@
 title:     Crypt encryption compromised.
 link:      https://fuelphp.com/security-advisories
-cve:       ~
 branches:
     master:
         time:     2018-04-16 17:23:00

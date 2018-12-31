@@ -1,6 +1,5 @@
 title:     Route Parameter Injection Via Query String in Zend\Mvc
 link:      https://framework.zend.com/security/advisory/ZF2013-01
-cve: ~
 branches:
     2.0.x:
         time:     2013-03-13 08:39:38

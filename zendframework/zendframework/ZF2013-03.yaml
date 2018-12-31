@@ -1,6 +1,5 @@
 title:     Potential SQL injection due to execution of platform-specific SQL containing interpolations
 link:      https://framework.zend.com/security/advisory/ZF2013-03
-cve: ~
 branches:
     2.0.x:
         time:     2013-03-13 15:04:50

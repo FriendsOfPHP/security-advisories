@@ -1,6 +1,5 @@
 title:     XSS vulnerabilities in Neos
 link:      https://www.neos.io/news/neos-sa-2015-002.html
-cve:       ~
 branches:
     1.2.x:
         time:     2015-11-23 21:03:00
