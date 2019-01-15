@@ -1,0 +1,10 @@
+title:     "Access control bypass in GraphQL mutations"
+link:      https://github.com/api-platform/core/pull/2441
+branches:
+    2.2.x:
+        time:     2019-01-15 17:30:00
+        versions: ['>=2.2.0', '<2.2.10']
+    2.3.x:
+        time:     2019-01-15 17:30:00
+        versions: ['>=2.3.0', '<2.3.6']
+reference: composer://api-platform/core
