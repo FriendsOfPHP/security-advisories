@@ -1,0 +1,10 @@
+title: 'Arbitrary Code Execution via File List Module'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-008/'
+branches:
+    8.x:
+        time: '2019-01-22 08:41:47'
+        versions: ['>=8.0.0', '<8.7.23']
+    9.x:
+        time: '2019-01-22 08:42:42'
+        versions: ['>=9.0.0', '<9.5.4']
+reference: 'composer://typo3/cms'
