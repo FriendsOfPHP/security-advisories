@@ -1,13 +1,13 @@
-title:     Information Disclosure in Install Tool
-link:      https://typo3.org/security/advisory/typo3-core-sa-2018-010/
+title: 'Denial of Service in Online Media Asset Handling'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2018-011/'
 branches:
     7.x:
-        time:     2018-12-11 14:13:00
+        time: '2018-12-11 09:55:37'
         versions: ['>=7.0.0', '<7.6.32']
     8.x:
-        time:     2018-12-11 14:13:00
+        time: '2018-12-11 09:56:38'
         versions: ['>=8.0.0', '<8.7.21']
     9.x:
-        time:     2018-07-12 14:13:00
+        time: '2018-12-11 09:57:33'
         versions: ['>=9.0.0', '<9.5.2']
-reference: composer://typo3/cms
+reference: 'composer://typo3/cms'

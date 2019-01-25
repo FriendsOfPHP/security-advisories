@@ -1,7 +1,10 @@
-title:     Denial of Service in Frontend Record Registration
-link:      https://typo3.org/security/advisory/typo3-core-sa-2018-012/
+title: 'Cross-Site Scripting in CKEditor'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2018-005/'
 branches:
     8.x:
-        time:     2018-12-11 14:13:00
+        time: '2018-12-11 09:55:56'
         versions: ['>=8.0.0', '<8.7.21']
-reference: composer://typo3/cms-core
+    9.x:
+        time: '2018-12-11 09:56:53'
+        versions: ['>=9.0.0', '<9.5.2']
+reference: 'composer://typo3/cms-core'
