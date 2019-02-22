@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2017-087'
+title: 'Services single sign-on client - Critical - Cross-site scripting - SA-CONTRIB-2017-087'
+branches:
+    1.6.x:
+        time: '2017-11-29 17:13:21'
+        versions: ['>=1.0.0', '<1.6.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/services_sso_client'

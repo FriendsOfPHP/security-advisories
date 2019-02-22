@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2018-076'
+title: 'Date Reminder - Moderately critical - Access bypass - SA-CONTRIB-2018-076'
+branches:
+    1.15.x:
+        time: '2018-11-28 17:13:21'
+        versions: ['>=1.0.0', '<1.15.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/datereminder'

@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2017-78'
+title: 'Yandex.Metrics - Moderately critical - Cross site scripting - SA-CONTRIB-2017-78'
+branches:
+    3.1.x:
+        time: '2017-10-18 17:13:21'
+        versions: ['>=3.0.0', '<3.1.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/yandex_metrics'

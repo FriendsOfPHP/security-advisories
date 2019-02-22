@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2018-004'
+title: 'Backup and Migrate - Critical - Arbitrary PHP code execution - SA-CONTRIB-2018-004'
+branches:
+    3.4.x:
+        time: '2018-01-24 17:13:21'
+        versions: ['>=3.0.0', '<3.4.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/backup_migrate'

@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2019-014'
+title: 'Acquia Connector - Moderately critical - Access bypass - SA-CONTRIB-2019-014'
+branches:
+    1.16.x:
+        time: '2019-02-06 17:13:22'
+        versions: ['>=1.0.0', '<1.16.0']
+composer-repository: 'https://packages.drupal.org/8'
+reference: 'composer://drupal/acquia_connector'

@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2019-002'
+title: 'Provision - Moderately critical - Access bypass - SA-CONTRIB-2019-002'
+branches:
+    3.170.x:
+        time: '2019-01-09 17:13:22'
+        versions: ['>=3.0.0', '<3.170.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/provision'

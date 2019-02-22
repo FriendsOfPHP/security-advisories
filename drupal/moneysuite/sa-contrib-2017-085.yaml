@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2017-085'
+title: 'MoneySuite - Moderately critical - Access bypass - SA-CONTRIB-2017-085'
+branches:
+    10.4.x:
+        time: '2017-11-29 17:13:20'
+        versions: ['>=10.0.0', '<10.4.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/moneysuite'

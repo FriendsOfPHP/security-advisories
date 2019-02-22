@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2018-050'
+title: 'litejazz - Moderately critical - Cross Site Scripting - SA-CONTRIB-2018-050'
+branches:
+    2.3.x:
+        time: '2018-07-11 17:13:21'
+        versions: ['>=2.0.0', '<2.3.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/litejazz'

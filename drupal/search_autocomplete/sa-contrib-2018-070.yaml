@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2018-070'
+title: 'Search Autocomplete - Moderately critical - Cross Site Scripting - SA-CONTRIB-2018-070'
+branches:
+    4.8.x:
+        time: '2018-10-17 17:13:21'
+        versions: ['>=4.0.0', '<4.8.0']
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/search_autocomplete'

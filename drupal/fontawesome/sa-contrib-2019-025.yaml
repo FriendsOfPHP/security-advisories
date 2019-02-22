@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2019-025'
+title: 'Font Awesome Icons - Critical - Remote Code Execution - SA-CONTRIB-2019-025'
+branches:
+    2.12.x:
+        time: '2019-02-20 17:13:22'
+        versions: ['>=2.0.0', '<2.12.0']
+composer-repository: 'https://packages.drupal.org/8'
+reference: 'composer://drupal/fontawesome'

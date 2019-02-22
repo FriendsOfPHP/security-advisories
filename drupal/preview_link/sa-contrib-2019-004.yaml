@@ -1,0 +1,8 @@
+link: 'https://www.drupal.org/sa-contrib-2019-004'
+title: 'Preview Link - Moderately critical - Access bypass - SA-CONTRIB-2019-004'
+branches:
+    1.1.x:
+        time: '2019-01-23 17:13:22'
+        versions: ['>=1.0.0', '<1.1.0']
+composer-repository: 'https://packages.drupal.org/8'
+reference: 'composer://drupal/preview_link'
