@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2019-020'
 title: 'Link - Critical - Remote Code Execution - SA-CONTRIB-2019-020'
 branches:
-    1.6.x: { time: '2019-02-20 16:38:33', versions: ['>=1.0.0', '<1.6.0'] }
+    1.6.x:
+        time: '2019-02-20 17:13:22'
+        versions: ['>=1.0.0', '<1.6.0']
 composer-repository: 'https://packages.drupal.org/7'
 reference: 'composer://drupal/link'

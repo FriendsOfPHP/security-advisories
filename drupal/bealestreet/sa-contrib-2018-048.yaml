@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2018-048'
 title: 'Beale Street - Moderately critical - Cross Site Scripting - SA-CONTRIB-2018-048'
 branches:
-    1.2.x: { time: '2018-07-11 16:38:32', versions: ['>=1.0.0', '<1.2.0'] }
+    1.2.x:
+        time: '2018-07-11 17:13:21'
+        versions: ['>=1.0.0', '<1.2.0']
 composer-repository: 'https://packages.drupal.org/7'
 reference: 'composer://drupal/bealestreet'

@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2019-015'
 title: 'Focal Point - Moderately critical - Cross site scripting - SA-CONTRIB-2019-015'
 branches:
-    1.2.x: { time: '2019-02-13 16:38:32', versions: ['>=1.0.0', '<1.2.0'] }
+    1.2.x:
+        time: '2019-02-13 17:13:22'
+        versions: ['>=1.0.0', '<1.2.0']
 composer-repository: 'https://packages.drupal.org/7'
 reference: 'composer://drupal/focal_point'

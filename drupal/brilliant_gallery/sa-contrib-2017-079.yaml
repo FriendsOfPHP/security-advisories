@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2017-079'
 title: 'Brilliant Gallery - Highly critical - Multiple Vulnerabilities  - SA-CONTRIB-2017-079'
 branches:
-    1.10.x: { time: '2017-10-25 16:38:31', versions: ['>=1.0.0', '<1.10.0'] }
+    1.10.x:
+        time: '2017-10-25 17:13:20'
+        versions: ['>=1.0.0', '<1.10.0']
 composer-repository: 'https://packages.drupal.org/7'
 reference: 'composer://drupal/brilliant_gallery'

@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2018-007'
 title: 'FileField Sources - Moderately critical - Access Bypass - SA-CONTRIB-2018-007'
 branches:
-    1.11.x: { time: '2018-02-07 16:38:31', versions: ['>=1.0.0', '<1.11.0'] }
+    1.11.x:
+        time: '2018-02-07 17:13:21'
+        versions: ['>=1.0.0', '<1.11.0']
 composer-repository: 'https://packages.drupal.org/7'
 reference: 'composer://drupal/filefield_sources'

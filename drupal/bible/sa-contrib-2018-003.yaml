@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2018-003'
 title: 'Bible - Critical - Multiple Vulnerabilities  - SA-CONTRIB-2018-003'
 branches:
-    1.7.x: { time: '2018-01-17 16:38:31', versions: ['>=1.0.0', '<1.7.0'] }
+    1.7.x:
+        time: '2018-01-17 17:13:21'
+        versions: ['>=1.0.0', '<1.7.0']
 composer-repository: 'https://packages.drupal.org/7'
 reference: 'composer://drupal/bible'

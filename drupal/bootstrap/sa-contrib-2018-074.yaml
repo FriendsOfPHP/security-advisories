@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2018-074'
 title: 'Bootstrap - Moderately critical - Cross site scripting - SA-CONTRIB-2018-074'
 branches:
-    3.14.x: { time: '2018-11-28 16:38:32', versions: ['>=3.0.0', '<3.14.0'] }
+    3.14.x:
+        time: '2018-11-28 17:13:21'
+        versions: ['>=3.0.0', '<3.14.0']
 composer-repository: 'https://packages.drupal.org/8'
 reference: 'composer://drupal/bootstrap'

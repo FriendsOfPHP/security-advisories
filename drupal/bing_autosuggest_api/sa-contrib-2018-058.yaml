@@ -1,6 +1,8 @@
 link: 'https://www.drupal.org/sa-contrib-2018-058'
 title: 'Bing Autosuggest API - Moderately critical - Cross Site Scripting - SA-CONTRIB-2018-058'
 branches:
-    1.1.x: { time: '2018-08-29 16:38:32', versions: ['>=1.0.0', '<1.1.0'] }
+    1.1.x:
+        time: '2018-08-29 17:13:21'
+        versions: ['>=1.0.0', '<1.1.0']
 composer-repository: 'https://packages.drupal.org/7'
 reference: 'composer://drupal/bing_autosuggest_api'
