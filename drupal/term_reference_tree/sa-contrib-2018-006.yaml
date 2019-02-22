@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2018-006'
+title: 'Taxonomy Term Reference Tree Widget - Moderately critical - Cross Site Scripting - SA-CONTRIB-2018-006'
+branches:
+    1.11.x: { time: '2018-01-31 16:38:31', versions: ['>=1.0.0', '<1.11.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/term_reference_tree'

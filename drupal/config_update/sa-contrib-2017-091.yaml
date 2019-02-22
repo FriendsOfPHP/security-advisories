@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2017-091'
+title: 'Configuration Update Manager - Moderately critical - Cross Site Request Forgery (CSRF) - SA-CONTRIB-2017-091'
+branches:
+    1.5.x: { time: '2017-12-06 16:38:31', versions: ['>=1.0.0', '<1.5.0'] }
+composer-repository: 'https://packages.drupal.org/8'
+reference: 'composer://drupal/config_update'

@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2018-046'
+title: 'Commerce Custom Order Status - Moderately critical -  Cross Site Scripting - SA-CONTRIB-2018-046'
+branches:
+    1.1.x: { time: '2018-07-11 16:38:32', versions: ['>=1.0.0', '<1.1.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/commerce_custom_order_status'

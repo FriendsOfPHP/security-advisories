@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2017-092'
+title: 'Node feedback - Moderately critical - Access Bypass - SA-CONTRIB-2017-092'
+branches:
+    1.3.x: { time: '2017-12-06 16:38:31', versions: ['>=1.0.0', '<1.3.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/node_feedback'

@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2017-084'
+title: 'Domain Integration - Moderately critical - Access bypass - SA-CONTRIB-2017-084'
+branches:
+    1.2.x: { time: '2017-11-29 16:38:31', versions: ['>=1.0.0', '<1.2.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/domain_integration'

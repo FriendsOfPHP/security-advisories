@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2018-063'
+title: 'Printer, email and PDF versions - Highly critical - Remote Code Execution - SA-CONTRIB-2018-063'
+branches:
+    2.1.x: { time: '2018-10-03 16:38:32', versions: ['>=2.0.0', '<2.1.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/print'

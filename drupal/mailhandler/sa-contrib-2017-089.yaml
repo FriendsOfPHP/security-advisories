@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2017-089'
+title: 'Mailhandler - Critical - Remote Code Execution - SA-CONTRIB-2017-089'
+branches:
+    2.11.x: { time: '2017-12-06 16:38:31', versions: ['>=2.0.0', '<2.11.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/mailhandler'

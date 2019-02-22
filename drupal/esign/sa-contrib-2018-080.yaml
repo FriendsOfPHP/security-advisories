@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2018-080'
+title: 'E-Sign - Moderately critical - Cross site scripting - SA-CONTRIB-2018-080'
+branches:
+    1.10.x: { time: '2018-12-19 16:38:32', versions: ['>=1.0.0', '<1.10.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/esign'

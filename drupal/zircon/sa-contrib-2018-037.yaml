@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2018-037'
+title: 'Zircon - Critical - Unsupported - SA-CONTRIB-2018-037'
+branches:
+    1.2.x: { time: '2018-05-23 16:38:31', versions: ['>=1.0.0', '<1.2.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/zircon'

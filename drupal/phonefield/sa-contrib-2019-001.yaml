@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2019-001'
+title: 'Phone Field - Critical - SQL Injection - SA-CONTRIB-2019-001'
+branches:
+    1.1.x: { time: '2019-01-09 16:38:32', versions: ['>=1.0.0', '<1.1.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/phonefield'

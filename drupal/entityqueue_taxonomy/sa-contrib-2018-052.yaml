@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2018-052'
+title: 'Taxonomy Entity Queue - Critical - SQL Injection - SA-CONTRIB-2018-052'
+branches:
+    1.1.x: { time: '2018-07-18 16:38:32', versions: ['>=1.0.0', '<1.1.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/entityqueue_taxonomy'

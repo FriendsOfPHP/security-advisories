@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2017-077'
+title: 'netFORUM Authentication - Moderately critical - Access Bypass - SA-CONTRIB-2017-077'
+branches:
+    1.1.x: { time: '2017-10-11 16:38:30', versions: ['>=1.0.0', '<1.1.0'] }
+composer-repository: 'https://packages.drupal.org/7'
+reference: 'composer://drupal/netforum_authentication'

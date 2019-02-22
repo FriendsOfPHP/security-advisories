@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2019-010'
+title: 'Anti Spam by CleanTalk - Critical - Cross site scripting and SQL Injection - SA-CONTRIB-2019-010'
+branches:
+    2.7.x: { time: '2019-01-23 16:38:32', versions: ['>=2.0.0', '<2.7.0'] }
+composer-repository: 'https://packages.drupal.org/8'
+reference: 'composer://drupal/cleantalk'

@@ -1,0 +1,6 @@
+link: 'https://www.drupal.org/sa-contrib-2018-008'
+title: 'Entity Reference Tab / Accordion Formatter - Moderately critical - Cross Site Scripting - SA-CONTRIB-2018-008'
+branches:
+    1.3.x: { time: '2018-02-07 16:38:31', versions: ['>=1.0.0', '<1.3.0'] }
+composer-repository: 'https://packages.drupal.org/8'
+reference: 'composer://drupal/entity_ref_tab_formatter'
