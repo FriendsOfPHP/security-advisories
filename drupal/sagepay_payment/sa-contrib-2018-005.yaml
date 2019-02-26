@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2018-005'
-title: 'Sagepay - Critical - Access Bypass - SA-CONTRIB-2018-005'
-branches:
-    1.5.x:
-        time: '2018-01-31 17:13:21'
-        versions: ['>=1.0.0', '<1.5.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/sagepay_payment'

@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2019-007'
-title: 'Panels Breadcrumbs - Moderately critical - Cross site scripting - SA-CONTRIB-2019-007'
-branches:
-    2.4.x:
-        time: '2019-01-23 17:13:22'
-        versions: ['>=2.0.0', '<2.4.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/panels_breadcrumbs'

@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2018-013'
-title: 'Entity API - Moderately critical - Information Disclosure - SA-CONTRIB-2018-013'
-branches:
-    1.9.x:
-        time: '2018-02-14 17:13:21'
-        versions: ['>=1.0.0', '<1.9.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/entity'

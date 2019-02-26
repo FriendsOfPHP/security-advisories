@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2018-066'
-title: 'NVP field - Moderately critical - Cross Site Scripting - SA-CONTRIB-2018-066'
-branches:
-    1.1.x:
-        time: '2018-10-10 17:13:21'
-        versions: ['>=1.0.0', '<1.1.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/nvp'

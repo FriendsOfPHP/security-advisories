@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2017-093'
-title: 'Panopoly Core - Moderately critical - Cross Site Scripting - SA-CONTRIB-2017-093'
-branches:
-    1.49.x:
-        time: '2017-12-13 17:13:21'
-        versions: ['>=1.0.0', '<1.49.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/panopoly_core'

@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2018-055'
-title: 'PHP Configuration - Critical - Arbitrary PHP code execution - SA-CONTRIB-2018-055'
-branches:
-    1.1.x:
-        time: '2018-08-08 17:13:21'
-        versions: ['>=1.0.0', '<1.1.0']
-composer-repository: 'https://packages.drupal.org/8'
-reference: 'composer://drupal/phpconfig'
