@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2018-078'
-title: 'Salesforce Suite - Moderately critical - Access bypass - SA-CONTRIB-2018-078'
-branches:
-    3.1.x:
-        time: '2018-12-05 17:13:21'
-        versions: ['>=3.0.0', '<3.1.0']
-composer-repository: 'https://packages.drupal.org/8'
-reference: 'composer://drupal/salesforce'

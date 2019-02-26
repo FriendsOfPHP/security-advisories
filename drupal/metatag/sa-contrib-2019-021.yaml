@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2019-021'
-title: 'Metatag - Critical - Remote code execution - SA-CONTRIB-2019-021'
-branches:
-    1.8.x:
-        time: '2019-02-20 17:13:22'
-        versions: ['>=1.0.0', '<1.8.0']
-composer-repository: 'https://packages.drupal.org/8'
-reference: 'composer://drupal/metatag'

@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2018-064'
-title: 'Lightbox2 - Critical - Cross Site Scripting - SA-CONTRIB-2018-064'
-branches:
-    2.11.x:
-        time: '2018-10-10 17:13:21'
-        versions: ['>=2.0.0', '<2.11.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/lightbox2'

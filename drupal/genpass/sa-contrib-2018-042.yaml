@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2018-042'
-title: 'Generate Password  - Less critical - Insecure Randomness - SA-CONTRIB-2018-042'
-branches:
-    1.1.x:
-        time: '2018-06-27 17:13:21'
-        versions: ['>=1.0.0', '<1.1.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/genpass'

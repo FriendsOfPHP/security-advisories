@@ -1,8 +1,0 @@
-link: 'https://www.drupal.org/sa-contrib-2017-090'
-title: 'Feedback Collect - Moderately critical - Cross Site Scripting (XSS) - SA-CONTRIB-2017-090'
-branches:
-    1.6.x:
-        time: '2017-12-06 17:13:21'
-        versions: ['>=1.0.0', '<1.6.0']
-composer-repository: 'https://packages.drupal.org/7'
-reference: 'composer://drupal/feedback_collect'
