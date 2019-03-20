@@ -1,0 +1,11 @@
+title:     Sandbox Information Disclosure
+link:      https://symfony.com/blog/twig-sandbox-information-disclosure
+cve:       ~
+branches:
+    1.x:
+        time:     2019-03-12 12:35:01
+        versions: ['<1.38.0']
+    2.x:
+        time:     2019-03-12 12:36:16
+        versions: ['>=2.0.0', '<2.7.0']
+reference: composer://twig/twig
