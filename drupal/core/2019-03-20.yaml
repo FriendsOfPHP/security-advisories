@@ -1,0 +1,28 @@
+title: Moderately critical - Cross Site Scripting - SA-CORE-2019-004
+link: https://www.drupal.org/sa-core-2019-004
+branches:
+  7.x:
+    time:     2019-03-20 17:09:00
+    versions: ['>=7.0','<7.64']
+  8.0.x:
+    time:     ~
+    versions: ['>=8.0.0','<8.1.0']
+  8.1.x:
+    time:     ~
+    versions: ['>=8.1.0','<8.2.0']
+  8.2.x:
+    time:     ~
+    versions: ['>=8.2.0','<8.3.0']
+  8.3.x:
+    time:     ~
+    versions: ['>=8.3.0','<8.4.0']
+  8.4.x:
+    time:     ~
+    versions: ['>=8.4.0','<8.5.0']
+  8.5.x:
+    time:    2019-03-20 17:09:00
+    versions: ['>=8.5.0','<8.5.13']
+  8.6.x:
+    time:     2019-03-20 17:09:00
+    versions: ['>=8.6.0','<8.6.12']
+reference: composer://drupal/core
