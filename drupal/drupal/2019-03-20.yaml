@@ -25,4 +25,4 @@ branches:
   8.6.x:
     time:     2019-03-20 17:09:00
     versions: ['>=8.6.0','<8.6.12']
-reference: composer://drupal/core
+reference: composer://drupal/drupal
