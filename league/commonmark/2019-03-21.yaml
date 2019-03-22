@@ -1,0 +1,8 @@
+title:     XSS vulnerability with double-encoded entities
+link:      https://github.com/thephpleague/commonmark/issues/353
+cve:       ~
+branches:
+    0.x:
+        time:     2019-03-21 22:52:50
+        versions: ['<0.18.3']
+reference: composer://league/commonmark
