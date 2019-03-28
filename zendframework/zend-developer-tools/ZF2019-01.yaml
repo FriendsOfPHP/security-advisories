@@ -1,0 +1,7 @@
+title:     Information disclosure
+link:      https://framework.zend.com/security/advisory/ZF2019-01
+branches:
+  master:
+    time:     2019-03-28 13:34:10
+    versions: ['>=1.2.2', '<1.2.3']
+reference: composer://zendframework/zend-developer-tools
