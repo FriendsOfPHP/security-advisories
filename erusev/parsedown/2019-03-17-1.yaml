@@ -1,0 +1,7 @@
+title:     Class-Name Injection 
+link:      https://github.com/erusev/parsedown/issues/699
+branches:
+    1.x:
+        time:     ~
+        versions: ['<1.7.2']
+reference: composer://erusev/parsedown
