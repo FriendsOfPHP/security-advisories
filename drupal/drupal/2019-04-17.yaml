@@ -1,0 +1,28 @@
+title:Drupal core - Moderately critical - Multiple Vulnerabilities - SA-CORE-2019-005
+link: https://www.drupal.org/sa-core-2019-005
+branches:
+  7.x:
+    time:    2019-04-17 22:31:00
+    versions: ['>=7.0','<7.65']
+  8.0.x:
+    time:     ~
+    versions: ['>=8.0.0','<8.1.0']
+  8.1.x:
+    time:     ~
+    versions: ['>=8.1.0','<8.2.0']
+  8.2.x:
+    time:     ~
+    versions: ['>=8.2.0','<8.3.0']
+  8.3.x:
+    time:     ~
+    versions: ['>=8.3.0','<8.4.0']
+  8.4.x:
+    time:     ~
+    versions: ['>=8.4.0','<8.5.0']
+  8.5.x:
+    time:    2019-04-17 22:31:00
+    versions: ['>=8.5.0','<8.5.14']
+  8.6.x:
+    time:     2019-04-17 22:31:00
+    versions: ['>=8.6.0','<8.6.14']
+reference: composer://drupal/drupal
