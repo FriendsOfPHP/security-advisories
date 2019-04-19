@@ -3,5 +3,5 @@ link:      https://simplesamlphp.org/security/201812-01
 branches:
     1.16.x:
         time:     2018-12-20 16:16:00
-        versions: ['<1.16.3']
+        versions: ['>=1.16.0', '<1.16.3']
 reference: composer://simplesamlphp/simplesamlphp
