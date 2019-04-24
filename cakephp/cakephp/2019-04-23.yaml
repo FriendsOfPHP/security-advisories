@@ -1,0 +1,14 @@
+title: Unsafe deserialization in SmtpTransport
+link: https://bakery.cakephp.org/2019/04/23/cakephp_377_3615_3518_released.html
+cve: CVE-2019-11458
+branches:
+    3.5.x:
+        time:     2019-04-23 22:08:00
+        versions: ['>=3.0.0', '<3.5.18']
+    3.6.x:
+        time:     2019-04-20 22:08:00
+        versions: ['>=3.6.0', '<3.6.15']
+    3.7.x:
+        time:     2019-04-20 22:08:00
+        versions: ['>=3.7.0', '<3.7.7']
+reference: composer://cakephp/cakephp
