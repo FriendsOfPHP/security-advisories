@@ -1,0 +1,10 @@
+title: 'Cross-Site Scripting in Fluid Engine'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-013/'
+branches:
+    8.x:
+        time: '2019-05-07 09:34:18'
+        versions: ['>=8.0.0', '<8.7.25']
+    9.x:
+        time: '2019-05-07 09:33:52'
+        versions: ['>=9.0.0', '<9.5.6']
+reference: 'composer://typo3/cms'
