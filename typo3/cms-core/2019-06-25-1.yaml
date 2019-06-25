@@ -1,0 +1,10 @@
+title: 'Information Disclosure in Backend User Interface'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-014/'
+branches:
+    8.x:
+        time: '2019-06-25 06:38:40'
+        versions: ['>=8.0.0', '<8.7.27']
+    9.x:
+        time: '2019-06-25 06:39:42'
+        versions: ['>=9.0.0', '<9.5.8']
+reference: 'composer://typo3/cms-core'
