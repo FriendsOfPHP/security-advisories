@@ -19,20 +19,16 @@ Checking for Vulnerabilities
 There are several possibilities to check for vulnerabilities in your
 applications beside manual checks:
 
- * Upload your `composer.lock` file on https://security.symfony.com/;
+ * [*Recommended*] Use the [Symfony CLI][1] (no PHP dependency, no third-party
+   API calls, checks are done locally on a clone of this repository):
 
- * Use the [CLI tool][1]:
+        symfony security:check /path/to/composer.lock
+
+ * Upload your `composer.lock` file on https://security.symfony.com/
+
+ * Use the [PHP CLI tool][2]:
 
         php checker security:check /path/to/composer.lock
-
- * Use the web service:
-
-        curl -H "Accept: text/plain" https://security.symfony.com/check_lock -F lock=@/path/to/composer.lock
-
-   It will return all vulnerabilities detected in your dependencies in plain
-   text. You can also retrieve the information in the JSON format:
-
-        curl -H "Accept: application/json" https://security.symfony.com/check_lock -F lock=@/path/to/composer.lock
 
 Contributing
 ------------
@@ -85,4 +81,5 @@ If some affected code is available through different Composer entries (like
 when you have read-only subtree splits of a main repository), duplicate the
 information in several files.
 
-[1]: https://github.com/sensiolabs/security-checker
+[1]: https://symfony.com/download
+[2]: https://github.com/sensiolabs/security-checker
