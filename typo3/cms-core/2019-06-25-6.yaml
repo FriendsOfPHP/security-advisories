@@ -1,0 +1,7 @@
+title: 'Possible deserialization side-effects in symfony/cache'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-016/'
+branches:
+    9.x:
+        time: '2019-06-25 06:40:06'
+        versions: ['>=9.0.0', '<9.5.8']
+reference: 'composer://typo3/cms-core'

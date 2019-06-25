@@ -1,0 +1,10 @@
+title: 'Security Misconfiguration in Frontend Session Handling'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-018/'
+branches:
+    8.x:
+        time: '2019-06-25 06:39:05'
+        versions: ['>=8.0.0', '<8.7.27']
+    9.x:
+        time: '2019-06-25 06:40:30'
+        versions: ['>=9.0.0', '<9.5.8']
+reference: 'composer://typo3/cms'
