@@ -77,10 +77,9 @@ Contributing security advisories is as easy as it can get:
 
   * If you have a CVE identifier, add it under the `cve` key.
 
-  * Make sure your file validates by running `php validator.php` from the root of this project.
+  * Make sure your file validates by running `php -d memory_limit=-1 validator.php` from the root of this project.
     This script needs some dependencies to be installed via composer, so you need to
-    run `composer install` before. The validator uses a lot of memory, so you might need to
-    use `-d memory_limit=...` (e.g. `php -d memory_limit=200M validator.php`).
+    run `composer install` before.
 
 If some affected code is available through different Composer entries (like
 when you have read-only subtree splits of a main repository), duplicate the
