@@ -1,0 +1,8 @@
+title:     Circumvents open_basedir INI directive
+link:      https://github.com/DataDog/dd-trace-php/releases/tag/0.30.0
+cve:       ~
+branches:
+    0.30.x:
+        time:     2019-09-19 02:00:50
+        versions: ['>=0.30.0', '<0.30.2']
+reference: composer://datadog/dd-trace
