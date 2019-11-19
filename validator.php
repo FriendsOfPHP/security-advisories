@@ -179,10 +179,20 @@ final class Validate extends Command
                             }
 
                             if ('<' === substr($version, 0, 1)) {
+                                if (null !== $upperBound) {
+                                    $messages[$path][] = sprintf('"versions" cannot have multiple upper bounds for branch "%s".', $name);
+                                    continue;
+                                }
+
                                 $upperBound = $version;
                                 continue;
                             }
                             if ('>' === substr($version, 0, 1)) {
+                                if ($hasMin) {
+                                    $messages[$path][] = sprintf('"versions" cannot have multiple lower bounds for branch "%s".', $name);
+                                    continue;
+                                }
+
                                 $hasMin = true;
                             }
                         }
