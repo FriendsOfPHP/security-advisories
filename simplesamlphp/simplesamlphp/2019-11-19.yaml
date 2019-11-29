@@ -3,5 +3,5 @@ link:      https://simplesamlphp.org/security/201911-02
 branches:
     1.17.x:
         time:     ~
-        versions: ['>=1.17.0', '<1.18.0']
+        versions: ['>=1.17.0', '<1.17.8']
 reference: composer://simplesamlphp/simplesamlphp
