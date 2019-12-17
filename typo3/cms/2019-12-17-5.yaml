@@ -1,0 +1,13 @@
+title: 'SQL Injection in low-level Query Generator'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-025/'
+branches:
+    10.x:
+        time: '2019-12-17 09:52:30'
+        versions: ['>=10.0.0', '<10.2.1']
+    8.x:
+        time: '2019-12-17 09:51:06'
+        versions: ['>=8.0.0', '<8.7.30']
+    9.x:
+        time: '2019-12-17 09:51:51'
+        versions: ['>=9.0.0', '<9.5.12']
+reference: 'composer://typo3/cms'

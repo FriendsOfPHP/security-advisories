@@ -1,0 +1,10 @@
+title: 'Possible Insecure Deserialization in Extbase Request Handling'
+link: 'https://typo3.org/security/advisory/typo3-psa-2019-011/'
+branches:
+    8.x:
+        time: '2019-12-17 09:50:20'
+        versions: ['>=8.0.0', '<8.7.30']
+    9.x:
+        time: '2019-12-17 09:51:18'
+        versions: ['>=9.0.0', '<9.5.12']
+reference: 'composer://typo3/cms-core'

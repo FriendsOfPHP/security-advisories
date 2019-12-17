@@ -1,0 +1,13 @@
+title: 'Cross-Site Scripting in Link Handling'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-022/'
+branches:
+    10.x:
+        time: '2019-12-17 09:52:11'
+        versions: ['>=10.0.0', '<10.2.1']
+    8.x:
+        time: '2019-12-17 09:50:32'
+        versions: ['>=8.0.0', '<8.7.30']
+    9.x:
+        time: '2019-12-17 09:51:32'
+        versions: ['>=9.0.0', '<9.5.12']
+reference: 'composer://typo3/cms'
