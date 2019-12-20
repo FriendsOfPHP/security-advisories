@@ -1,0 +1,8 @@
+title:     Vulnerability to bypass two-factor authentication with unverified JWT trusted device token
+link:      https://github.com/scheb/two-factor-bundle/issues/143
+cve:       ~
+branches:
+    "master":
+        time:     2019-07-08 12:27:02
+        versions: ['<3.7.0']
+reference: composer://scheb/two-factor-bundle

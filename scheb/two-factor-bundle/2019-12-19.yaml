@@ -1,0 +1,14 @@
+title:     Vulnerability to bypass two-factor authentication with remember-me option
+link:      https://github.com/scheb/two-factor-bundle/issues/253
+cve:       ~
+branches:
+    "master":
+        time:     2019-12-19 12:07:42
+        versions: ['>=4.0.0', '<4.11.0']
+    "3.x":
+        time:     2019-12-19 12:04:49
+        versions: ['>=3.0.0', '<3.26.0']
+    "2.x":
+        time:     ~
+        versions: ['>=0.0.0', '<3.0.0']
+reference: composer://scheb/two-factor-bundle
