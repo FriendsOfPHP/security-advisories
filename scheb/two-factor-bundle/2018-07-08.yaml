@@ -4,5 +4,5 @@ cve:       ~
 branches:
     "master":
         time:     2019-07-08 12:27:02
-        versions: ['<3.7.0']
+        versions: ['>=3.0.0', '<3.7.0']
 reference: composer://scheb/two-factor-bundle
