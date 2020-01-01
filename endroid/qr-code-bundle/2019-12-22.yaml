@@ -1,0 +1,7 @@
+title: Disclosure of files via logo_path query parameter
+link: https://github.com/endroid/qr-code-bundle/releases/tag/3.4.2
+branches:
+    master:
+        time: 2020-01-01 16:15:00
+        versions: ['<3.4.2']
+reference: composer://endroid/qr-code-bundle
