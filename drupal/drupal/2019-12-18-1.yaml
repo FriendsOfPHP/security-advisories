@@ -1,9 +1,6 @@
 title: Drupal core - Moderately critical - Denial of Service - SA-CORE-2019-009
 link: https://www.drupal.org/sa-core-2019-009
 branches:
-    7.x:
-        time:     ~
-        versions: ['>=7.0.0','<8.0.0']
     8.0.x:
         time:     ~
         versions: ['>=8.0.0','<8.1.0']
