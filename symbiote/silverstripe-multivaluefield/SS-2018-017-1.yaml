@@ -1,0 +1,8 @@
+title:     'SS-2018-017: Possible PHP Object Injection via Multi-Value Field Extension'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-017/
+cve:       ~
+branches:
+    3.0.x:
+        time:     2018-07-16 17:29:04
+        versions: ['>=3.0.0', '<3.0.99']
+reference: composer://symbiote/silverstripe-multivaluefield

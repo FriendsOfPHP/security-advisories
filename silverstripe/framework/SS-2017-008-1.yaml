@@ -1,0 +1,14 @@
+title:     'SS-2017-008: SQL injection in full text search of SilverStripe 4'
+link:      https://www.silverstripe.org/download/security-releases/ss-2017-008/
+cve:       ~
+branches:
+    3.5.x:
+        time:     2017-12-07 13:27:17
+        versions: ['>=3.5.0', '<3.5.6']
+    3.6.x:
+        time:     2017-12-07 13:35:49
+        versions: ['>=3.6.0', '<3.6.3']
+    4.0.x:
+        time:     2017-12-07 13:46:52
+        versions: ['>=4.0.0', '<4.0.1']
+reference: composer://silverstripe/framework

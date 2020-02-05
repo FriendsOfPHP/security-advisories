@@ -1,0 +1,14 @@
+title:     'SS-2018-013: Passwords sent back to browsers under some circumstances'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-013/
+cve:       ~
+branches:
+    3.x:
+        time:     2018-06-08 12:19:40
+        versions: ['>=3.5.5', '<3.7.0']
+    4.0.x:
+        time:     2018-05-24 13:11:18
+        versions: ['>=4.0.3', '<4.0.4']
+    4.1.x:
+        time:     2018-05-24 16:49:48
+        versions: ['>=4.1.0', '<4.1.1']
+reference: composer://silverstripe/framework

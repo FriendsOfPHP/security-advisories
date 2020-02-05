@@ -1,0 +1,14 @@
+title:     'SS-2018-014: Dangerous file types in allowed upload'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-014/
+cve:       ~
+branches:
+    3.6.x:
+        time:     2018-05-14 10:54:50
+        versions: ['>=3.6.5', '<3.6.6']
+    4.0.x:
+        time:     2018-05-24 13:11:18
+        versions: ['>=4.0.3', '<4.0.4']
+    4.1.x:
+        time:     2018-05-24 16:49:48
+        versions: ['>=4.1.0', '<4.1.1']
+reference: composer://silverstripe/framework

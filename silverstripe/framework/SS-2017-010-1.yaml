@@ -1,0 +1,8 @@
+title:     'SS-2017-010: install.php discloses sensitive data by pre-populating DB credential forms'
+link:      https://www.silverstripe.org/download/security-releases/ss-2017-010/
+cve:       ~
+branches:
+    4.0.x:
+        time:     2017-12-07 13:46:52
+        versions: ['>=4.0.0', '<4.0.1']
+reference: composer://silverstripe/framework

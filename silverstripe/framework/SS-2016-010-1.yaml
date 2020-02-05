@@ -1,0 +1,17 @@
+title:     'SS-2016-010: ReadOnly transformation for formfields exploitable'
+link:      https://www.silverstripe.org/download/security-releases/ss-2016-010/
+cve:       ~
+branches:
+    3.1.x:
+        time:     2016-11-18 12:17:03
+        versions: ['>=3.1.0', '<3.1.21']
+    3.2.x:
+        time:     2016-11-22 11:59:04
+        versions: ['>=3.2.0', '<3.2.6']
+    3.3.x:
+        time:     2016-11-22 13:12:14
+        versions: ['>=3.3.0', '<3.3.4']
+    3.4.x:
+        time:     2016-11-22 13:55:31
+        versions: ['>=3.4.0', '<3.4.2']
+reference: composer://silverstripe/framework

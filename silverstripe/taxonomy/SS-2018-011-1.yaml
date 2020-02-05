@@ -1,0 +1,11 @@
+title:     'SS-2018-011: SQL injection vulnerability'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-011/
+cve:       ~
+branches:
+    1.3.x:
+        time:     2018-05-14 14:20:08
+        versions: ['>=1.3.0', '<1.3.1']
+    2.0.x:
+        time:     2018-05-28 20:40:43
+        versions: ['>=2.0.0', '<2.0.1']
+reference: composer://silverstripe/taxonomy

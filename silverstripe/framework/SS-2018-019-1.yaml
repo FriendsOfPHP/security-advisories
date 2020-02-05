@@ -1,0 +1,14 @@
+title:     'SS-2018-019: Possible denial of service attack vector when flushing'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-019/
+cve:       ~
+branches:
+    4.0.x:
+        time:     2018-12-12 12:21:17
+        versions: ['>=4.0.0', '<4.0.5']
+    4.1.x:
+        time:     2018-12-12 12:34:51
+        versions: ['>=4.1.0', '<4.1.3']
+    4.2.x:
+        time:     2018-12-12 15:56:53
+        versions: ['>=4.2.0', '<4.2.2']
+reference: composer://silverstripe/framework

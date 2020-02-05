@@ -1,0 +1,17 @@
+title:     'SS-2018-001: Privilege Escalation Risk in Member Edit form'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-001/
+cve:       ~
+branches:
+    3.5.x:
+        time:     2018-05-10 11:59:58
+        versions: ['>=3.5.7', '<3.5.8']
+    3.6.x:
+        time:     2018-05-14 10:54:50
+        versions: ['>=3.6.0', '<3.6.6']
+    4.0.x:
+        time:     2018-05-24 13:11:18
+        versions: ['>=4.0.0', '<4.0.4']
+    4.1.x:
+        time:     2018-05-24 16:49:48
+        versions: ['>=4.1.0', '<4.1.1']
+reference: composer://silverstripe/framework

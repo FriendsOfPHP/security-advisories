@@ -1,0 +1,17 @@
+title:     'SS-2018-018: Database credentials disclosure during connection failure'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-018/
+cve:       ~
+branches:
+    3.7.x:
+        time:     2018-07-17 16:53:27
+        versions: ['>=3.7.0', '<3.7.1']
+    4.0.x:
+        time:     2018-11-09 11:09:07
+        versions: ['>=4.0.0', '<4.0.5']
+    4.1.x:
+        time:     2018-11-07 22:38:52
+        versions: ['>=4.1.0', '<4.1.3']
+    4.2.x:
+        time:     2018-11-07 12:12:44
+        versions: ['>=4.2.0', '<4.2.2']
+reference: composer://silverstripe/framework
