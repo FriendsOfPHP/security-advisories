@@ -1,0 +1,14 @@
+title:     'SS-2018-015: Vulnerable dependency'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-015/
+cve:       ~
+branches:
+    1.x:
+        time:     null
+        versions: ['>=1.3.0', '<1.9.99']
+    2.x:
+        time:     null
+        versions: ['>=2.0.0', '<2.9.99']
+    3.x:
+        time:     2018-05-29 18:56:27
+        versions: ['>=3.0.0', '<3.1.1']
+reference: composer://silverstripe/comments

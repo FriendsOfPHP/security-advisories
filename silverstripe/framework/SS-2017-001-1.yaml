@@ -1,0 +1,11 @@
+title:     'SS-2017-001: XSS In page name'
+link:      https://www.silverstripe.org/download/security-releases/ss-2017-001/
+cve:       ~
+branches:
+    3.4.x:
+        time:     2017-01-31 11:39:09
+        versions: ['>=3.4.0', '<3.4.4']
+    3.5.x:
+        time:     2017-01-31 12:07:13
+        versions: ['>=3.5.0', '<3.5.2']
+reference: composer://silverstripe/framework

@@ -1,0 +1,11 @@
+title:     'SS-2016-007: VersionedRequestFilter vulnerability'
+link:      https://www.silverstripe.org/download/security-releases/ss-2016-007/
+cve:       ~
+branches:
+    3.3.x:
+        time:     2016-08-15 18:05:32
+        versions: ['>=3.3.2', '<3.3.3']
+    3.4.x:
+        time:     2016-08-15 18:29:38
+        versions: ['>=3.4.0', '<3.4.1']
+reference: composer://silverstripe/framework

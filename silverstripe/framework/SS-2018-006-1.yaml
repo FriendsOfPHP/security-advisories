@@ -1,0 +1,11 @@
+title:     'SS-2018-006: Code execution vulnerability'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-006/
+cve:       ~
+branches:
+    4.0.x:
+        time:     2018-05-24 13:11:18
+        versions: ['>=4.0.3', '<4.0.4']
+    4.1.x:
+        time:     2018-05-24 16:49:48
+        versions: ['>=4.1.0', '<4.1.1']
+reference: composer://silverstripe/framework

@@ -1,0 +1,8 @@
+title:     'SS-2018-007: CSRF vulnerability in graphql'
+link:      https://www.silverstripe.org/download/security-releases/ss-2018-007/
+cve:       ~
+branches:
+    2.0.x:
+        time:     2018-12-10 14:21:08
+        versions: ['>=2.0.0', '<2.0.3']
+reference: composer://silverstripe/graphql

@@ -1,0 +1,14 @@
+title:     'SS-2016-004: XSS in CMS Edit Page'
+link:      https://www.silverstripe.org/download/security-releases/ss-2016-004/
+cve:       ~
+branches:
+    3.1.x:
+        time:     2016-05-11 11:09:20
+        versions: ['>=3.1.18', '<3.1.19']
+    3.2.x:
+        time:     2016-05-11 11:24:49
+        versions: ['>=3.2.3', '<3.2.4']
+    3.3.x:
+        time:     2016-08-15 18:05:32
+        versions: ['>=3.3.1', '<3.3.2']
+reference: composer://silverstripe/framework
