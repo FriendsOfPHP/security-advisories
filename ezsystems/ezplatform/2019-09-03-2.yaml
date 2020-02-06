@@ -1,0 +1,13 @@
+title:     EZSA-2019-007 Prevent accepting app.php in URL in Platform.sh
+link:      https://share.ez.no/community-project/security-advisories/ezsa-2019-007-prevent-accepting-app.php-in-url-in-platform.sh
+reference: composer://ezsystems/ezplatform
+branches:
+    2.5.x:
+        time:     2019-09-02 22:25:00
+        versions: ['>=2.5.0','<2.5.4']
+    1.13.x:
+        time:     2019-09-03 09:55:00
+        versions: ['>=1.13.0','<1.13.5.1']
+    1.7.x:
+        time:     2019-09-03 11:05:00
+        versions: ['>=1.7.0','<1.7.9.1']

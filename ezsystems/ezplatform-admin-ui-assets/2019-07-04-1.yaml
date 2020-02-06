@@ -1,0 +1,7 @@
+title:     EZSA-2019-005 Bundled jQuery affected by CVE-2019-11358
+link:      https://share.ez.no/community-project/security-advisories/ezsa-2019-005-bundled-jquery-affected-by-cve-2019-11358
+reference: composer://ezsystems/ezplatform-admin-ui-assets
+branches:
+    4.2.x:
+        time:     2019-07-04 12:28:00
+        versions: ['>=4.0.0','<4.2.0']
