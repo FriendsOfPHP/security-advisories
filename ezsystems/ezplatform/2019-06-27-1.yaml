@@ -1,0 +1,7 @@
+title:     EZSA-2019-004 CSRF token in login form is disabled by default
+link:      https://share.ez.no/community-project/security-advisories/ezsa-2019-004-csrf-token-in-login-form-is-disabled-by-default
+reference: composer://ezsystems/ezplatform
+branches:
+    2.5.x:
+        time:     2019-06-27 00:00:00
+        versions: ['>=2.5.0','<2.5.4']

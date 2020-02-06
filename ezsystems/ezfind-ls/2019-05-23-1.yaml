@@ -1,0 +1,13 @@
+title:     EZSA-2019-003 XSS in eZFind spellcheck
+link:      https://share.ez.no/community-project/security-advisories/ezsa-2019-003-xss-in-ezfind-spellcheck
+reference: composer://ezsystems/ezfind-ls
+branches:
+    2017.12.x:
+        time:     2019-05-23 00:00:00
+        versions: ['>=2017.12.0','<2017.12.0.1']
+    5.4.x:
+        time:     2019-05-23 00:00:00
+        versions: ['>=5.4.0','<5.4.11.1']
+    5.3.x:
+        time:     2019-05-23 00:00:00
+        versions: ['>=5.3.0','<5.3.6.1']

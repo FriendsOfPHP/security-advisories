@@ -1,0 +1,7 @@
+title:     EZSA-2019-002 Password reset vulnerability
+link:      https://share.ez.no/community-project/security-advisories/ezsa-2019-002-password-reset-vulnerability
+reference: composer://ezsystems/ezplatform-user
+branches:
+    1.0.x:
+        time:     2019-04-03 00:00:00
+        versions: ['>=1.0.0','<1.0.1']
