@@ -1,0 +1,8 @@
+title:     Possible XSS related attack vector in the Blade Component tag attribute
+link:      https://blog.laravel.com/security-laravel-712-released
+cve:       ~
+branches:
+    7.x:
+        time:     ~
+        versions: ['>=7.0.0', '<7.1.2']
+reference: composer://laravel/framework
