@@ -1,0 +1,8 @@
+title:     XSS vulnerability in blade templating
+link:      https://github.com/laravel/framework/pull/31945
+cve:       ~
+branches:
+    7.x:
+        time:     2020-03-13 13:52:44
+        versions: ['>=7.0.0', '<7.1.2']
+reference: composer://laravel/framework
