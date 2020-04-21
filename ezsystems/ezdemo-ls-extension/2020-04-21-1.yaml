@@ -1,0 +1,7 @@
+title:     EZSA-2020-003 XSS in DemoBundle/ezdemo bundled VideoJS
+link:      https://ezplatform.com/security-advisories/ezsa-2020-003-xss-in-demobundle-ezdemo-bundled-videojs
+reference: composer://ezsystems/ezdemo-ls-extension
+branches:
+    5.4.x:
+        time:     2020-04-21 12:12:00
+        versions: ['>=5.4.0','<5.4.2.1']
