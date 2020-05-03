@@ -1,0 +1,8 @@
+title:     Insecure default secret key and IV allowing anyone to decrypt values
+link:      https://github.com/nayzo/NzoUrlEncryptorBundle/issues/41
+cve:       ~
+branches:
+    "5.x":
+        time:     2020-05-03 16:54:00
+        versions: [<5.0.1]
+reference: composer://nzo/url-encryptor-bundle
