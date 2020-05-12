@@ -1,0 +1,10 @@
+title: 'TYPO3-CORE-SA-2020-003: Cross-Site Scripting in Link Handling'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2020-003/'
+branches:
+    10.x:
+        time: '2020-05-12 09:21:59'
+        versions: ['>=10.0.0', '<10.4.2']
+    9.x:
+        time: '2020-05-12 09:21:13'
+        versions: ['>=9.0.0', '<9.5.17']
+reference: 'composer://typo3/cms-core'
