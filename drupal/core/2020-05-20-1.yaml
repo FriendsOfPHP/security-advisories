@@ -1,0 +1,7 @@
+title: Drupal core - Moderately critical - Open Redirect - SA-CORE-2020-003
+link: https://www.drupal.org/sa-core-2020-003
+branches:
+    7.x:
+        time:     2020-05-20 13:37:00
+        versions: ['>=7.0.0','<7.70']
+reference: composer://drupal/core
