@@ -1,0 +1,13 @@
+title:     EZSA-2020-004 Object Injection in SiteAccessMatchListener
+link:      https://ezplatform.com/security-advisories/ezsa-2020-004-object-injection-in-siteaccessmatchlistener
+reference: composer://ezsystems/ezpublish-kernel
+branches:
+    7.5.x:
+        time:     2020-05-20 16:45:00
+        versions: ['>=7.5.0','<7.5.7.1']
+    6.13.x:
+        time:     2020-05-20 16:45:00
+        versions: ['>=6.13.0','<6.13.6.3']
+    5.4.x:
+        time:     2020-05-20 16:45:00
+        versions: ['>=5.4.0','<5.4.14.2']
