@@ -1,0 +1,8 @@
+title:     Header leakage on cross-domain redirects
+link:      https://github.com/amphp/http-client/releases/tag/v4.4.0
+cve:       ~
+branches:
+    4.x:
+        time:     2020-06-16 20:55:00
+        versions: ['>=4', '<4.4.0']
+reference: composer://amphp/http-client
