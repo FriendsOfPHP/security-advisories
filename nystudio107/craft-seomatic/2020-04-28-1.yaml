@@ -1,0 +1,7 @@
+title:     SSTI Vulnerability
+link:      https://twitter.com/nystudio107/status/1268736336200171520?lang=en
+branches:
+    3.x:
+        time:       2020-04-28 18:08:00
+        versions:   ['<3.3.0']
+reference: composer://nystudio107/craft-seomatic
