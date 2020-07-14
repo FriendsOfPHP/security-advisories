@@ -30,6 +30,9 @@ applications beside manual checks:
 
         php checker security:check /path/to/composer.lock
 
+**TIP**: If you are using Github, you can use the PHP Security Checker [Github
+Action][3] to automatically check for vulnerabilities when pushing code.
+
 Contributing
 ------------
 
@@ -83,3 +86,4 @@ information in several files.
 
 [1]: https://symfony.com/download
 [2]: https://github.com/sensiolabs/security-checker
+[3]: https://github.com/marketplace/actions/the-php-security-checker
