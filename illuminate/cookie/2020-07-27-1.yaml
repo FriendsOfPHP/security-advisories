@@ -1,0 +1,14 @@
+title:     RCE vulnerability in "cookie" session driver
+link:      https://blog.laravel.com/laravel-cookie-security-releases
+cve:       ~
+branches:
+    "5.5":
+        time:     ~
+        versions: ['>=5.5.0', '<=5.5.44']
+    "6.x":
+        time:     2020-07-28 18:34:00
+        versions: ['>=6.0.0', '<6.18.31']
+    "7.x":
+        time:     2020-07-28 18:31:00
+        versions: ['>=7.0.0', '<7.22.4']
+reference: composer://illuminate/cookie
