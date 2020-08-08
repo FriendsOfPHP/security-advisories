@@ -1,0 +1,14 @@
+title:     Guard bypass in Eloquent models
+link:      https://blog.laravel.com/security-release-laravel-61834-7232
+cve:       ~
+branches:
+    "5.5":
+        time:     ~
+        versions: ['>=5.5.0', '<=5.5.44']
+    "6.x":
+        time:     2020-08-06 14:55:00
+        versions: ['>=6.0.0', '<6.18.34']
+    "7.x":
+        time:     2020-08-06 14:56:00
+        versions: ['>=7.0.0', '<7.23.2']
+reference: composer://illuminate/database
