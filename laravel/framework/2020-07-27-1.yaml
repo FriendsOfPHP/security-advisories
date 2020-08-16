@@ -2,9 +2,39 @@ title:     RCE vulnerability in "cookie" session driver
 link:      https://blog.laravel.com/laravel-cookie-security-releases
 cve:       ~
 branches:
+    "4.1":
+        time:     ~
+        versions: ['>=4.1.0', '<=4.1.99999']
+    "4.2":
+        time:     ~
+        versions: ['>=4.2.0', '<=4.2.99999']
+    "5.0":
+        time:     ~
+        versions: ['>=5.0.0', '<=5.0.99999']
+    "5.1":
+        time:     ~
+        versions: ['>=5.1.0', '<=5.1.99999']
+    "5.2":
+        time:     ~
+        versions: ['>=5.2.0', '<=5.2.99999']
+    "5.3":
+        time:     ~
+        versions: ['>=5.3.0', '<=5.3.99999']
+    "5.4":
+        time:     ~
+        versions: ['>=5.4.0', '<=5.4.99999']
     "5.5":
         time:     ~
         versions: ['>=5.5.0', '<=5.5.49']
+    "5.6":
+        time:     ~
+        versions: ['>=5.6.0', '<=5.6.99999']
+    "5.7":
+        time:     ~
+        versions: ['>=5.7.0', '<=5.7.99999']
+    "5.8":
+        time:     ~
+        versions: ['>=5.8.0', '<=5.8.99999']
     "6.x":
         time:     2020-07-28 18:34:00
         versions: ['>=6.0.0', '<6.18.31']
