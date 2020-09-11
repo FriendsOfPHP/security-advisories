@@ -1,0 +1,13 @@
+title:     EZSA-2020-005 Editor XSS and trashed drafts in review queue
+link:      https://ezplatform.com/security-advisories/ezsa-2020-005-editor-xss-and-trashed-drafts-in-review-queue
+reference: composer://ezsystems/ezplatform-admin-ui-assets
+branches:
+    4.2.x:
+        time:     2020-08-07 09:28:00
+        versions: ['>=4.2.0','<4.2.1']
+    5.0.x:
+        time:     2020-08-07 09:31:00
+        versions: ['>=5.0.0','<5.0.1']
+    5.1.x:
+        time:     2020-08-07 09:33:00
+        versions: ['>=5.1.0','<5.1.1']
