@@ -1,5 +1,6 @@
 title: Drupal core - Less critical - Access bypass - SA-CORE-2020-006
 link: https://www.drupal.org/sa-core-2020-006
+cve: CVE-2020-13665
 branches:
     8.0.x:
         time:     ~
