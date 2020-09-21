@@ -1,5 +1,6 @@
 title: Drupal core - Moderately critical - Access bypass - SA-CORE-2020-008
 link: https://www.drupal.org/sa-core-2020-008
+cve: CVE-2020-13667
 branches:
     8.0.x:
         time:     ~

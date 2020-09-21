@@ -1,5 +1,6 @@
 title: Drupal core - Critical - Cross Site Request Forgery - SA-CORE-2020-004
 link: https://www.drupal.org/sa-core-2020-004
+cve: CVE-2020-13663
 branches:
     7.x:
         time:     2020-06-17 14:02:00

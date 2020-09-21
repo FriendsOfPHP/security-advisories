@@ -1,5 +1,6 @@
 title: Drupal core - Moderately critical - Cross-site scripting - SA-CORE-2020-007
 link: https://www.drupal.org/sa-core-2020-007
+cve: CVE-2020-13666
 branches:
     7.x:
         time:     2020-09-16 14:02:00
