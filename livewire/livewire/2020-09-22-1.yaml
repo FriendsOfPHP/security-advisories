@@ -4,5 +4,5 @@ cve:       ~
 branches:
     2.x:
         time:     2020-09-22 19:30:08
-        versions: ['2.2.5']
+        versions: ['>2.2.4', '<2.2.6']
 reference: composer://livewire/livewire
