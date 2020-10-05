@@ -1,0 +1,13 @@
+title:     IBEXA-SA-2020-006 Object Injection in legacy shop module
+link:      https://ezplatform.com/security-advisories/ibexa-sa-2020-006-object-injection-in-legacy-shop-module
+reference: composer://ezsystems/ezpublish-legacy
+branches:
+    2019.03.x:
+        time:     2020-10-05 14:19:00
+        versions: ['>=2019.3.0','<2019.3.5.1']
+    2017.12.x:
+        time:     2020-10-05 14:17:00
+        versions: ['>=2017.12.0','<2017.12.7.3']
+    5.4.x:
+        time:     2020-09-11 14:00:00
+        versions: ['>=5.4.0','<5.4.14.2']
