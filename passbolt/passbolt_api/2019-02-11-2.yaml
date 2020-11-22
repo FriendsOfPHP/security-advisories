@@ -1,0 +1,7 @@
+title:     Retrieval of HTTP-only cookies
+link:      https://www.passbolt.com/incidents/20190211_multiple_vulnerabilities
+reference: composer://passbolt/passbolt_api
+branches:
+    master:
+        time:       2019-02-12 12:00
+        versions:   ['<2.7.0']

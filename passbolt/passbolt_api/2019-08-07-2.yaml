@@ -1,0 +1,7 @@
+title:     Stored XSS in tags autocomplete dropdown
+link:      https://www.passbolt.com/incidents/20190807_multiple_vulnerabilities
+reference: composer://passbolt/passbolt_api
+branches:
+    master:
+        time:       ~
+        versions:   ['<2.11.0']
