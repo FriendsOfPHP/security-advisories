@@ -1,0 +1,7 @@
+title:     IBEXA-SA-2020-007 Failing access control in system info view
+link:      https://developers.ibexa.co/security-advisories/ibexa-sa-2020-007-failing-access-control-in-system-info-view
+reference: composer://ezsystems/ez-support-tools
+branches:
+    2.2.x:
+        time:     2020-12-01 13:36:00
+        versions: ['>=2.2.0','<2.2.3']
