@@ -1,7 +1,6 @@
 title: Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2020-013
 link: https://www.drupal.org/sa-core-2020-013
 branches:
-branches:
     7.x:
         time:     2020-11-18 18:02:00
         versions: ['>=7.0.0','<7.74']
