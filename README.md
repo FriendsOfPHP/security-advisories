@@ -19,16 +19,14 @@ Checking for Vulnerabilities
 There are several possibilities to check for vulnerabilities in your
 applications beside manual checks:
 
- * [*Recommended*] Use the [Symfony CLI][1] (no PHP dependency, no third-party
-   API calls, checks are done locally on a clone of this repository):
+ * Use the [Local CLI tool][1]:
+
+        local-php-security-checker --path=/path/to/composer.lock
+
+ * Use the [Symfony CLI][2] (no PHP dependency, no third-party API calls,
+   checks are done locally on a clone of this repository):
 
         symfony security:check /path/to/composer.lock
-
- * Upload your `composer.lock` file on https://security.symfony.com/
-
- * Use the [PHP CLI tool][2]:
-
-        php checker security:check /path/to/composer.lock
 
 **TIP**: If you are using Github, you can use the PHP Security Checker [Github
 Action][3] to automatically check for vulnerabilities when pushing code.
@@ -84,6 +82,6 @@ If some affected code is available through different Composer entries (like
 when you have read-only subtree splits of a main repository), duplicate the
 information in several files.
 
-[1]: https://symfony.com/download
-[2]: https://github.com/sensiolabs/security-checker
+[1]: https://github.com/fabpot/local-php-security-checker
+[2]: https://symfony.com/download
 [3]: https://github.com/marketplace/actions/the-php-security-checker
