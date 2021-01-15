@@ -23,8 +23,7 @@ applications beside manual checks:
 
         local-php-security-checker --path=/path/to/composer.lock
 
- * Use the [Symfony CLI][2] (no PHP dependency, no third-party API calls,
-   checks are done locally on a clone of this repository):
+ * Use the [Symfony CLI][2]:
 
         symfony security:check /path/to/composer.lock
 
