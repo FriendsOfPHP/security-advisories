@@ -23,13 +23,18 @@ applications beside manual checks:
 
         local-php-security-checker --path=/path/to/composer.lock
 
- * Use the [Symfony CLI][2] (no PHP dependency, no third-party API calls,
+* Use the [Enlightn Security Checker][2] (can be pulled in using Composer,
+  exposes a PHP API and is licensed under the MIT license):
+
+       php security-checker security:check /path/to/composer.lock
+
+ * Use the [Symfony CLI][3] (no PHP dependency, no third-party API calls,
    checks are done locally on a clone of this repository):
 
         symfony security:check /path/to/composer.lock
 
 **TIP**: If you are using Github, you can use the PHP Security Checker [Github
-Action][3] to automatically check for vulnerabilities when pushing code.
+Action][4] to automatically check for vulnerabilities when pushing code.
 
 Contributing
 ------------
@@ -83,5 +88,6 @@ when you have read-only subtree splits of a main repository), duplicate the
 information in several files.
 
 [1]: https://github.com/fabpot/local-php-security-checker
-[2]: https://symfony.com/download
-[3]: https://github.com/marketplace/actions/the-php-security-checker
+[2]: https://github.com/enlightn/security-checker
+[3]: https://symfony.com/download
+[4]: https://github.com/marketplace/actions/the-php-security-checker
