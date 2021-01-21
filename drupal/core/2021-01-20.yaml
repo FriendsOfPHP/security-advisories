@@ -1,0 +1,43 @@
+title: Drupal core - Critical - Third-party libraries - SA-CORE-2021-001
+link: https://www.drupal.org/sa-core-2021-001
+branches:
+    7.x:
+        time:     2021-01-20 18:02:00
+        versions: ['>=7.0.0','<7.78']
+    8.0.x:
+        time:     ~
+        versions: ['>=8.0.0','<8.1.0']
+    8.1.x:
+        time:     ~
+        versions: ['>=8.1.0','<8.2.0']
+    8.2.x:
+        time:     ~
+        versions: ['>=8.2.0','<8.3.0']
+    8.3.x:
+        time:     ~
+        versions: ['>=8.3.0','<8.4.0']
+    8.4.x:
+        time:     ~
+        versions: ['>=8.4.0','<8.5.0']
+    8.5.x:
+        time:     ~
+        versions: ['>=8.5.0','<8.6.0']
+    8.6.x:
+        time:     ~
+        versions: ['>=8.6.0','<8.7.0']
+    8.7.x:
+        time:     ~
+        versions: ['>=8.7.0','<8.8.0']
+    8.8.x:
+        time:     ~
+        versions: ['>=8.8.0','<8.9.0']
+    8.9.x:
+        time:     2021-01-20 18:02:00
+        versions: ['>=8.9.0','<8.9.13']
+    9.0.x:
+        time:     2021-01-20 18:02:00
+        versions: ['>=9.0.0','<9.0.8']
+    9.1.x:
+        time:     2021-01-20 18:02:00
+        versions: ['>=9.1.0','<9.1.3']
+reference: composer://drupal/core
