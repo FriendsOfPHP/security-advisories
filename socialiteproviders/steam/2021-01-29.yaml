@@ -1,0 +1,7 @@
+title:     Authentication bypass via attacker provided openid server
+link:      https://github.com/SocialiteProviders/Steam/security/advisories/GHSA-hhw9-35p2-q2c5
+branches:
+  "1.0":
+    time: null
+    versions: ['<1.1']
+reference: composer://socialiteproviders/steam
