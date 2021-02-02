@@ -1,0 +1,14 @@
+title:     Unexpected bindings in QueryBuilder
+link:      https://github.com/laravel/framework/pull/35972
+cve:       ~
+branches:
+    "6.x":
+        time:     2020-01-21 15:10:00
+        versions: ['>=6.0.0', '<6.20.14']
+    "7.x":
+        time:     2020-01-21 15:10:00
+        versions: ['>=7.0.0', '<7.30.4']
+    "8.x":
+        time:     2020-01-21 15:19:00
+        versions: ['>=8.0.0', '<8.24.0']
+reference: composer://illuminate/database
