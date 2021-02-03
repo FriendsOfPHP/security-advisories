@@ -26,7 +26,7 @@ applications beside manual checks:
  * Use the [Symfony CLI][2] (no PHP dependency, no third-party API calls,
    checks are done locally on a clone of this repository):
 
-        symfony security:check /path/to/composer.lock
+        symfony security:check --dir /path/to/composer.lock
 
 **TIP**: If you are using Github, you can use the PHP Security Checker [Github
 Action][3] to automatically check for vulnerabilities when pushing code.
