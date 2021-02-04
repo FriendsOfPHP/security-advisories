@@ -63,7 +63,12 @@ final class Validate extends Command
         };
 
         $isAcceptableVersionConstraint = function ($versionString) {
-            return (bool) preg_match('/^[<>]=?(([1-9]\d*)|0)(\.(([1-9]\d*)|0))*(-(alpha|beta|rc|p(atch)?)[1-9]\d*)?$/', $versionString);
+            return (bool) preg_match('/^
+                [<>]=?
+                (([1-9]\d*)|0)
+                (\.(([1-9]\d*)|0))*
+                (-(alpha|beta|rc|p(atch)?)[1-9]\d*)?
+            $/x', $versionString);
         };
 
         $messages = array();
