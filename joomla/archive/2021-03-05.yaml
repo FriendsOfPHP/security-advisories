@@ -1,0 +1,9 @@
+  
+title:     Path Traversal within joomla/archive zip class
+link:      https://developer.joomla.org/security-centre/848-20210308-core-path-traversal-within-joomla-archive-zip-class.html
+cve:       CVE-2021-26028
+branches:
+    master:
+        time:     2021-03-06 13:37:00
+        versions: ['<1.1.10']
+reference: composer://joomla/archive
