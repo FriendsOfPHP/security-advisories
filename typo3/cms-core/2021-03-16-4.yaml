@@ -1,0 +1,10 @@
+title: 'TYPO3-CORE-SA-2021-004: Cross-Site Scripting in Form Framework'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2021-004/'
+branches:
+    10.x:
+        time: '2021-03-16 08:59:55'
+        versions: ['>=10.0.0', '<10.4.14']
+    11.x:
+        time: '2021-03-16 09:02:46'
+        versions: ['>=11.0.0', '<11.1.1']
+reference: 'composer://typo3/cms-core'
