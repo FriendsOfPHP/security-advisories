@@ -1,0 +1,8 @@
+title:     Adminer script versions up to 4.6.2 contains file disclosure vulnerability
+link:      https://sansec.io/research/adminer-4.6.2-file-disclosure-vulnerability
+reference: composer://vrana/adminer
+cve:       ~
+branches:
+   master:
+       time:     2018-06-28 00:00:00
+       versions: ['<4.6.3']
