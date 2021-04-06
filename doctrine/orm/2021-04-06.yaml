@@ -1,0 +1,8 @@
+title:      Regression in Query Parenthesis can have Security Implications
+link:       https://github.com/doctrine/orm/pull/8591
+cve:        ~
+branches:
+    2.8.x:
+        time:     2021-04-06 13:30:00
+        versions: ['>=2.8.3', '<2.8.4']
+reference: composer://doctrine/orm
