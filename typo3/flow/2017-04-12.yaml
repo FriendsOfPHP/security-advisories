@@ -1,0 +1,21 @@
+title:     Flow Bugfix Releases for Entity Security
+link:      https://www.neos.io/blog/flow-bugfix-releases-for-entity-security.html
+cve:       ~
+branches:
+    3.0.x:
+        time:     2017-04-12 17:00:00
+        versions: ['>=3.0.0', '<3.0.12']
+    3.1.x:
+        time:     2017-04-12 17:00:00
+        versions: ['>=3.1.0', '<3.1.10']
+    3.2.x:
+        time:     2017-04-12 17:00:00
+        versions: ['>=3.2.0', '<3.2.13']
+    3.3.x:
+        time:     2017-04-12 17:00:00
+        versions: ['>=3.3.0', '<3.3.13']
+    4.0.x:
+        time:     2017-04-12 17:00:00
+        versions: ['>=4.0.0', '<4.0.6']
+
+reference: composer://typo3/flow
