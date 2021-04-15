@@ -1,0 +1,12 @@
+title:     Security fix for Flow Swift Mailer package
+link:      https://www.neos.io/blog/flow-sa-2017-01.html
+cve:       ~
+branches:
+    4.1.x:
+        time:     2017-01-06 17:00:00
+        versions: ['>=4.1.0', '<4.1.99']
+    5.4.x:
+        time:     2017-01-06 17:00:00
+        versions: ['>=5.4.0', '<5.4.5']
+
+reference: composer://typo3/swiftmailer
