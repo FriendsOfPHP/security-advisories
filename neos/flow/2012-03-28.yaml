@@ -1,0 +1,8 @@
+title:     Insecure Unserialize Vulnerability in FLOW3
+link:      https://www.neos.io/blog/flow-sa-2012-001.html
+cve:       ~
+branches:
+    1.0.x:
+        time:     2012-03-28 09:32:37
+        versions: ['>=1.0.0', '<1.0.4']
+reference: composer://neos/flow
