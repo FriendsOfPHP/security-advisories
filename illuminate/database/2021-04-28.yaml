@@ -1,0 +1,14 @@
+title:     SQL Server LIMIT / OFFSET SQL Injection
+link:      https://github.com/laravel/framework/security/advisories/GHSA-4mg9-vhxq-vm7j
+cve:       ~
+branches:
+    "6.x":
+        time:     2021-04-28 13:18:19
+        versions: ['>=6.0.0', '<6.20.26']
+    "7.x":
+        time:     ~
+        versions: ['>=7.0.0', '<8.0.0']
+    "8.x":
+        time:     2020-04-28 14:34:49
+        versions: ['>=8.0.0', '<8.40.0']
+reference: composer://illuminate/database
