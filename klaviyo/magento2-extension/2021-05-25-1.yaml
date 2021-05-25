@@ -1,0 +1,11 @@
+title: 'Read private customer data reclaiming carts'
+link: 'https://gist.github.com/JeroenBoersma/f5864a45e3df63b198a57abdff366df2'
+branches:
+  '1.x':
+    time:     '2021-05-25 13:45:00'
+    versions: ['>=1.0.0', '<2.0.0']
+  '2.x':
+    time:     '2021-05-25 13:45:00'
+    versions: ['>=2.0.0', '<3.0.0']
+reference: 'composer://klaviyo/magento2-extension'
+
