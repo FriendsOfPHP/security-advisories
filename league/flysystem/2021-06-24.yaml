@@ -1,0 +1,11 @@
+title: TOCTOU Race Condition enabling remote code execution
+link: https://github.com/thephpleague/flysystem/security/advisories/GHSA-9f46-5r25-5wfm
+cve: ~
+reference: composer://league/flysystem
+branches:
+    1.x:
+        time:     2021-06-23 23:56:59
+        versions: ['<1.1.4']
+    2.x:
+        time:     2021-06-24 00:07:59
+        versions: ['>=2.0.0', '<2.1.1']
