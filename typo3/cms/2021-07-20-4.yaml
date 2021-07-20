@@ -1,0 +1,13 @@
+title: 'TYPO3-CORE-SA-2021-012: Information Disclosure in User Authentication'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2021-012/'
+branches:
+    10.x:
+        time: '2021-07-20 09:17:00'
+        versions: ['>=10.0.0', '<10.4.18']
+    11.x:
+        time: '2021-07-20 09:18:25'
+        versions: ['>=11.0.0', '<11.3.1']
+    9.x:
+        time: '2021-07-20 09:15:20'
+        versions: ['>=9.0.0', '<9.5.28']
+reference: 'composer://typo3/cms'
