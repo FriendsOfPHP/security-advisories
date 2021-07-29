@@ -1,5 +1,5 @@
 title: 'Cross-Site Scripting in Form Framework'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-007/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-007'
 branches:
     8.x:
         time: '2019-01-22 08:41:41'

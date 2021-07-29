@@ -1,5 +1,5 @@
 title: 'Broken Access Control in Localization Handling'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-003/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-003'
 branches:
     8.x:
         time: '2019-01-22 08:41:19'

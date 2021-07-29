@@ -1,5 +1,5 @@
 title: 'Possible Insecure Deserialization in Extbase Request Handling'
-link: 'https://typo3.org/security/advisory/typo3-psa-2019-011/'
+link: 'https://typo3.org/security/advisory/typo3-psa-2019-011'
 branches:
     8.x:
         time: '2019-12-17 09:50:20'

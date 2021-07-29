@@ -1,5 +1,5 @@
 title: 'Information Disclosure in Backend User Interface'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-014/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-014'
 branches:
     8.x:
         time: '2019-06-25 06:38:40'

@@ -1,5 +1,5 @@
 title:     Possible cache poisining on the homepage when anchors are used
-link:      https://typo3.org/teams/security/security-bulletins/typo3-core/typo3-core-sa-2014-003/
+link:      https://typo3.org/security/advisory/typo3-core-sa-2014-003
 branches:
     6.2.x:
         time:     2014-12-10 10:07:58

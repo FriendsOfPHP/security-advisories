@@ -1,5 +1,5 @@
 title: 'Information Disclosure in Page Tree'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-009/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-009'
 branches:
     9.x:
         time: '2019-05-07 09:42:43'

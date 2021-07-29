@@ -1,5 +1,5 @@
 title:     By-passing Protection of PharStreamWrapper Interceptor
-link:      https://typo3.org/security/advisory/typo3-psa-2018-001/
+link:      https://typo3.org/security/advisory/typo3-psa-2018-001
 branches:
     1.x:
         time:     2018-10-18 13:59:00

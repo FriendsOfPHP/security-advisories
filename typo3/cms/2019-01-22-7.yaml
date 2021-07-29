@@ -1,5 +1,5 @@
 title: 'Arbitrary Code Execution via File List Module'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-008/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-008'
 branches:
     8.x:
         time: '2019-01-22 08:41:47'
