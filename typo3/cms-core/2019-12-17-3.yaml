@@ -1,5 +1,5 @@
 title: 'Cross-Site Scripting in Filelist Module'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-023/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-023'
 branches:
     10.x:
         time: '2019-12-17 09:52:17'

@@ -1,5 +1,5 @@
 title: 'Information Disclosure in User Authentication'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-010/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-010'
 branches:
     9.x:
         time: '2019-05-07 09:43:01'

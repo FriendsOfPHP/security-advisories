@@ -1,5 +1,5 @@
 title:     Privilege Escalation & SQL Injection in TYPO3 CMS
-link:      https://typo3.org/security/advisory/typo3-core-sa-2018-003/
+link:      https://typo3.org/security/advisory/typo3-core-sa-2018-003
 branches:
     8.x:
         time:     2018-07-12 09:34:56

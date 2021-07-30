@@ -1,5 +1,5 @@
 title: 'Security Misconfiguration in User Session Handling'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-011/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2019-011'
 branches:
     8.x:
         time: '2019-05-07 09:42:07'

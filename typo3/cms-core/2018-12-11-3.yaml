@@ -1,5 +1,5 @@
 title: 'Cross-Site Scripting in Frontend User Login'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2018-008/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2018-008'
 branches:
     8.x:
         time: '2018-12-11 09:56:19'

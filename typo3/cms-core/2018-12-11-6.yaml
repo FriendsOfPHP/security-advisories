@@ -1,5 +1,5 @@
 title: 'Denial of Service in Online Media Asset Handling'
-link: 'https://typo3.org/security/advisory/typo3-core-sa-2018-011/'
+link: 'https://typo3.org/security/advisory/typo3-core-sa-2018-011'
 branches:
     8.x:
         time: '2018-12-11 09:56:38'
