@@ -1,4 +1,4 @@
-title: Drupal core - Critical - Arbitrary PHP code execution - SA-CORE-2021-003
+title: Drupal core - Moderately critical - Third-party libraries - SA-CORE-2021-005
 link: https://www.drupal.org/sa-core-2021-005
 branches:
     8.0.x:
