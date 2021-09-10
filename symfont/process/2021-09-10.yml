@@ -4,5 +4,5 @@ cve:        ~
 branches:
     all:
         time:     null
-        versions: ['>0']
+        versions: ['>=0']
 reference: composer://packages/symfont/process
