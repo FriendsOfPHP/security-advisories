@@ -2,7 +2,16 @@ title:      Prevent installation typosquatting malware
 link:       https://www.kernelmode.blog/typosquatting-malware-found-in-composer-repository/
 cve:        ~
 branches:
-    all:
+    0.x:
         time:     null
         versions: ['>=0']
+    1.x:
+        time:     null
+        versions: ['>=1']
+    2.x:
+        time:     null
+        versions: ['>=2']
+    3.x:
+        time:     null
+        versions: ['>=3']
 reference: composer://symfont/process
