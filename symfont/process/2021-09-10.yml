@@ -5,4 +5,4 @@ branches:
     all:
         time:     null
         versions: ['>=0']
-reference: composer://packages/symfont/process
+reference: composer://symfont/process
