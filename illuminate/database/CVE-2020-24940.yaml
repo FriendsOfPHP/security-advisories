@@ -1,6 +1,6 @@
 title:     Guard bypass in Eloquent models
 link:      https://blog.laravel.com/security-release-laravel-61834-7232
-cve:       ~
+cve:       CVE-2020-24940
 branches:
     "5.5":
         time:     ~
