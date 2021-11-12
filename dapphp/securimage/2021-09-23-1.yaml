@@ -1,0 +1,8 @@
+title: XSS
+link: https://github.com/dapphp/securimage/issues/106
+reference: composer://dapphp/securimage
+cve: ~
+branches:
+    4.0.x:
+        time: 2021-10-15 15:06:41
+        versions: ['>=4.0.0']
