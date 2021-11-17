@@ -1,0 +1,42 @@
+name: Export to OSV format
+
+on:
+    push:
+        branches:
+            -   master
+
+jobs:
+    publish-web:
+        runs-on: ubuntu-latest
+
+        steps:
+            -   uses: actions/checkout@v2
+                with:
+                    # Required in order to extract dates from commit history
+                    fetch-depth: 0
+
+            -   name: Setup PHP
+                uses: shivammathur/setup-php@v2
+                with:
+                    php-version: "8.0"
+                    coverage: none
+                    tools: composer
+
+            -   name: Install dependencies
+                run: composer install --prefer-dist --no-progress
+
+            -   name: Export to OSV format
+                run: |
+                    git config user.name github-actions
+                    git config user.email github-actions@github.com
+                    php export-osv.php export
+                    git add packagist
+                    git stash
+                    git checkout osv
+                    echo `date` > published
+                    git add published
+                    git rm -r --ignore-unmatch packagist
+                    git commit -m "Update OSV data export"
+                    git stash pop
+                    git commit --amend --no-edit --allow-empty
+                    git push
