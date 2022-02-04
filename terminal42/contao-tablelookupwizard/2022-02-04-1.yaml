@@ -1,0 +1,8 @@
+title:     Possible SQL injection in widget field value
+link:      https://github.com/terminal42/contao-tablelookupwizard/security/advisories/GHSA-v3mr-gp7j-pw5w
+cve:       ~
+branches:
+    master:
+        time:     2022-02-04 08:13:00
+        versions: ['>=1.0.0', '<3.3.5']
+reference: composer://terminal42/contao-tablelookupwizard
