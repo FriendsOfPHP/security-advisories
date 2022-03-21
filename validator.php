@@ -141,6 +141,10 @@ final class Validate extends Command
                     }
                 }
 
+                if (isset($data['cve']) && !str_starts_with($data['cve'], 'CVE-')) {
+                    $messages[$path][] = '"cve" must be a valid CVE number when provided.';
+                }
+
                 if (!isset($data['branches'])) {
                     $progress->advance();
 
