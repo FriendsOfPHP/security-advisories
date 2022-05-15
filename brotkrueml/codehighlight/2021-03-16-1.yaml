@@ -1,0 +1,8 @@
+title: Regular expression Denial of Service
+link: https://typo3.org/security/advisory/typo3-ext-sa-2021-002
+cve: ~
+branches:
+    master:
+        time: 2021-01-01 16:46:38
+        versions: ['<2.5.0']
+reference: composer://brotkrueml/codehighlight
