@@ -161,7 +161,7 @@ final class Validate extends Command
                 $upperBoundWithoutLowerBound = null;
 
                 foreach ($data['branches'] as $name => $branch) {
-                    if (!preg_match('/^([\d.\-]+(\.x)?(-dev)?|master)$/', $name)) {
+                    if (!preg_match('/^([\d.\-]+(\.x)?(-dev)?|master|main)$/', $name)) {
                         $messages[$path][] = sprintf('Invalid branch name "%s".', $name);
                     }
 
