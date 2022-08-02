@@ -1,0 +1,8 @@
+title:     Diactoros before 2.11.1 vulnerable to HTTP Host Header Attack.
+link:      https://github.com/advisories/GHSA-8274-h5jp-97vr
+cve:       CVE-2022-31109
+branches:
+    master:
+        time:     2022-07-25 19:29:00
+        versions: ['<2.11.1']
+reference: composer://laminas/laminas-diactoros
