@@ -1,5 +1,5 @@
 title:     code injection in `Wrapper::buildClientWrapperCode` via manipulation of the `$client` argument
-link:      https://github.com/gggeek/phpxmlrpc-extras/releases/tag/4.9.0
+link:      https://github.com/gggeek/phpxmlrpc/releases/tag/4.9.0
 cve:       ~
 branches:
     master:

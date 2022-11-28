@@ -1,5 +1,5 @@
 title:     local file access in `Client:send` via manipulation of `$protocol` argument
-link:      https://github.com/gggeek/phpxmlrpc-extras/releases/tag/4.9.0
+link:      https://github.com/gggeek/phpxmlrpc/releases/tag/4.9.0
 cve:       ~
 branches:
     master:
