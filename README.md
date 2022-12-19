@@ -7,6 +7,9 @@ not** serve as the primary source of information for security issues, it is
 not authoritative for any referenced software, but it allows to centralize
 information for convenience and easy consumption.
 
+We also export advisory data to the [OSV](https://github.com/ossf/osv-schema) format,
+see the [`osv`](https://github.com/FriendsOfPHP/security-advisories/tree/osv) branch.
+
 License
 -------
 

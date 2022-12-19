@@ -3,7 +3,9 @@
     "description": "Database of known security vulnerabilities in various PHP projects and libraries",
     "require-dev": {
         "composer/composer": "~1.0",
+        "symfony/cache": "^5.3",
         "symfony/console": "^4.0",
+        "symfony/http-client": "^5.3",
         "symfony/yaml": "^4.0"
     },
     "license": "Unlicense",
