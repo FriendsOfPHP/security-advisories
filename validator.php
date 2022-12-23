@@ -12,12 +12,14 @@ use Composer\Config;
 use Composer\IO\NullIO;
 use Composer\Repository\ComposerRepository;
 use Composer\Repository\RepositoryInterface;
+use Composer\Util\HttpDownloader;
 use Symfony\Component\Console\Application;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Helper\TableCell;
 use Symfony\Component\Console\Helper\TableSeparator;
+use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
@@ -26,9 +28,10 @@ use Symfony\Component\Yaml\Parser;
 
 final class Validate extends Command
 {
-    private $parser;
-    private $composerRepositories = array();
-    private $composerConfig;
+    private Parser $parser;
+    private array $composerRepositories = array();
+    private Config $composerConfig;
+    private HttpDownloader $httpDownloader;
 
     public function __construct()
     {
@@ -37,9 +40,10 @@ final class Validate extends Command
         $this->parser = new Parser();
         $this->composerConfig = new Config(false);
         $this->composerConfig->merge(array('config' => array('cache-dir' => sys_get_temp_dir().'/php-security-advisories')));
+        $this->httpDownloader = new HttpDownloader(new NullIO(), $this->composerConfig);
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $io = new SymfonyStyle($input, $output);
 
@@ -73,7 +77,7 @@ final class Validate extends Command
 
         $messages = array();
 
-        /* @var $dir \SplFileInfo[] */
+        /* @var $dir \Traversable<\SplFileInfo> */
         $dir = new \RecursiveIteratorIterator(new RecursiveCallbackFilterIterator(new \RecursiveDirectoryIterator(__DIR__), $advisoryFilter));
 
         $progress = new ProgressBar($io, count(iterator_to_array($dir)));
@@ -272,7 +276,7 @@ final class Validate extends Command
         return count($messages);
     }
 
-    private function getComposerRepository($uri)
+    private function getComposerRepository($uri): ComposerRepository
     {
         if (!isset($this->composerRepositories[$uri])) {
             $repository = new ComposerRepository(
@@ -280,7 +284,8 @@ final class Validate extends Command
                     'url' => $uri,
                 ),
                 new NullIO(),
-                $this->composerConfig
+                $this->composerConfig,
+                $this->httpDownloader
             );
 
             $this->composerRepositories[$uri] = $repository;
@@ -292,12 +297,12 @@ final class Validate extends Command
 
 final class Validator extends Application
 {
-    protected function getCommandName(InputInterface $input)
+    protected function getCommandName(InputInterface $input): ?string
     {
         return 'validate';
     }
 
-    protected function getDefaultCommands()
+    protected function getDefaultCommands(): array
     {
         $defaultCommands = parent::getDefaultCommands();
 
@@ -306,7 +311,7 @@ final class Validator extends Application
         return $defaultCommands;
     }
 
-    public function getDefinition()
+    public function getDefinition(): InputDefinition
     {
         $inputDefinition = parent::getDefinition();
 
