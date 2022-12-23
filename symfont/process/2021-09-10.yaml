@@ -15,3 +15,4 @@ branches:
         time:     null
         versions: ['>=3', '<4']
 reference: composer://symfont/process
+composer-repository: false

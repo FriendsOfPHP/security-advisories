@@ -2,9 +2,10 @@
     "name": "sensiolabs/security-advisories",
     "description": "Database of known security vulnerabilities in various PHP projects and libraries",
     "require-dev": {
-        "composer/composer": "~1.0",
-        "symfony/console": "^4.0",
-        "symfony/yaml": "^4.0"
+        "php": ">=8.1",
+        "composer/composer": "^2.5",
+        "symfony/console": "^6.2",
+        "symfony/yaml": "^6.2"
     },
     "license": "Unlicense",
     "authors": [
