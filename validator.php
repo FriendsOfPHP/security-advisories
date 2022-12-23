@@ -125,7 +125,7 @@ final class Validate extends Command
                         }
 
                         if (!isset($data['composer-repository'])) {
-                            $data['composer-repository'] = 'https://packagist.org';
+                            $data['composer-repository'] = 'https://repo.packagist.org';
                         }
 
                         if (!empty($data['composer-repository'])) {
