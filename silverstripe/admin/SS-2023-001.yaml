@@ -1,0 +1,8 @@
+title:     "SS-2023-001 - XSS vulnerability in underlying TinyMCE library"
+link:      https://www.silverstripe.org/download/security-releases/SS-2023-001
+cve:       ~
+branches:
+    1.12.x:
+        time:     2023-04-25 23:32:38
+        versions: ['>=1.0.0', '<1.12.7']
+reference: composer://silverstripe/admin
