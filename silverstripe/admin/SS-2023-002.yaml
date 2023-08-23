@@ -1,0 +1,8 @@
+title:     "SS-2023-002 - Cross-site scripting (XSS) vulnerabilities inherited form TinyMCE"
+link:      https://www.silverstripe.org/download/security-releases/SS-2023-002
+cve:       ~
+branches:
+    1.13.x:
+        time:     2023-07-30 23:41:51
+        versions: ['>=1.0.0', '<1.13.6']
+reference: composer://silverstripe/admin
