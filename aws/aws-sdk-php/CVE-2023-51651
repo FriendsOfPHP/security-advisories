@@ -1,0 +1,8 @@
+title:     Security Misconfiguration Vulnerability in the AWS SDK for PHP
+link:      https://github.com/aws/aws-sdk-php/releases/tag/3.2.1
+cve:       CVE-2015-5723
+branches:
+    3.x:
+        time:     2015-07-24 0:41:41
+        versions: ['>=3.0.0', '<3.2.1']
+reference: composer://aws/aws-sdk-php
