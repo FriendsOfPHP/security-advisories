@@ -1,3 +1,4 @@
+![kubernetes-guestbook-url](https://github.com/FriendsOfPHP/security-advisories/assets/98971114/b617806d-f1fc-4b33-8b26-a7b04e0bae89)
 PHP Security Advisories Database
 ================================
 
