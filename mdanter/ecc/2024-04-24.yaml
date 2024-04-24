@@ -1,0 +1,11 @@
+title:     Cryptographic side-channels in PHPECC
+link:      https://github.com/paragonie/phpecc/releases/tag/v2.0.0
+cve:       ~
+branches:
+    0.x:
+        time:     2024-04-24 00:00:00
+        versions: ['>=0', '<1']
+    1.x:
+        time:     2024-04-24 00:00:00
+        versions: ['>=1', '<2.0.0']
+reference: composer://mdanter/ecc
