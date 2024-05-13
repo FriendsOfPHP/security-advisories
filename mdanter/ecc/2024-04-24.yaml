@@ -1,6 +1,6 @@
 title:     Cryptographic side-channels in PHPECC
 link:      https://github.com/paragonie/phpecc/releases/tag/v2.0.0
-cve:       CVE-2024-33851
+cve:       ~
 branches:
     0.x:
         time:     2024-04-24 00:00:00
