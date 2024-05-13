@@ -1,5 +1,5 @@
 title:     Cryptographic side-channels in PHPECC
-link:      https://github.com/paragonie/phpecc/releases/tag/v2.0.0
+link:      https://github.com/advisories/GHSA-346h-749j-r28w
 cve:       ~
 branches:
     0.x:
