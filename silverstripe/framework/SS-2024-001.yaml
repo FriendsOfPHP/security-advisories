@@ -1,0 +1,8 @@
+title:     "SS-2024-001 - TinyMCE allows svg files linked in object tags"
+link:      https://www.silverstripe.org/download/security-releases/ss-2024-001
+cve:       ~
+branches:
+    5.2.x:
+        time:     2024-07-17 00:24:42
+        versions: ['<5.2.16']
+reference: composer://silverstripe/framework
