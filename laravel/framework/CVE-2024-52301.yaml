@@ -1,0 +1,23 @@
+title:     Laravel environment manipulation via query string
+link:      https://github.com/advisories/GHSA-gv7v-rgg6-548h
+cve:       CVE-2024-52301
+branches:
+  "6.x":
+    time:     2024-11-12 15:42:00
+    versions: ['<6.20.45']
+  "7.x":
+    time:     2024-11-12 15:41:00
+    versions: ['>=7.0.0', '<7.30.7']
+  "8.x":
+    time:     2024-11-12 15:30:00
+    versions: ['>=8.0.0', '<8.83.28']
+  "9.x":
+      time:     2024-11-12 22:19:00
+      versions: ['>=9.0.0', '<9.52.17']
+  "10.x":
+      time:     2024-11-12 22:19:00
+      versions: ['>=10.0.0', '<10.48.23']
+  "11.x":
+      time:     2024-11-12 15:29:00
+      versions: ['>=11.0.0', '<11.31.0']
+reference: composer://laravel/framework
