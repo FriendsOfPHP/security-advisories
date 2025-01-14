@@ -1,0 +1,8 @@
+title:     "SS-2024-002 - Reflected Cross Site Scripting (XSS) in error message"
+link:      https://www.silverstripe.org/download/security-releases/ss-2024-002
+cve:       ~
+branches:
+    5.3.x:
+        time:     2025-01-14 21:23:51
+        versions: ['<5.3.8']
+reference: composer://silverstripe/framework
