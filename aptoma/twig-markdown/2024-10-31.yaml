@@ -1,0 +1,7 @@
+title: 'Cross-site Scripting (XSS)'
+link: 'https://security.snyk.io/vuln/SNYK-PHP-APTOMATWIGMARKDOWN-8400480'
+branches:
+    master:
+        time: ~
+        versions: [ '>=0.0.0', '<=3.4.1' ]
+reference: 'composer://aptoma/twig-markdown'
