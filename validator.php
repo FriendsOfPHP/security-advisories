@@ -177,6 +177,14 @@ final class Validate extends Command
 
                     if (!array_key_exists('time', $branch)) {
                         $messages[$path][] = sprintf('Key "time" is required for branch "%s".', $name);
+                    } elseif (isset($branch['time'])) {
+                        $timestamp = is_int($branch['time']) ? $branch['time'] : strtotime($branch['time']);
+
+                        if ($timestamp === false) {
+                            $messages[$path][] = sprintf('"time" is invalid for branch "%s", given "%s".', $name, $branch['time']);
+                        } elseif ($timestamp > time()) {
+                            $messages[$path][] = sprintf('"time" cannot be in the future for branch "%s", given "%s".', $name, $branch['time']);
+                        }
                     }
 
                     if (!isset($branch['versions'])) {
