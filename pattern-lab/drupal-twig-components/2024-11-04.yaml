@@ -1,0 +1,7 @@
+title: 'Cross-site Scripting (XSS)'
+link: 'https://security.snyk.io/vuln/SNYK-PHP-PATTERNLABDRUPALTWIGCOMPONENTS-8400872'
+branches:
+    master:
+        time: ~
+        versions: [ '>=0.0.0', '<=2.2.0' ]
+reference: 'composer://pattern-lab/drupal-twig-components'
