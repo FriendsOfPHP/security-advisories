@@ -1,0 +1,10 @@
+title:     Argument injection via newline in PHP INI values forwarded to child processes
+link:      https://github.com/sebastianbergmann/phpunit/security/advisories/GHSA-qrr6-mg7r-m243
+branches:
+    12.5.x:
+        time:     2026-04-17 12:52:26
+        versions: ['>=12.5.21', '<12.5.22']
+    13.1.x:
+        time:     2026-04-17 12:53:53
+        versions: ['>=13.1.5', '<13.1.6']
+reference: composer://phpunit/phpunit
