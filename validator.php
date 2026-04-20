@@ -19,6 +19,7 @@ use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Helper\TableCell;
 use Symfony\Component\Console\Helper\TableSeparator;
+use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputDefinition;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -41,6 +42,11 @@ final class Validate extends Command
         $this->composerConfig = new Config(false);
         $this->composerConfig->merge(array('config' => array('cache-dir' => sys_get_temp_dir().'/php-security-advisories')));
         $this->httpDownloader = new HttpDownloader(new NullIO(), $this->composerConfig);
+    }
+
+    protected function configure(): void
+    {
+        $this->addArgument('file', InputArgument::OPTIONAL, 'Path to a single YAML file to validate.');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int
@@ -77,13 +83,25 @@ final class Validate extends Command
 
         $messages = array();
 
-        /* @var $dir \Traversable<\SplFileInfo> */
-        $dir = new \RecursiveIteratorIterator(new RecursiveCallbackFilterIterator(new \RecursiveDirectoryIterator(__DIR__), $advisoryFilter));
+        $singleFile = $input->getArgument('file');
+        if (null !== $singleFile) {
+            if (!is_file($singleFile)) {
+                $io->error(sprintf('File "%s" does not exist.', $singleFile));
 
-        $progress = new ProgressBar($io, count(iterator_to_array($dir)));
+                return 1;
+            }
+
+            $files = array(new \SplFileInfo(realpath($singleFile)));
+        } else {
+            /* @var $dir \Traversable<\SplFileInfo> */
+            $dir = new \RecursiveIteratorIterator(new RecursiveCallbackFilterIterator(new \RecursiveDirectoryIterator(__DIR__), $advisoryFilter));
+            $files = iterator_to_array($dir);
+        }
+
+        $progress = new ProgressBar($io, count($files));
         $progress->start();
 
-        foreach ($dir as $file) {
+        foreach ($files as $file) {
             if (!$file->isFile()) {
                 $progress->advance();
 
