@@ -1,0 +1,8 @@
+title: Remote code execution via evaluation of user-controlled input in validation rules
+link: https://github.com/dedoc/scramble/security/advisories/GHSA-4rm2-28vj-fj39
+cve: ~
+branches:
+    main:
+        time:     2026-04-27 20:30:00 
+        versions: ['>=0.13.2', '<0.13.22']
+reference: composer://dedoc/scramble
