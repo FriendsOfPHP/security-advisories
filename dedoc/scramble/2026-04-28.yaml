@@ -3,6 +3,6 @@ link: https://github.com/dedoc/scramble/security/advisories/GHSA-4rm2-28vj-fj39
 cve: ~
 branches:
     main:
-        time:     2026-04-28 12:14:00
+        time:     2026-04-27 20:30:00 
         versions: ['>=0.13.2', '<0.13.22']
 reference: composer://dedoc/scramble
