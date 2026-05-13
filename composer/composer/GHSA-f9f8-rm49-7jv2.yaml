@@ -1,0 +1,14 @@
+title:     Github Actions issued GITHUB_TOKEN disclosure in GitHub Actions logs
+link:      https://github.com/composer/composer/security/advisories/GHSA-f9f8-rm49-7jv2
+cve:       ~
+branches:
+    2.x:
+        time:     2026-05-13 07:00:00
+        versions: ['>=2.3', '<2.9.8']
+    2.2.x:
+        time:     2026-05-13 07:00:00
+        versions: ['>=2.0.0', '<2.2.28']
+    1.x:
+        time:     2026-05-13 07:00:00
+        versions: ['>=1.0', '<1.10.28']
+reference: composer://composer/composer
