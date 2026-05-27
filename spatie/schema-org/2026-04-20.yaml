@@ -1,0 +1,7 @@
+title:     Cross-site scripting (XSS) via script break-out in toScript() output
+link:      https://github.com/spatie/schema-org/releases/tag/4.0.2
+branches:
+    main:
+        time:     2026-04-20 19:00:00
+        versions: ['>=3.23.1', '<4.0.2']
+reference: composer://spatie/schema-org
