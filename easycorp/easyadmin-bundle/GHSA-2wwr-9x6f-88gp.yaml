@@ -3,7 +3,7 @@ link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-
 branches:
     4.x:
         time:     2026-05-28 18:30:00
-        versions: ['<4.29.10']
+        versions: ['>=4.0.0', '<4.29.10']
     5.x:
         time:     2026-05-28 18:30:00
         versions: ['>=5.0.0', '<5.0.10']
