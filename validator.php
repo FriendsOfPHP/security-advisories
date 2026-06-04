@@ -31,6 +31,7 @@ final class Validate extends Command
 {
     private Parser $parser;
     private array $composerRepositories = array();
+    private array $composerPackageExists = array();
     private Config $composerConfig;
     private HttpDownloader $httpDownloader;
 
@@ -147,16 +148,7 @@ final class Validate extends Command
                         }
 
                         if (!empty($data['composer-repository'])) {
-                            $composerRepository = $this->getComposerRepository($data['composer-repository']);
-
-                            $found = false;
-                            foreach ($composerRepository->search($composerPackage, RepositoryInterface::SEARCH_NAME) as $package) {
-                                if ($package['name'] === $composerPackage) {
-                                    $found = true;
-                                    break;
-                                }
-                            }
-                            if (!$found) {
+                            if (!$this->composerPackageExists($data['composer-repository'], $composerPackage)) {
                                 $messages[$path][] = sprintf('Invalid composer package (not found in repository %s)', $data['composer-repository']);
                             }
                         }
@@ -300,6 +292,27 @@ final class Validate extends Command
         }
 
         return count($messages);
+    }
+
+    private function composerPackageExists(string $repositoryUri, string $package): bool
+    {
+        $key = $repositoryUri."\0".$package;
+
+        if (!isset($this->composerPackageExists[$key])) {
+            $repository = $this->getComposerRepository($repositoryUri);
+
+            $found = false;
+            foreach ($repository->search($package, RepositoryInterface::SEARCH_NAME) as $result) {
+                if ($result['name'] === $package) {
+                    $found = true;
+                    break;
+                }
+            }
+
+            $this->composerPackageExists[$key] = $found;
+        }
+
+        return $this->composerPackageExists[$key];
     }
 
     private function getComposerRepository($uri): ComposerRepository
