@@ -1,0 +1,7 @@
+title:     Stored Cross-Site Scripting (XSS) via uploaded files served inline in FileField and ImageField
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-8559-gwj3-q37r
+branches:
+    5.x:
+        time:     2026-06-04 06:43:00
+        versions: ['>=5.0.0', '<5.0.13']
+reference: composer://easycorp/easyadmin-bundle
