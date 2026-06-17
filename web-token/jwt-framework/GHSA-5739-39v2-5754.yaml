@@ -1,0 +1,14 @@
+title: 'RSA1_5 (RSAES-PKCS1-v1_5) decryption lacks implicit rejection, exposing a Bleichenbacher/Marvin padding oracle'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-5739-39v2-5754'
+cve: ~
+branches:
+    3.4.x:
+        versions: ['<3.4.10']
+        time: 2026-06-06 16:27:24
+    4.0.x:
+        versions: ['>=4.0.0', '<4.0.7']
+        time: 2026-06-06 16:27:24
+    4.1.x:
+        versions: ['>=4.1.0', '<4.1.7']
+        time: 2026-06-06 16:27:24
+reference: 'composer://web-token/jwt-framework'
