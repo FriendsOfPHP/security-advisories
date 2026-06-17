@@ -1,0 +1,8 @@
+title: 'Mass-assignment in Factory::loadFromProvisioningUri lets a hostile provisioning URI corrupt OTP state or leak an uncaught TypeError'
+link: 'https://github.com/Spomky-Labs/otphp/security/advisories/GHSA-2jx3-65f3-xr8r'
+cve: ~
+branches:
+    11.x:
+        versions: ['<11.4.3']
+        time: 2026-05-31 09:08:33
+reference: 'composer://spomky-labs/otphp'

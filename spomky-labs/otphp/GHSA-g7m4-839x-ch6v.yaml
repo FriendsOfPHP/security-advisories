@@ -1,0 +1,8 @@
+title: 'Unbounded digits parameter in a provisioning URI triggers an uncaught DivisionByZeroError in OTP generation'
+link: 'https://github.com/Spomky-Labs/otphp/security/advisories/GHSA-g7m4-839x-ch6v'
+cve: ~
+branches:
+    11.x:
+        versions: ['<11.4.3']
+        time: 2026-05-31 09:06:37
+reference: 'composer://spomky-labs/otphp'
