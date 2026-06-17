@@ -11,4 +11,4 @@ branches:
     4.1.x:
         versions: ['>=4.1.0', '<4.1.7']
         time: 2026-06-06 16:26:43
-reference: 'composer://web-token/jwt-framework'
+reference: 'composer://web-token/jwt-library'
