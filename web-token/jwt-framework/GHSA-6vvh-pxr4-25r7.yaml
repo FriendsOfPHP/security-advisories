@@ -1,0 +1,14 @@
+title: 'Chacha20Poly1305 key-encryption algorithm discards the Poly1305 authentication tag, performing no authentication on decryption'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-6vvh-pxr4-25r7'
+cve: ~
+branches:
+    3.x:
+        versions: ['<=3.4.9']
+        time: 2026-06-06 16:27:05
+    4.0.x:
+        versions: ['>=4.0.0', '<=4.0.6']
+        time: 2026-06-06 16:27:05
+    4.1.x:
+        versions: ['>=4.1.0', '<=4.1.6']
+        time: 2026-06-06 16:27:05
+reference: 'composer://web-token/jwt-framework'

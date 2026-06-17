@@ -1,0 +1,14 @@
+title: 'JWSVerifier uses algorithm from unprotected header, enabling algorithm confusion attacks'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-jc38-x7x8-2xc8'
+cve: ~
+branches:
+    3.x:
+        versions: ['<=3.4.9']
+        time: 2026-06-06 16:30:13
+    4.0.x:
+        versions: ['>=4.0.0', '<=4.0.6']
+        time: 2026-06-06 16:30:13
+    4.1.x:
+        versions: ['>=4.1.0', '<=4.1.6']
+        time: 2026-06-06 16:30:13
+reference: 'composer://web-token/jwt-framework'

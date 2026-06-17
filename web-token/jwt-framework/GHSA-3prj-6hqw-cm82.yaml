@@ -1,0 +1,14 @@
+title: 'PBES2-HS*+A*KW unwrap accepts an unbounded p2c iteration count, enabling CPU-amplification denial of service'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-3prj-6hqw-cm82'
+cve: ~
+branches:
+    3.x:
+        versions: ['<=3.4.9']
+        time: 2026-06-06 16:26:43
+    4.0.x:
+        versions: ['>=4.0.0', '<=4.0.6']
+        time: 2026-06-06 16:26:43
+    4.1.x:
+        versions: ['>=4.1.0', '<=4.1.6']
+        time: 2026-06-06 16:26:43
+reference: 'composer://web-token/jwt-framework'
