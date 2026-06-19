@@ -215,6 +215,12 @@ final class Validate extends Command
                                     continue;
                                 }
 
+                                // Enforce using an exclusive upper bound referencing the patched version when it exists.
+                                // Unpatched vulnerabilities (that have no time defined) are excluded from this check.
+                                if (str_starts_with($version, '<=') && isset($branch['time'])) {
+                                    $messages[$path][] = sprintf('"versions" must use an exclusive upper bound for branch "%s", referencing the release shipping the patch.', $name);
+                                }
+
                                 $upperBound = $version;
                                 continue;
                             }

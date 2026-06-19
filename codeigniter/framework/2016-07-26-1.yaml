@@ -4,5 +4,5 @@ cve: ~
 branches:
     "3.0":
         time:     2015-07-26 19:42:05
-        versions: ['<=3.0.6']
+        versions: ['<3.1.0']
 reference: composer://codeigniter/framework

@@ -4,5 +4,5 @@ cve: ~
 branches:
   master:
     time: 2016-08-30 10:37:36
-    versions: [<=2.2.0]
+    versions: [<2.2.1]
 reference: composer://gree/jose
