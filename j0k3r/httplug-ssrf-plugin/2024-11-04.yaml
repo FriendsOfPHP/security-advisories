@@ -1,0 +1,7 @@
+title: 'Server-side Request Forgery (SSRF)'
+link: 'https://security.snyk.io/vuln/SNYK-PHP-J0K3RHTTPLUGSSRFPLUGIN-8400871'
+branches:
+    master:
+        time: ~
+        versions: [ '>=0.0.0', '<=3.0.1' ]
+reference: 'composer://j0k3r/httplug-ssrf-plugin'
