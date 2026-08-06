@@ -175,10 +175,6 @@ final class Validate extends Command
                 $upperBoundWithoutLowerBound = null;
 
                 foreach ($data['branches'] as $name => $branch) {
-                    if (!preg_match('/^([\d.\-]+(\.x)?(-dev)?|master|main)$/', $name)) {
-                        $messages[$path][] = sprintf('Invalid branch name "%s".', $name);
-                    }
-
                     if ($keys = array_diff(array_keys($branch), array('time', 'versions'))) {
                         foreach ($keys as $key) {
                             $messages[$path][] = sprintf('Key "%s" is not supported for branch "%s".', $key, $name);
