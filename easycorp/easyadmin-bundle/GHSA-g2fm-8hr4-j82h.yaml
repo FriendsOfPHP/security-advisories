@@ -1,0 +1,10 @@
+title:     Custom action dispatcher bypasses access_control on other routes
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-g2fm-8hr4-j82h
+branches:
+    4.x:
+        time:     2026-08-11 06:38:40
+        versions: ['>=4.0.0', '<4.29.16']
+    5.x:
+        time:     2026-08-11 06:38:40
+        versions: ['>=5.0.0', '<5.5.1']
+reference: composer://easycorp/easyadmin-bundle
