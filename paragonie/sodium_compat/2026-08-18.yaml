@@ -1,0 +1,11 @@
+title:     Incorrect Ed25519 public key validation
+link:      https://github.com/paragonie/sodium_compat/pull/206
+cve:       ~
+branches:
+    master:
+        time:     2026-08-18 12:00:00
+        versions: ['>=2', '<2.5.1']
+    1.x:
+        time:     2026-08-18 12:00:00
+        versions: ['<1.24.1']
+reference: composer://paragonie/sodium_compat
