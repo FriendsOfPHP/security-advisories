@@ -1,0 +1,10 @@
+title:     Improper access control in the CSV import wizard (see GHSA-23w9-4pg3-xwm3)
+link:      https://contao.org/en/security-advisories/improper-access-control-in-the-csv-import-wizard
+branches:
+    5.3.x:
+        time:     2026-08-25 06:40:00
+        versions: ['>=5.0.0', '<5.3.50']
+    5.7.x:
+        time:     2026-08-25 06:40:00
+        versions: ['>=5.4.0', '<5.7.12']
+reference: composer://contao/core-bundle

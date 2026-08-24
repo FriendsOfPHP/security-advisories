@@ -1,0 +1,10 @@
+title:     Non-admin users can self-grant permissions that implicitly make them administrators (see GHSA-r9qp-pqx5-8369)
+link:      https://contao.org/en/security-advisories/non-admin-users-can-self-grant-permissions-that-implicitly-make-them-administrators
+branches:
+    5.3.x:
+        time:     2026-08-25 06:40:00
+        versions: ['>=5.0.0', '<5.3.50']
+    5.7.x:
+        time:     2026-08-25 06:40:00
+        versions: ['>=5.4.0', '<5.7.12']
+reference: composer://contao/contao

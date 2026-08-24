@@ -1,0 +1,7 @@
+title:     Cross-site scripting in the Colorbox caption (see GHSA-rr85-7j77-pppg)
+link:      https://github.com/contao-components/colorbox/security/advisories/GHSA-rr85-7j77-pppg
+branches:
+    main:
+        time:     2026-08-25 06:40:00
+        versions: ['>=1.0.0', '<1.6.4.3']
+reference: composer://contao-components/colorbox
