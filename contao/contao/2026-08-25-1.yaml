@@ -1,0 +1,7 @@
+title:     Improper access control in the table access voter (see GHSA-5974-gfqc-wrcm)
+link:      https://contao.org/en/security-advisories/improper-access-control-in-the-table-access-voter
+branches:
+    5.7.x:
+        time:     2026-08-25 06:40:00
+        versions: ['>=5.7.0', '<5.7.12']
+reference: composer://contao/contao
