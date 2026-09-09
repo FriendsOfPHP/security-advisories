@@ -3,5 +3,5 @@ link: https://github.com/reactphp/http/security/advisories/GHSA-g4f2-2pf3-2pwj
 branches:
     1.x:
         time: 2026-09-09 09:11:00
-        versions: ['>=1.0.0', '<1.11.0']
+        versions: ['>=1.0.0', '<1.11.1']
 reference: composer://react/http
