@@ -1,0 +1,8 @@
+title:     Credentials under prefixed or nested names stored in cleartext in the threat log
+link:      https://github.com/jay123anta/laravel-threat-detection/security/advisories/GHSA-6gg9-q48h-56vx
+cve:       ~
+branches:
+    1.x:
+        time:     2026-09-29 09:54:03
+        versions: ['<1.9.0']
+reference: composer://jayanta/laravel-threat-detection
