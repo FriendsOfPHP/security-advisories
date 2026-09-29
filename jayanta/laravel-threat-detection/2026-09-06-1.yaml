@@ -1,0 +1,8 @@
+title:     Plaintext credentials written to the threat log and readable by any authenticated user
+link:      https://github.com/jay123anta/laravel-threat-detection/security/advisories/GHSA-9jh8-pj82-6ccg
+cve:       ~
+branches:
+    1.x:
+        time:     2026-09-06 09:42:07
+        versions: ['<1.8.0']
+reference: composer://jayanta/laravel-threat-detection
