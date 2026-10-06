@@ -76,4 +76,3 @@ when you have read-only subtree splits of a main repository), duplicate the
 information in several files.
 
 [1]: https://getcomposer.org/doc/03-cli.md#audit
-[2]: https://github.com/marketplace/actions/the-php-security-checker
