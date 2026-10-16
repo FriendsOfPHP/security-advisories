@@ -1,0 +1,8 @@
+title:     Signature validation bypass
+link:      https://github.com/litesaml/lightsaml/issues/127
+cve:       ~
+branches:
+    6.x:
+        time:     ~
+        versions: ['>=6.0.0', '<=6.0.0']
+reference: composer://litesaml/lightsaml
