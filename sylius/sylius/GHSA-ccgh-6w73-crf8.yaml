@@ -1,0 +1,16 @@
+title:     "Channel-based payment method restriction bypass on shop payment request API endpoint"
+link:      https://github.com/Sylius/Sylius/security/advisories/GHSA-ccgh-6w73-crf8
+branches:
+    2.0.x:
+        time:     ~
+        versions: ['>=2.0.0', '<2.1.0']
+    2.1.x:
+        time:     2026-10-22 15:23:43
+        versions: ['>=2.1.0', '<2.1.17']
+    2.2.x:
+        time:     2026-10-22 15:27:38
+        versions: ['>=2.2.0', '<2.2.12']
+    2.3.x:
+        time:     2026-10-22 15:40:31
+        versions: ['>=2.3.0', '<2.3.2']
+reference: composer://sylius/sylius
