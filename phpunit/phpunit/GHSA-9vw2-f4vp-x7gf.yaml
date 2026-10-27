@@ -1,0 +1,7 @@
+title:     PHPUnit vulnerable to code execution by other local users via shared temporary directory in PHPT code coverage handling
+link:      https://github.com/sebastianbergmann/phpunit/security/advisories/GHSA-9vw2-f4vp-x7gf
+branches:
+    13.4.x:
+        time:     2026-10-27 03:15:38
+        versions: ['>=13.4.0', '<13.4.4']
+reference: composer://phpunit/phpunit
