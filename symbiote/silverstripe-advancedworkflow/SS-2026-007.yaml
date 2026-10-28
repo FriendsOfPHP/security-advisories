@@ -1,0 +1,11 @@
+title:     "SS-2026-007 - RCE via template string escaping in advanced workflow email template"
+link:      https://www.silverstripe.org/download/security-releases/ss-2026-007
+cve:       ~
+branches:
+    6.4.x:
+        time:     2026-10-28 05:56:17
+        versions: ['<6.4.6']
+    7.2.x:
+        time:     2026-10-28 01:49:43
+        versions: ['>=7.0.0', '<7.2.4']
+reference: composer://symbiote/silverstripe-advancedworkflow
