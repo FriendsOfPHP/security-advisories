@@ -1,0 +1,8 @@
+title:     "SS-2026-005 - XSS in required field label"
+link:      https://www.silverstripe.org/download/security-releases/ss-2026-005
+cve:       ~
+branches:
+    7.1.x:
+        time:     2026-10-28 02:02:02
+        versions: ['<7.1.4']
+reference: composer://silverstripe/userforms
