@@ -1,0 +1,7 @@
+title:     EncryptedFieldsMapGenerator may silently omit encrypted fields when a document has embedded documents
+link:      https://github.com/doctrine/mongodb-odm/security/advisories/GHSA-cr6x-45gj-q6f5
+branches:
+    2.17.x:
+        time:     2026-11-03 05:21:00
+        versions: ['>=2.12.0', '<2.17.3']
+reference: composer://doctrine/mongodb-odm
