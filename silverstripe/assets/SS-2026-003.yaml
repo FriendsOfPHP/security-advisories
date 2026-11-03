@@ -1,0 +1,11 @@
+title:     "SS-2026-003 - RCE via renamed uploaded file"
+link:      https://www.silverstripe.org/download/security-releases/ss-2026-003
+cve:       ~
+branches:
+    2.4.x:
+        time:     2026-10-28 04:40:17
+        versions: ['<2.4.6']
+    3.2.x:
+        time:     2026-10-28 01:47:13
+        versions: ['>=3.0.0', '<3.2.4']
+reference: composer://silverstripe/assets

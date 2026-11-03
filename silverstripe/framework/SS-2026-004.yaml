@@ -1,0 +1,8 @@
+title:     "SS-2026-004 - Password reset token account takeover"
+link:      https://www.silverstripe.org/download/security-releases/ss-2026-004
+cve:       ~
+branches:
+    6.2.x:
+        time:     2026-10-28 01:56:26
+        versions: ['<6.2.13']
+reference: composer://silverstripe/framework
