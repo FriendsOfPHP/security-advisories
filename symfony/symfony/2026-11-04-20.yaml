@@ -1,0 +1,17 @@
+title:     "Incomplete Fix for CVE-2026-45756: JsonPath Queries Can Still Hold a Process Through search(), match() and Chained Filters"
+link:      https://github.com/symfony/symfony/security/advisories/GHSA-cpww-5vpx-72x7
+cve:       ~
+branches:
+    7.3.x:
+        time:     ~
+        versions: ['>=7.3.0', '<7.4.0']
+    7.4.x:
+        time:     2026-11-04 11:26:51
+        versions: ['>=7.4.0', '<7.4.23']
+    8.0.x:
+        time:     ~
+        versions: ['>=8.0.0', '<8.1.0']
+    8.1.x:
+        time:     2026-11-04 11:30:15
+        versions: ['>=8.1.0', '<8.1.11']
+reference: composer://symfony/symfony

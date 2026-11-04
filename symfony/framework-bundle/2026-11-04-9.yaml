@@ -1,0 +1,23 @@
+title:     "The \"private_ranges\" Trusted Proxies Shortcut Trusts Clients Presenting an IPv4-Mapped, 6to4, Teredo or NAT64 Address as Reverse Proxies"
+link:      https://github.com/symfony/symfony/security/advisories/GHSA-xg2q-4rrq-657q
+cve:       ~
+branches:
+    7.1.x:
+        time:     ~
+        versions: ['>=7.1.0', '<7.2.0']
+    7.2.x:
+        time:     ~
+        versions: ['>=7.2.0', '<7.3.0']
+    7.3.x:
+        time:     ~
+        versions: ['>=7.3.0', '<7.4.0']
+    7.4.x:
+        time:     2026-11-04 11:26:51
+        versions: ['>=7.4.0', '<7.4.23']
+    8.0.x:
+        time:     ~
+        versions: ['>=8.0.0', '<8.1.0']
+    8.1.x:
+        time:     2026-11-04 11:30:15
+        versions: ['>=8.1.0', '<8.1.11']
+reference: composer://symfony/framework-bundle
