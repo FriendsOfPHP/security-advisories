@@ -1,0 +1,8 @@
+title:     AAD parameter not correctly bound in File cryptography
+link:      https://github.com/paragonie/halite/security/advisories/GHSA-jw8x-c445-phrm
+cve:       ~
+branches:
+    master:
+        time:     2026-11-06 12:00:00
+        versions: ['>=5', '<5.1.5']
+reference: composer://paragonie/halite
