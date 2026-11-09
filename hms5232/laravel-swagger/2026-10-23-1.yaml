@@ -1,0 +1,7 @@
+title: Path traversal in OpenAPI document route allows reading arbitrary files
+link: https://github.com/hms5232/laravel-swagger/security/advisories/GHSA-jmrx-p2pv-cj26
+reference: composer://hms5232/laravel-swagger
+branches:
+    0.x:
+        time:     2026-10-23 05:12:34
+        versions: ['<0.2.1']
