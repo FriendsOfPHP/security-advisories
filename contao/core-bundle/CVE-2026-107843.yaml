@@ -1,5 +1,6 @@
 title:     Unrestricted activation email resending (see GHSA-mfxh-vp55-7gc6)
 link:      https://contao.org/en/security-advisories/unrestricted-activation-email-resending
+cve:       CVE-2026-107843
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00

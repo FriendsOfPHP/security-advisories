@@ -1,5 +1,6 @@
 title:     Improper access control in the table access voter (see GHSA-5974-gfqc-wrcm)
 link:      https://contao.org/en/security-advisories/improper-access-control-in-the-table-access-voter
+cve:       CVE-2026-107851
 branches:
     5.7.x:
         time:     2026-08-25 06:40:00
