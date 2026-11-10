@@ -1,0 +1,13 @@
+title:     Insert tag injection in the breadcrumb module on 404 pages (see GHSA-6m74-9w88-r3fh)
+link:      https://github.com/contao/contao/security/advisories/GHSA-6m74-9w88-r3fh
+branches:
+    5.3.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=5.3.0', '<5.3.54']
+    5.7.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=5.4.0', '<5.7.17']
+    6.0.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=6.0.0', '<6.0.6']
+reference: composer://contao/contao

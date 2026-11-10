@@ -1,0 +1,10 @@
+title:     Insufficient scope validation for passkey authentication (see GHSA-5mw8-wv8h-h6hx)
+link:      https://github.com/contao/contao/security/advisories/GHSA-5mw8-wv8h-h6hx
+branches:
+    5.7.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=5.6.0', '<5.7.17']
+    6.0.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=6.0.0', '<6.0.6']
+reference: composer://contao/core-bundle
