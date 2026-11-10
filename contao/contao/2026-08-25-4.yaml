@@ -1,5 +1,6 @@
 title:     Cross-site scripting in the frontend search results (see GHSA-h57j-5f5m-789v)
 link:      https://contao.org/en/security-advisories/cross-site-scripting-in-the-frontend-search-results
+cve:       CVE-2026-104884
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00

@@ -1,5 +1,6 @@
 title:     Cross-site scripting in the comments bundle (see GHSA-628f-v4f6-p37r)
 link:      https://contao.org/en/security-advisories/cross-site-scripting-in-the-comments-bundle
+cve:       CVE-2026-107845
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00

@@ -1,5 +1,6 @@
 title:     Path traversal in the images controller (see GHSA-mrvp-7wmx-5m4h)
 link:      https://contao.org/en/security-advisories/path-traversal-in-the-images-controller
+cve:       CVE-2026-107844
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00

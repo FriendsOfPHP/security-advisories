@@ -1,5 +1,6 @@
 title:     Exposure of sensitive information through a stale search index (see GHSA-x2rp-9qf7-2fmq)
 link:      https://contao.org/en/security-advisories/exposure-of-sensitive-information-through-a-stale-search-index
+cve:       CVE-2026-107842
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00

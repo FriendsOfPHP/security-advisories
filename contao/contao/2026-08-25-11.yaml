@@ -1,5 +1,6 @@
 title:     Improper access control in the newsletter module (see GHSA-3r9g-pfhv-3228)
 link:      https://contao.org/en/security-advisories/improper-access-control-in-the-newsletter-module
+cve:       CVE-2026-104881
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00

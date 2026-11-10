@@ -1,5 +1,6 @@
 title:     Improper access control in the CSV import wizard (see GHSA-23w9-4pg3-xwm3)
 link:      https://contao.org/en/security-advisories/improper-access-control-in-the-csv-import-wizard
+cve:       CVE-2026-104882
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00

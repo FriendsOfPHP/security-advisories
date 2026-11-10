@@ -1,5 +1,6 @@
 title:     Cross-site request forgery in custom backend actions (see GHSA-9ff2-p842-45wq)
 link:      https://contao.org/en/security-advisories/cross-site-request-forgery-in-custom-backend-actions
+cve:       CVE-2026-107848
 branches:
     5.3.x:
         time:     2026-08-25 06:40:00
