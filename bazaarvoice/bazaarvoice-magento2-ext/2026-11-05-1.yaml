@@ -1,0 +1,7 @@
+title:     Unauthenticated access to other customers' order confirmation page through the pixel test controller
+link:      https://github.com/bazaarvoice/magento2-extension/issues/148
+branches:
+    "9.1.x":
+        time:     2026-10-26 14:14:48
+        versions: ['>=8.0.0', '<9.1.11']
+reference: composer://bazaarvoice/bazaarvoice-magento2-ext
