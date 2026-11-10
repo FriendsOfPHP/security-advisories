@@ -1,0 +1,9 @@
+title:     OAuth middleware endpoints bypass request body limits and allow unauthenticated memory exhaustion
+link:      https://github.com/modelcontextprotocol/php-sdk/security/advisories/GHSA-f4rf-6ghj-mhr6
+cve:       ~
+branches:
+    main:
+        time:     2026-10-18 14:45:00
+        versions: ['>=0.8.0', '<0.9.0']
+
+reference: composer://mcp/sdk
