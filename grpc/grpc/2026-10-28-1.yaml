@@ -1,0 +1,8 @@
+title:     "gRPC PHP: bundled CA store trusts compromised eMudhra intermediate CAs"
+link:      https://github.com/grpc/grpc/security/advisories/GHSA-gvrc-7wf9-p7hg
+cve:       ~
+branches:
+    master:
+        time:     2026-10-28 19:59:04
+        versions: ['<1.84.1']
+reference: composer://grpc/grpc
