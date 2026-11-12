@@ -1,0 +1,13 @@
+title:     NoPrivateNetworkExceptRootPagesHttpClient does not pin the checked IP of cached hosts (see GHSA-wvj5-rchg-986m)
+link:      https://github.com/contao/contao/security/advisories/GHSA-wvj5-rchg-986m
+branches:
+    5.3.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=5.3.48', '<5.3.54']
+    5.7.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=5.7.9', '<5.7.17']
+    6.0.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=6.0.0', '<6.0.6']
+reference: composer://contao/core-bundle

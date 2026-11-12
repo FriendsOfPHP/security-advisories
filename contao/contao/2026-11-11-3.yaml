@@ -1,0 +1,13 @@
+title:     Path traversal via decode-after-check in the image insert tag (see GHSA-r7cf-mfp4-r23h)
+link:      https://github.com/contao/contao/security/advisories/GHSA-r7cf-mfp4-r23h
+branches:
+    5.3.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=4.0.0', '<5.3.54']
+    5.7.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=5.4.0', '<5.7.17']
+    6.0.x:
+        time:     2026-11-11 07:39:00
+        versions: ['>=6.0.0', '<6.0.6']
+reference: composer://contao/contao
