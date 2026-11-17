@@ -1,0 +1,7 @@
+title:     Stored XSS from SVG uploads survives in ImageField's index and detail views
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-vr2c-frp8-4fj3
+branches:
+    5.x:
+        time:     2026-11-17 07:22:19
+        versions: ['>=5.4.0', '<5.10.2']
+reference: composer://easycorp/easyadmin-bundle

@@ -1,0 +1,10 @@
+title:     'Stored XSS: SlugField and unmapped fields printed raw by text template'
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-fx5j-rm79-ggpq
+branches:
+    4.x:
+        time:     2026-11-17 07:20:13
+        versions: ['>=4.0.0', '<4.29.17']
+    5.x:
+        time:     2026-11-17 07:22:19
+        versions: ['>=5.0.0', '<5.10.2']
+reference: composer://easycorp/easyadmin-bundle

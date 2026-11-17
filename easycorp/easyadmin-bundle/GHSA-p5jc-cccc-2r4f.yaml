@@ -1,0 +1,10 @@
+title:     setPermissions() drops earlier permissions, exposing restricted actions
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-p5jc-cccc-2r4f
+branches:
+    4.x:
+        time:     2026-11-17 07:20:13
+        versions: ['>=4.0.0', '<4.29.17']
+    5.x:
+        time:     2026-11-17 07:22:19
+        versions: ['>=5.0.0', '<5.10.2']
+reference: composer://easycorp/easyadmin-bundle
