@@ -1,0 +1,7 @@
+title:     Uploaded files can be stored outside the upload directory
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-j8fv-hmqq-xprg
+branches:
+    5.x:
+        time:     2026-11-17 07:22:19
+        versions: ['>=5.0.5', '<5.10.2']
+reference: composer://easycorp/easyadmin-bundle
