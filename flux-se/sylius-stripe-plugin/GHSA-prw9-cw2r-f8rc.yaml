@@ -1,0 +1,16 @@
+title:     "Stripe webhook secret keys are written to the application log on every failed signature check"
+link:      https://github.com/Sylius/StripePlugin/security/advisories/GHSA-prw9-cw2r-f8rc
+branches:
+    1.0.x:
+        time:     ~
+        versions: ['>=1.0.0', '<1.1.0']
+    1.1.x:
+        time:     ~
+        versions: ['>=1.1.0', '<1.2.0']
+    2.0.x:
+        time:     2026-11-17 14:59:27
+        versions: ['>=2.0.0', '<2.0.3']
+    2.1.x:
+        time:     2026-11-17 14:59:40
+        versions: ['>=2.1.0', '<2.1.1']
+reference: composer://flux-se/sylius-stripe-plugin

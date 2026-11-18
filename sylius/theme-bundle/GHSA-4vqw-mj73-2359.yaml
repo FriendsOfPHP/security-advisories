@@ -1,0 +1,22 @@
+title:     "Template path traversal in theme template locators"
+link:      https://github.com/Sylius/SyliusThemeBundle/security/advisories/GHSA-4vqw-mj73-2359
+branches:
+    2.0.x:
+        time:     ~
+        versions: ['>=2.0.0', '<2.1.0']
+    2.1.x:
+        time:     ~
+        versions: ['>=2.1.0', '<2.2.0']
+    2.2.x:
+        time:     ~
+        versions: ['>=2.2.0', '<2.3.0']
+    2.3.x:
+        time:     2026-11-18 07:11:17
+        versions: ['>=2.3.0', '<2.3.1']
+    2.4.x:
+        time:     2026-11-18 07:11:25
+        versions: ['>=2.4.0', '<2.4.2']
+    2.5.x:
+        time:     2026-11-18 07:11:32
+        versions: ['>=2.5.0', '<2.5.1']
+reference: composer://sylius/theme-bundle

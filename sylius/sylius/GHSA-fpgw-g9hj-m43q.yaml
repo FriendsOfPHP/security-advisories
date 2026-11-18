@@ -1,0 +1,34 @@
+title:     "Changing the e-mail address through the Shop API skips account re-verification"
+link:      https://github.com/Sylius/Sylius/security/advisories/GHSA-fpgw-g9hj-m43q
+branches:
+    1.9.x:
+        time:     ~
+        versions: ['>=1.9.0', '<1.10.0']
+    1.10.x:
+        time:     ~
+        versions: ['>=1.10.0', '<1.11.0']
+    1.11.x:
+        time:     ~
+        versions: ['>=1.11.0', '<1.12.0']
+    1.12.x:
+        time:     ~
+        versions: ['>=1.12.0', '<1.13.0']
+    1.13.x:
+        time:     ~
+        versions: ['>=1.13.0', '<1.14.0']
+    1.14.x:
+        time:     2026-11-18 12:18:41
+        versions: ['>=1.14.0', '<1.14.22']
+    2.0.x:
+        time:     ~
+        versions: ['>=2.0.0', '<2.1.0']
+    2.1.x:
+        time:     ~
+        versions: ['>=2.1.0', '<2.2.0']
+    2.2.x:
+        time:     2026-11-18 12:24:23
+        versions: ['>=2.2.0', '<2.2.13']
+    2.3.x:
+        time:     2026-11-18 12:27:18
+        versions: ['>=2.3.0', '<2.3.3']
+reference: composer://sylius/sylius
