@@ -1,0 +1,7 @@
+title:     "View data keys can override evaluated template source in Parser and View::renderString() (see GHSA-c29x-ffjj-8r7x)"
+link:      https://github.com/codeigniter4/CodeIgniter4/security/advisories/GHSA-c29x-ffjj-8r7x
+branches:
+    master:
+        time:     2026-10-09 13:49:44
+        versions: ['<4.7.5']
+reference: composer://codeigniter4/framework

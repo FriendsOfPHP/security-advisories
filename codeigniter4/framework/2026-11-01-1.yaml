@@ -1,0 +1,7 @@
+title:     "Path traversal in file cache pattern deletion allows deletion of files outside the cache directory (see GHSA-9hf2-g3w9-pfmp)"
+link:      https://github.com/codeigniter4/CodeIgniter4/security/advisories/GHSA-9hf2-g3w9-pfmp
+branches:
+    master:
+        time:     2026-11-01 12:38:04
+        versions: ['<4.7.6']
+reference: composer://codeigniter4/framework

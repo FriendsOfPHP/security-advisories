@@ -1,0 +1,7 @@
+title:     "PHP code execution through Parser conditionals in user-editable templates (see GHSA-4q58-jw8x-8cm7)"
+link:      https://github.com/codeigniter4/CodeIgniter4/security/advisories/GHSA-4q58-jw8x-8cm7
+branches:
+    master:
+        time:     2026-10-09 14:01:22
+        versions: ['<4.7.5']
+reference: composer://codeigniter4/framework

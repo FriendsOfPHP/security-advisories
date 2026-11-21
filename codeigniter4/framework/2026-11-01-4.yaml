@@ -1,0 +1,7 @@
+title:     "SQL injection via named bind placeholders inside already escaped values in Query Builder and $db->query() (see GHSA-25rf-99hr-7pmr)"
+link:      https://github.com/codeigniter4/CodeIgniter4/security/advisories/GHSA-25rf-99hr-7pmr
+branches:
+    master:
+        time:     2026-11-01 16:13:06
+        versions: ['<4.7.6']
+reference: composer://codeigniter4/framework
