@@ -1,0 +1,7 @@
+title: "Stalled HTTP/2 responses can exhaust a worker's response capacity"
+link: https://gitlab.com/mini4work/webserver/-/blob/1.5.3/docs/security/http2-stalled-responses.md
+branches:
+    master:
+        time: 2026-11-19 18:47:10
+        versions: ['>=0.0.1', '<1.2.0']
+reference: composer://mini4work/webserver
