@@ -1,0 +1,8 @@
+title: 'RSA private key recoverable through a timing side channel in RSA-OAEP and RSA1_5 decryption'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-2qpx-pwmq-r27r'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-core'

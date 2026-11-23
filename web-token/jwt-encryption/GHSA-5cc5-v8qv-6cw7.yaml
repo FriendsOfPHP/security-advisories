@@ -1,0 +1,8 @@
+title: 'dir, ECDH-ES and ECDH-SS accept a non-empty JWE Encrypted Key, so token strings are malleable'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-5cc5-v8qv-6cw7'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-encryption'

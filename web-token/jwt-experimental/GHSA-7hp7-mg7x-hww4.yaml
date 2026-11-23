@@ -1,0 +1,8 @@
+title: 'Rejected JWE tokens write decryption keys into exception stack traces (4.2.1 to 4.2.5)'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-7hp7-mg7x-hww4'
+cve: ~
+branches:
+    4.2.x:
+        versions: ['>=4.2.1', '<4.2.6']
+        time: 2026-11-08 11:32:34
+reference: 'composer://web-token/jwt-experimental'

@@ -1,0 +1,8 @@
+title: 'RSA keys of any size are accepted: a key chosen by the sender of a token costs seconds of CPU per operation (RSA-PSS and RSA encryption, and every RSA algorithm without GMP)'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-96f8-m4jr-72xj'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-encryption-algorithm-rsa'

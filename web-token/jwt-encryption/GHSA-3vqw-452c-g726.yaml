@@ -1,0 +1,8 @@
+title: 'JWE and JWS loaders try every recipient or signature of a token, so a small token multiplies the PBES2 iteration cap (denial of service)'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-3vqw-452c-g726'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['>=0.5.0', '<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-encryption'

@@ -1,0 +1,8 @@
+title: 'Direct encryption (dir) does not check the key size: with a key of half the required size, AES-CBC-HMAC content is encrypted under an all-zero AES key and anyone holding the token can read it'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-jc6j-46g2-xwqc'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-encryption'
