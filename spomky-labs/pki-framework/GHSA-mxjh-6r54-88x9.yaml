@@ -1,0 +1,8 @@
+title: 'CertificationPath::validate() silently treats the first certificate of the chain as the trust anchor'
+link: 'https://github.com/Spomky-Labs/pki-framework/security/advisories/GHSA-mxjh-6r54-88x9'
+cve: ~
+branches:
+    1.6.x:
+        versions: ['<1.6.2']
+        time: 2026-09-07 20:26:55
+reference: 'composer://spomky-labs/pki-framework'

@@ -1,0 +1,8 @@
+title: 'Distinguished name comparison is defeated by the ASN.1 string type and by invisible characters, and made to collide by lossy transcoding'
+link: 'https://github.com/Spomky-Labs/pki-framework/security/advisories/GHSA-2rhj-2r69-j232'
+cve: ~
+branches:
+    1.6.x:
+        versions: ['<1.6.2']
+        time: 2026-09-08 05:30:19
+reference: 'composer://spomky-labs/pki-framework'

@@ -1,0 +1,8 @@
+title: 'ECDSA signature values are re-encoded before verification, so one certificate has an unlimited supply of accepted byte encodings'
+link: 'https://github.com/Spomky-Labs/pki-framework/security/advisories/GHSA-mx53-vr97-rxr2'
+cve: ~
+branches:
+    1.6.x:
+        versions: ['<1.6.2']
+        time: 2026-09-08 05:46:40
+reference: 'composer://spomky-labs/pki-framework'

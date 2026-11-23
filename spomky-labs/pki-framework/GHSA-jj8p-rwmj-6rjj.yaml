@@ -1,0 +1,8 @@
+title: 'Malformed ASN.1 input raises a TypeError that escapes catch(Exception), crashing the caller'
+link: 'https://github.com/Spomky-Labs/pki-framework/security/advisories/GHSA-jj8p-rwmj-6rjj'
+cve: ~
+branches:
+    1.6.x:
+        versions: ['<1.6.2']
+        time: 2026-09-07 21:06:09
+reference: 'composer://spomky-labs/pki-framework'
