@@ -3,6 +3,6 @@ link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-g
 cve: ~
 branches:
     5.3.x:
-        versions: ['>=4.0.0', '<5.3.13']
+        versions: ['>=1.2.0', '<5.3.13']
         time: 2026-11-17 19:20:46
 reference: 'composer://web-auth/webauthn-framework'
