@@ -1,0 +1,11 @@
+title: 'TOTP::expiresIn() throws an uncaught TypeError for a provisioning URI with a future epoch and a very large period'
+link: 'https://github.com/Spomky-Labs/otphp/security/advisories/GHSA-4v5c-4hwq-6f6m'
+cve: ~
+branches:
+    11.4.x:
+        versions: ['>=11.4.0', '<11.4.4']
+        time: 2026-11-07 16:52:51
+    11.5.x:
+        versions: ['>=11.5.0', '<11.5.1']
+        time: 2026-11-07 17:39:42
+reference: 'composer://spomky-labs/otphp'
