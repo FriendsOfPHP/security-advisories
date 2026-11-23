@@ -1,0 +1,8 @@
+title: 'FidoAllianceCompliantMetadataService accepts a metadata BLOB that does not chain to a trust anchor'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-p653-gg6c-rrjw'
+cve: ~
+branches:
+    4.8.x:
+        versions: ['>=4.0.0', '<4.9.0']
+        time: ~
+reference: 'composer://web-auth/metadata-service'

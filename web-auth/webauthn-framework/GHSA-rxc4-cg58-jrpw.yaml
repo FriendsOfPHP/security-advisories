@@ -1,0 +1,8 @@
+title: 'StringStream::read() allocates the length declared by CBOR data before checking it (denial of service)'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-rxc4-cg58-jrpw'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=2.1.0', '<5.3.13']
+        time: 2026-11-17 19:20:46
+reference: 'composer://web-auth/webauthn-framework'

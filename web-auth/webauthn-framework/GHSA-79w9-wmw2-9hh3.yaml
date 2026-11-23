@@ -1,0 +1,8 @@
+title: 'webauthn-stimulus registration and authentication controllers send the PRF extension results to the server'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-79w9-wmw2-9hh3'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=5.3.0', '<5.3.15']
+        time: 2026-11-19 11:21:48
+reference: 'composer://web-auth/webauthn-framework'

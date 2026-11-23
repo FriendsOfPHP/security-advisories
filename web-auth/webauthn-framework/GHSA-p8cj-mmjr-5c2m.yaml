@@ -1,0 +1,8 @@
+title: 'Metadata status report check reads a single report and ignores REVOKED'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-p8cj-mmjr-5c2m'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=3.0.0', '<5.3.13']
+        time: 2026-11-17 19:20:46
+reference: 'composer://web-auth/webauthn-framework'

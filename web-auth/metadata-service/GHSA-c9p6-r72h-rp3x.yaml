@@ -1,0 +1,8 @@
+title: 'Attestation certificates sent as PEM text allow forged packed/TPM attestations and an unauthenticated denial of service'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-c9p6-r72h-rp3x'
+cve: ~
+branches:
+    4.8.x:
+        versions: ['>=4.1.0', '<4.9.0']
+        time: ~
+reference: 'composer://web-auth/metadata-service'

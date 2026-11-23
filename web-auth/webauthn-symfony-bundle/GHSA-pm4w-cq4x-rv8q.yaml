@@ -1,0 +1,8 @@
+title: 'Assertion options return an empty allowCredentials for accounts without credentials, allowing username enumeration'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-pm4w-cq4x-rv8q'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=4.9.0', '<5.3.10']
+        time: 2026-10-31 12:44:21
+reference: 'composer://web-auth/webauthn-symfony-bundle'
