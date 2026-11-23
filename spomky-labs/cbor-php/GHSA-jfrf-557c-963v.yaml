@@ -1,0 +1,8 @@
+title: 'Denial of service and error-contract escapes when decoding hostile CBOR (quadratic map normalize, tag 4/5 key memory exhaustion, bignum base conversion, ValueError/RuntimeException from decode)'
+link: 'https://github.com/Spomky-Labs/cbor-php/security/advisories/GHSA-jfrf-557c-963v'
+cve: ~
+branches:
+    3.3.x:
+        versions: ['<3.3.5']
+        time: 2026-09-10 08:30:21
+reference: 'composer://spomky-labs/cbor-php'

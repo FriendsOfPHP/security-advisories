@@ -1,0 +1,8 @@
+title: 'Unbounded exponent in BigFloat and DecimalFraction tags allows uncatchable memory exhaustion'
+link: 'https://github.com/Spomky-Labs/cbor-php/security/advisories/GHSA-pf28-pvhp-7mm5'
+cve: ~
+branches:
+    3.3.x:
+        versions: ['<3.3.4']
+        time: 2026-08-31 18:59:08
+reference: 'composer://spomky-labs/cbor-php'

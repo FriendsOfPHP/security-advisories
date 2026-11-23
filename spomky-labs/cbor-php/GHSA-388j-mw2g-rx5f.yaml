@@ -1,0 +1,8 @@
+title: 'Map keys are stored as native PHP array offsets, causing an uncaught TypeError and silent key collisions'
+link: 'https://github.com/Spomky-Labs/cbor-php/security/advisories/GHSA-388j-mw2g-rx5f'
+cve: ~
+branches:
+    3.3.x:
+        versions: ['<3.3.4']
+        time: 2026-08-31 18:59:12
+reference: 'composer://spomky-labs/cbor-php'
