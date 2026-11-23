@@ -1,0 +1,17 @@
+title: 'AES-GCM decryption accepts any authentication tag length: a holder of one valid JWE can brute force a 1-byte tag in at most 256 requests and rewrite the plaintext'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-j265-mg9q-wpv9'
+cve: ~
+branches:
+    3.4.x:
+        versions: ['<3.4.11']
+        time: 2026-10-30 20:37:54
+    4.0.x:
+        versions: ['>=4.0.0', '<4.0.8']
+        time: 2026-10-30 22:03:43
+    4.1.x:
+        versions: ['>=4.1.0', '<4.1.10']
+        time: 2026-10-30 22:06:24
+    4.2.x:
+        versions: ['>=4.2.0', '<4.2.4']
+        time: 2026-10-30 22:08:19
+reference: 'composer://web-token/jwt-experimental'
