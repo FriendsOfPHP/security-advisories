@@ -1,0 +1,8 @@
+title: 'Duplicate certificate extensions are silently merged, last occurrence wins'
+link: 'https://github.com/Spomky-Labs/pki-framework/security/advisories/GHSA-wc4q-rp39-hwpf'
+cve: ~
+branches:
+    1.6.x:
+        versions: ['<1.6.2']
+        time: 2026-09-07 21:25:21
+reference: 'composer://spomky-labs/pki-framework'

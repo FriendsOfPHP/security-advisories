@@ -1,0 +1,8 @@
+title: 'PEM_REGEX backtracks cubically, so 4 KB of text costs more CPU than parsing thousands of real certificates'
+link: 'https://github.com/Spomky-Labs/pki-framework/security/advisories/GHSA-x673-qv99-7268'
+cve: ~
+branches:
+    1.6.x:
+        versions: ['<1.6.2']
+        time: 2026-09-08 05:58:42
+reference: 'composer://spomky-labs/pki-framework'
