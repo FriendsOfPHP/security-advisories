@@ -1,0 +1,8 @@
+title: 'SimpleFakeCredentialGenerator decoys can be told apart from real credentials, allowing username enumeration'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-8gvp-8vj9-p3q7'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=4.9.0', '<5.3.13']
+        time: 2026-11-17 19:20:46
+reference: 'composer://web-auth/webauthn-framework'

@@ -1,0 +1,8 @@
+title: 'RequestBodyUserEntityGuesser lets users add passkeys to other accounts'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-3chw-82qh-p72w'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=4.0.0', '<5.3.13']
+        time: 2026-11-17 18:44:35
+reference: 'composer://web-auth/webauthn-framework'

@@ -1,0 +1,8 @@
+title: 'WebauthnPassport ignores the firewall''s user provider, allowing impersonation'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-4485-9q39-m27g'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=5.2.1', '<5.3.13']
+        time: 2026-11-17 19:20:46
+reference: 'composer://web-auth/webauthn-framework'

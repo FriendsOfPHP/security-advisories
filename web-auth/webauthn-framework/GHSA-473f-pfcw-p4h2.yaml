@@ -1,0 +1,8 @@
+title: 'Default client override policy lets the client waive the attestation that a creation profile requests'
+link: 'https://github.com/web-auth/webauthn-framework/security/advisories/GHSA-473f-pfcw-p4h2'
+cve: ~
+branches:
+    5.3.x:
+        versions: ['>=4.0.0', '<5.3.13']
+        time: 2026-11-17 19:20:46
+reference: 'composer://web-auth/webauthn-framework'
