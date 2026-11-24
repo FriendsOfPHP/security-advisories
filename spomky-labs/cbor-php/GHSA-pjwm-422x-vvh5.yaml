@@ -1,0 +1,8 @@
+title: 'Hostile input raises exceptions outside the documented error contract (64-bit headers, assert() used as validation)'
+link: 'https://github.com/Spomky-Labs/cbor-php/security/advisories/GHSA-pjwm-422x-vvh5'
+cve: ~
+branches:
+    3.3.x:
+        versions: ['<3.3.4']
+        time: 2026-08-31 18:59:25
+reference: 'composer://spomky-labs/cbor-php'
