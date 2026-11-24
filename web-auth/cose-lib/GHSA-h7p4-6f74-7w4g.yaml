@@ -1,0 +1,8 @@
+title: 'Ed25519 private key recovery when EdDSA::sign() is given a public key inconsistent with the private seed'
+link: 'https://github.com/web-auth/cose-lib/security/advisories/GHSA-h7p4-6f74-7w4g'
+cve: ~
+branches:
+    4.7.x:
+        versions: ['>=2.1.0', '<4.7.2']
+        time: 2026-09-10 14:28:29
+reference: 'composer://web-auth/cose-lib'

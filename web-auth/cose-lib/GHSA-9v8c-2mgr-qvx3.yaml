@@ -1,0 +1,8 @@
+title: 'CPU exhaustion through oversized attacker-supplied RSA keys in COSE signature verification'
+link: 'https://github.com/web-auth/cose-lib/security/advisories/GHSA-9v8c-2mgr-qvx3'
+cve: ~
+branches:
+    4.7.x:
+        versions: ['<4.7.2']
+        time: 2026-09-10 16:46:32
+reference: 'composer://web-auth/cose-lib'
