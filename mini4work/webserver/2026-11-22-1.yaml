@@ -1,0 +1,7 @@
+title: "HTTP/3 session initialization failure can stop the quiche serving process"
+link: https://gitlab.com/mini4work/webserver/-/blob/1.5.3/docs/security/http3-quiche-session-initialization.md
+branches:
+    master:
+        time: 2026-11-19 18:47:10
+        versions: ['>=0.1.0', '<1.2.0']
+reference: composer://mini4work/webserver
