@@ -1,0 +1,7 @@
+title:     OWASP CRS @rx rules can be bypassed by inserting a newline (see GHSA-mq54-wr53-ff9q)
+link:      https://github.com/flowd/phirewall-src/security/advisories/GHSA-mq54-wr53-ff9q
+branches:
+    0.11.x:
+        time:     2026-11-24 09:58:24
+        versions: ['>=0.1.0', '<0.11.1']
+reference: composer://flowd/phirewall-preset-owasp-crs
