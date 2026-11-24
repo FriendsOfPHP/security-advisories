@@ -1,0 +1,11 @@
+title: 'Label validation accepts an encoded colon at the start of the account name'
+link: 'https://github.com/Spomky-Labs/otphp/security/advisories/GHSA-h38w-h2gf-6qv2'
+cve: ~
+branches:
+    11.4.x:
+        versions: ['>=11.4.0', '<11.4.4']
+        time: 2026-11-07 16:52:51
+    11.5.x:
+        versions: ['>=11.5.0', '<11.5.1']
+        time: 2026-11-07 17:39:42
+reference: 'composer://spomky-labs/otphp'

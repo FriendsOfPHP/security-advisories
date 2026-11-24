@@ -1,0 +1,11 @@
+title: 'Unbounded counter parameter in a provisioning URI triggers an uncaught TypeError in HOTP verification'
+link: 'https://github.com/Spomky-Labs/otphp/security/advisories/GHSA-526c-px8p-72x8'
+cve: ~
+branches:
+    11.4.x:
+        versions: ['<11.4.4']
+        time: 2026-11-07 16:52:51
+    11.5.x:
+        versions: ['>=11.5.0', '<11.5.1']
+        time: 2026-11-07 17:39:42
+reference: 'composer://spomky-labs/otphp'
