@@ -1,0 +1,35 @@
+title:     "SS-2026-008 - Unauthenticated RCE via form submissions"
+link:      https://www.silverstripe.org/download/security-releases/ss-2026-008
+cve:       ~
+branches:
+    4.13.x:
+        time:     2026-11-23 21:36:10
+        versions: ['<4.13.45']
+    5.0.x:
+        time:     2026-11-23 21:34:40
+        versions: ['>=5.0.0', '<5.0.24']
+    5.1.x:
+        time:     2026-11-23 21:33:31
+        versions: ['>=5.1.0', '<5.1.24']
+    5.2.x:
+        time:     2026-11-23 21:32:36
+        versions: ['>=5.2.0', '<5.2.23']
+    5.3.x:
+        time:     2026-11-23 21:31:43
+        versions: ['>=5.3.0', '<5.3.24']
+    5.4.x:
+        time:     2026-11-23 21:30:06
+        versions: ['>=5.4.0', '<5.4.31']
+    6.0.x:
+        time:     2026-11-23 21:27:55
+        versions: ['>=6.0.0', '<6.0.17']
+    6.1.x:
+        time:     2026-11-23 21:23:50
+        versions: ['>=6.1.0', '<6.1.17']
+    6.2.x:
+        time:     2026-11-23 21:11:56
+        versions: ['>=6.2.0', '<6.2.15']
+    6.3.x:
+        time:     2026-11-23 21:14:03
+        versions: ['>=6.3.0', '<6.3.10']
+reference: composer://silverstripe/framework
