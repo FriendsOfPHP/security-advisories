@@ -1,0 +1,17 @@
+title: 'ECDH-ES derives at most 256 bits of key material: with A256CBC-HS512 the content is encrypted under an all-zero AES key and anyone holding the token can read it'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-5pj7-wx9m-cjh6'
+cve: ~
+branches:
+    3.4.x:
+        versions: ['<3.4.12']
+        time: 2026-10-30 21:59:07
+    4.0.x:
+        versions: ['>=4.0.0', '<4.0.8']
+        time: 2026-10-30 22:03:43
+    4.1.x:
+        versions: ['>=4.1.0', '<4.1.10']
+        time: 2026-10-30 22:06:24
+    4.2.x:
+        versions: ['>=4.2.0', '<4.2.4']
+        time: 2026-10-30 22:08:19
+reference: 'composer://web-token/jwt-framework'

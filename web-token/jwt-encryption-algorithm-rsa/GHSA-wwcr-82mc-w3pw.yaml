@@ -1,0 +1,8 @@
+title: 'RSA-OAEP accepts an encrypted key made of several RSA blocks, enabling recovery of another JWE''s content encryption key through a decryption oracle'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-wwcr-82mc-w3pw'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-encryption-algorithm-rsa'

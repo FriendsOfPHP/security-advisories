@@ -1,0 +1,8 @@
+title: 'Denial of service: parsing a JWS in the JSON General serialization takes a time quadratic in its number of signatures'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-jgv7-g4jg-6hqv'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-signature'

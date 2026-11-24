@@ -1,0 +1,8 @@
+title: 'AES key wrapping accepts oct keys shorter than the algorithm key size and pads them with zero bytes: an empty key wraps every CEK under an all-zero key'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-4mxj-75j2-j8hc'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-encryption-algorithm-aesgcmkw'

@@ -1,0 +1,8 @@
+title: 'ECDH-ES: an oversized "epk" coordinate costs seconds to minutes of CPU per token when PHP has no GMP extension'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-wwq7-mh3q-hwrh'
+cve: ~
+branches:
+    3.2.x:
+        versions: ['>=2.2.0', '<=3.2.10']
+        time: ~
+reference: 'composer://web-token/jwt-encryption-algorithm-ecdh-es'

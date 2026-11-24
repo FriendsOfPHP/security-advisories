@@ -1,0 +1,17 @@
+title: 'JWS and JWE serializers decode attacker-controlled JSON without bounds before verification (CPU and memory denial of service)'
+link: 'https://github.com/web-token/jwt-framework/security/advisories/GHSA-2xq2-pp89-x7fr'
+cve: ~
+branches:
+    3.4.x:
+        versions: ['<3.4.13']
+        time: 2026-11-08 10:24:28
+    4.0.x:
+        versions: ['>=4.0.0', '<4.0.9']
+        time: 2026-11-08 10:48:43
+    4.1.x:
+        versions: ['>=4.1.0', '<4.1.11']
+        time: 2026-11-08 11:15:42
+    4.2.x:
+        versions: ['>=4.2.0', '<4.2.6']
+        time: 2026-11-08 11:34:13
+reference: 'composer://web-token/jwt-framework'
