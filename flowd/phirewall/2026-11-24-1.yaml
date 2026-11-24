@@ -1,0 +1,7 @@
+title:     Path-based rules can be bypassed with percent-encoded or dot-segment paths (see GHSA-39c4-6228-r74h)
+link:      https://github.com/flowd/phirewall-src/security/advisories/GHSA-39c4-6228-r74h
+branches:
+    0.11.x:
+        time:     2026-11-24 09:58:24
+        versions: ['>=0.1.0', '<0.11.1']
+reference: composer://flowd/phirewall
