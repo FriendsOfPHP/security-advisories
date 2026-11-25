@@ -4,7 +4,7 @@ reference: composer://league/csv
 branches:
     9.x:
         time:
-        versions: ['>=9.22', '<=9.27.1']
+        versions: ['>=9.22', '<9.28']
     9.28.x:
         time: 2026-11-22 14:00:42
         versions: ['>=9.28.0', '<9.28.1']
