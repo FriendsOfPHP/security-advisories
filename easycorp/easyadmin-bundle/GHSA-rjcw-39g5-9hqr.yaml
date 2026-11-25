@@ -1,0 +1,7 @@
+title:     Forced download of uploaded files can be bypassed
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-rjcw-39g5-9hqr
+branches:
+    5.x:
+        time:     2026-11-25 08:06:35
+        versions: ['>=5.0.13', '<5.10.4']
+reference: composer://easycorp/easyadmin-bundle
