@@ -1,0 +1,13 @@
+title: CharsetConverter - Denial of Service through unbounded buffering of invalid multibyte sequences
+link: https://github.com/thephpleague/csv/security/advisories/GHSA-m9j4-54gj-jvf8
+reference: composer://league/csv
+branches:
+    9.x:
+        time:
+        versions: ['>=9.22', '<=9.27.1']
+    9.28.x:
+        time: 2026-11-22 14:00:42
+        versions: ['>=9.28.0', '<9.28.1']
+    9.29.x:
+        time: 2026-11-22 13:59:33
+        versions: ['>=9.29.0', '<9.29.1']
