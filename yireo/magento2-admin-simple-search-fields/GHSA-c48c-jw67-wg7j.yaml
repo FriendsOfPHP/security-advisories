@@ -1,0 +1,8 @@
+title: 'Reflected and stored XSS in admin simple search grid and preview label'
+link: 'https://github.com/yireo/Yireo_AdminSimpleSearchFields/security/advisories/GHSA-c48c-jw67-wg7j'
+cve: ~
+branches:
+    '1.0.x':
+        time: '2026-11-23 19:04:24'
+        versions: ['<1.0.9']
+reference: 'composer://yireo/magento2-admin-simple-search-fields'

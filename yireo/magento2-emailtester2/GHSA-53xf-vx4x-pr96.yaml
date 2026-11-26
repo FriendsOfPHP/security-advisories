@@ -1,0 +1,8 @@
+title: 'Unauthenticated access to admin email preview exposes order and customer data'
+link: 'https://github.com/yireo/Yireo_EmailTester2/security/advisories/GHSA-53xf-vx4x-pr96'
+cve: ~
+branches:
+    '1.8.x':
+        time: '2026-11-23 18:50:44'
+        versions: ['>=1.8.0', '<1.8.3']
+reference: 'composer://yireo/magento2-emailtester2'

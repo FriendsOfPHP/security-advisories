@@ -1,0 +1,8 @@
+title: 'Unauthenticated customer name and email disclosure via adminhtml CustomerLabel AJAX controller'
+link: 'https://github.com/yireo/Yireo_AdminReactComponents/security/advisories/GHSA-7xjf-2rjq-q5cp'
+cve: ~
+branches:
+    '1.0.x':
+        time: '2026-11-23 18:50:48'
+        versions: ['<1.0.6']
+reference: 'composer://yireo/magento2-admin-react-components'

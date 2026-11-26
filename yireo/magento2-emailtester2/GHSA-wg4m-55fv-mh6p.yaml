@@ -1,0 +1,8 @@
+title: 'Customer password reset tokens exposed to restricted admin users via email preview and send'
+link: 'https://github.com/yireo/Yireo_EmailTester2/security/advisories/GHSA-wg4m-55fv-mh6p'
+cve: ~
+branches:
+    '1.8.x':
+        time: '2026-11-24 15:38:04'
+        versions: ['<1.8.4']
+reference: 'composer://yireo/magento2-emailtester2'
