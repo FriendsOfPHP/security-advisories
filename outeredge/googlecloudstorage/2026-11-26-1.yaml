@@ -1,0 +1,8 @@
+title: 'Unbounded cache growth from unauthenticated media requests'
+link: 'https://github.com/outeredge/googlecloudstorage/pull/10'
+cve: ~
+branches:
+    '2.0.x':
+        time: '2026-11-26 12:58:09'
+        versions: ['<2.0.34']
+reference: 'composer://outeredge/googlecloudstorage'

@@ -1,0 +1,8 @@
+title: 'SQL injection in the admin layout group save controller'
+link: 'https://github.com/outeredge/magento-layout-module/pull/22'
+cve: ~
+branches:
+    '3.5.x':
+        time: '2026-11-26 12:43:15'
+        versions: ['<3.5.1']
+reference: 'composer://outeredge/magento-layout-module'
