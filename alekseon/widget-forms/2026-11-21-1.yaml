@@ -1,0 +1,8 @@
+title: 'Widget form submit stores records for forms not enabled for widget use'
+link: 'https://github.com/Alekseon/magento2-widget-forms/commit/7792ee28ec573c863ebc8d6a9f586b77a4da6a2c'
+cve: ~
+branches:
+    '102.5.x':
+        time: '2026-11-21 18:42:37'
+        versions: ['<102.5.13']
+reference: 'composer://alekseon/widget-forms'
