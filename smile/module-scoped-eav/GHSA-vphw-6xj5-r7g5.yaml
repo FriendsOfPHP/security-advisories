@@ -1,0 +1,8 @@
+title: 'Mass assignment of structural fields on attribute save'
+link: 'https://github.com/Smile-SA/magento2-module-scoped-eav/security/advisories/GHSA-vphw-6xj5-r7g5'
+cve: ~
+branches:
+    '1.3.x':
+        time: '2026-11-24 13:48:49'
+        versions: ['>=1.0.0', '<1.3.10']
+reference: 'composer://smile/module-scoped-eav'

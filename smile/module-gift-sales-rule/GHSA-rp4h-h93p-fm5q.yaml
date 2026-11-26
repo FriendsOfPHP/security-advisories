@@ -1,0 +1,8 @@
+title: 'Gift item price bypass and unauthorized gift rule usage'
+link: 'https://github.com/Smile-SA/magento2-module-gift-sales-rule/security/advisories/GHSA-rp4h-h93p-fm5q'
+cve: ~
+branches:
+    '2.0.x':
+        time: '2026-11-24 14:31:02'
+        versions: ['>=1.0.0', '<2.0.2']
+reference: 'composer://smile/module-gift-sales-rule'

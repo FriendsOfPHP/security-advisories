@@ -1,0 +1,14 @@
+title: 'SQL injection through unquoted SKUs in the widget "position by SKU" sort'
+link: 'https://github.com/Smile-SA/elasticsuite/security/advisories/GHSA-7j9j-4fph-828g'
+cve: ~
+branches:
+    '2.10.x':
+        time: '2026-11-16 13:43:17'
+        versions: ['>=2.10.9.1', '<2.10.36.2']
+    '2.11.x':
+        time: '2026-11-16 13:59:18'
+        versions: ['>=2.11.0', '<2.11.21.2']
+    '2.12.x':
+        time: '2026-11-16 14:09:45'
+        versions: ['>=2.12.0', '<2.12.2.2']
+reference: 'composer://smile/elasticsuite'

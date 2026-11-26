@@ -1,0 +1,8 @@
+title: 'Anonymous web API exposes inactive retailers'
+link: 'https://github.com/Smile-SA/magento2-module-retailer/security/advisories/GHSA-p4c3-c8wg-wjqm'
+cve: ~
+branches:
+    '2.0.x':
+        time: '2026-11-24 14:31:10'
+        versions: ['>=1.2.0', '<2.0.4']
+reference: 'composer://smile/module-retailer'
