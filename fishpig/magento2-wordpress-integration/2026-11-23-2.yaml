@@ -1,0 +1,8 @@
+title: 'Password-protected post content exposed in the meta description'
+link: 'https://github.com/fishpig/magento2-wordpress-integration/compare/3.33.1...3.33.2'
+cve: ~
+branches:
+    '3.x':
+        time: '2026-11-23 09:50:13'
+        versions: ['<3.33.2']
+reference: 'composer://fishpig/magento2-wordpress-integration'

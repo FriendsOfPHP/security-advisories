@@ -1,0 +1,8 @@
+title: 'Request-reflected text in storefront pages is evaluated as Magento template directives'
+link: 'https://github.com/fishpig/magento2-wordpress-integration/compare/3.33.3...3.33.4'
+cve: ~
+branches:
+    '3.x':
+        time: '2026-11-23 13:30:12'
+        versions: ['<3.33.4']
+reference: 'composer://fishpig/magento2-wordpress-integration'
