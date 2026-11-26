@@ -1,0 +1,7 @@
+title:     Flysystem file fields look up stored files outside the upload directory
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-4jgw-cjw7-8j52
+branches:
+    5.x:
+        time:     2026-11-25 08:06:35
+        versions: ['>=5.0.5', '<5.10.4']
+reference: composer://easycorp/easyadmin-bundle

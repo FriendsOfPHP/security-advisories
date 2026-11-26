@@ -1,0 +1,10 @@
+title:     routeParams of routeName URLs are passed as controller arguments
+link:      https://github.com/EasyCorp/EasyAdminBundle/security/advisories/GHSA-f7rw-7wx5-3c54
+branches:
+    4.x:
+        time:     2026-11-25 08:08:09
+        versions: ['>=4.1.0', '<4.29.18']
+    5.x:
+        time:     2026-11-25 08:06:35
+        versions: ['>=5.0.0', '<5.10.4']
+reference: composer://easycorp/easyadmin-bundle
