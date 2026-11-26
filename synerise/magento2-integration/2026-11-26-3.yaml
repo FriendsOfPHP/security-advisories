@@ -1,0 +1,8 @@
+title: 'Reflected cross-site scripting in the recommendations widget AJAX endpoint'
+link: 'https://github.com/Synerise/magento2-integration/pull/103'
+cve: ~
+branches:
+    '3.4.x':
+        time: '2026-11-26 12:57:23'
+        versions: ['<3.4.3']
+reference: 'composer://synerise/magento2-integration'
