@@ -1,0 +1,11 @@
+title: 'Catalog API users can write and read files outside the import directories via the product import web API'
+link: 'https://github.com/bigbridge-nl/product-import/security/advisories/GHSA-243g-fjgc-p572'
+cve: ~
+branches:
+    '1.7.x':
+        time: '2026-11-26 08:50:14'
+        versions: ['>=1.0.0', '<1.7.9']
+    '1.8.x':
+        time: '2026-11-26 08:50:14'
+        versions: ['>=1.8.0', '<1.8.2']
+reference: 'composer://bigbridge/product-import'
