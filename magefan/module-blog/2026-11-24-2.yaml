@@ -1,0 +1,8 @@
+title: 'Anonymous REST post endpoints expose the post preview secret'
+link: 'https://github.com/magefan/module-blog/compare/2.13.1...2.17.2'
+cve: ~
+branches:
+    '2.x':
+        time: '2026-11-24 17:02:26'
+        versions: ['<2.17.2']
+reference: 'composer://magefan/module-blog'
