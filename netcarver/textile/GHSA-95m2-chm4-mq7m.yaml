@@ -1,0 +1,8 @@
+title: 'Persistent XSS vulnerability in image link handling'
+link: 'https://github.com/textile/php-textile/security/advisories/GHSA-95m2-chm4-mq7m'
+cve: ~
+branches:
+    'master':
+        time: '2025-01-07 14:03:16'
+        versions: ['<4.1.3']
+reference: 'composer://netcarver/textile'
