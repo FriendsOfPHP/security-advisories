@@ -1,5 +1,5 @@
 title: 'Path traversal in the admin log delete action allows deleting arbitrary files'
-link: 'https://github.com/Synerise/magento2-integration/pull/103'
+link: 'https://github.com/Synerise/magento2-integration/commit/f9d542456a224c41be83393db096943952efced5'
 cve: ~
 branches:
     '3.4.x':
