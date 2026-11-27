@@ -1,0 +1,14 @@
+title: 'SQL injection in the admin Thesaurus grid "Terms" filter'
+link: 'https://github.com/Smile-SA/elasticsuite/security/advisories/GHSA-j4vw-mj39-fg2x'
+cve: ~
+branches:
+    '2.10.x':
+        time: '2026-11-23 19:16:02'
+        versions: ['>=2.1.0', '<2.10.37']
+    '2.11.x':
+        time: '2026-11-23 21:46:51'
+        versions: ['>=2.11.0', '<2.11.22']
+    '2.12.x':
+        time: '2026-11-23 21:59:25'
+        versions: ['>=2.12.0', '<2.12.3']
+reference: 'composer://smile/elasticsuite'
