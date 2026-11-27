@@ -1,0 +1,8 @@
+title: 'GraphQL blog queries return scheduled posts and posts of other store views'
+link: 'https://github.com/magefan/module-blog-graph-ql/commit/853c5c64a169b53c509c3e1bd3919ec89bb567a3'
+cve: ~
+branches:
+    '2.3.x':
+        time: '2026-11-24 10:51:09'
+        versions: ['<2.3.1']
+reference: 'composer://magefan/module-blog-graph-ql'
