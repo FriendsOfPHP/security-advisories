@@ -1,0 +1,8 @@
+title: 'Webhook secret check accepts any non-empty secret'
+link: 'https://github.com/elgentos/magento2-prismicio/commit/1ed29838c4e5040c767a6205f0a2d859bef1650f'
+cve: ~
+branches:
+    '4.2.x':
+        time: '2026-11-25 12:29:44'
+        versions: ['<4.2.1']
+reference: 'composer://elgentos/module-prismicio'

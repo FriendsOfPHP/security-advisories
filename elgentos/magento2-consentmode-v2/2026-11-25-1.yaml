@@ -1,0 +1,8 @@
+title: 'Cross-site scripting in the Hyvä cookie banner, cached by the full-page cache'
+link: 'https://github.com/elgentos/magento2-consentmode-v2/commit/22aa70812617da254dc228e57959eb0c740f8df8'
+cve: ~
+branches:
+    '1.1.x':
+        time: '2026-11-25 12:29:51'
+        versions: ['<1.1.1']
+reference: 'composer://elgentos/magento2-consentmode-v2'

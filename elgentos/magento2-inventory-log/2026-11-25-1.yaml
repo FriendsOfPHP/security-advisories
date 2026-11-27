@@ -1,0 +1,8 @@
+title: 'Missing ACL check on inventory log admin controllers'
+link: 'https://github.com/elgentos/magento2-inventory-log/commit/d2dfd1a2812116cc3ead78a4fe5b7e02a6ee7928'
+cve: ~
+branches:
+    '1.2.x':
+        time: '2026-11-25 12:25:25'
+        versions: ['<1.2.2']
+reference: 'composer://elgentos/magento2-inventory-log'

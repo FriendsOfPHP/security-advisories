@@ -1,0 +1,8 @@
+title: 'Missing cart ownership check in the AddGaUserId GraphQL mutation'
+link: 'https://github.com/elgentos/magento2-serversideanalytics/commit/56afd604950d9224f3437f147e9a83d4e85df612'
+cve: ~
+branches:
+    '2.0.x':
+        time: '2026-11-25 12:29:19'
+        versions: ['<2.0.8']
+reference: 'composer://elgentos/serversideanalytics2'
