@@ -1,0 +1,8 @@
+title: 'Stored XSS in restricted mode via notextile tags inside image and link title attributes'
+link: 'https://github.com/textile/php-textile/security/advisories/GHSA-vm23-93g8-64vv'
+cve: ~
+branches:
+    'master':
+        time: '2026-11-09 19:49:29'
+        versions: ['<4.1.8']
+reference: 'composer://netcarver/textile'

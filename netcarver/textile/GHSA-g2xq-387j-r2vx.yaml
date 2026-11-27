@@ -1,0 +1,8 @@
+title: 'Quadratic backtracing in span tag handling'
+link: 'https://github.com/textile/php-textile/security/advisories/GHSA-g2xq-387j-r2vx'
+cve: ~
+branches:
+    'master':
+        time: '2026-11-26 13:13:09'
+        versions: ['<4.1.10']
+reference: 'composer://netcarver/textile'
