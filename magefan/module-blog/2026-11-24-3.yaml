@@ -1,5 +1,5 @@
 title: 'REST create routes for tags and comments use the view ACL resource instead of the save resource'
-link: 'https://github.com/magefan/module-blog/compare/2.13.1...2.17.2'
+link: 'https://github.com/magefan/module-blog/commit/e539dc23e97a41877a45d47cc91bbb1c5b2151b0'
 cve: ~
 branches:
     '2.x':

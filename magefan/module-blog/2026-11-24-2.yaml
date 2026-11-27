@@ -1,5 +1,5 @@
 title: 'Anonymous REST post endpoints expose the post preview secret'
-link: 'https://github.com/magefan/module-blog/compare/2.13.1...2.17.2'
+link: 'https://github.com/magefan/module-blog/commit/b6ff30824c921eef4caa0bf90830bd32e48d69df'
 cve: ~
 branches:
     '2.x':
