@@ -1,0 +1,8 @@
+title: 'Debug log viewer and clearer are reachable by any admin user'
+link: 'https://github.com/owebia/magento2-module-shared-php-config/commit/e234a4dff3999942fd0dae0c659cd6663a9e66a7'
+cve: ~
+branches:
+    '6.x':
+        time: '2026-11-26 08:48:13'
+        versions: ['<6.1.6']
+reference: 'composer://owebia/magento2-module-shared-php-config'
