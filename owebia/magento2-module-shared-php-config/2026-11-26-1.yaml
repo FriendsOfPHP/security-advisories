@@ -1,0 +1,8 @@
+title: 'Callbacks in the shipping configuration can call any PHP function'
+link: 'https://github.com/owebia/magento2-module-shared-php-config/commit/13f71b8aa383f1c1c996a5d332d309942ef30a41'
+cve: ~
+branches:
+    '6.x':
+        time: '2026-11-26 08:48:13'
+        versions: ['<6.1.6']
+reference: 'composer://owebia/magento2-module-shared-php-config'
