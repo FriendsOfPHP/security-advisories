@@ -1,0 +1,8 @@
+title: 'CheckoutTester page discloses order data of arbitrary orders via unsigned order_id parameter'
+link: 'https://github.com/yireo/Yireo_CheckoutTester2/security/advisories/GHSA-hmfq-5568-9xxv'
+cve: ~
+branches:
+    '1.0.x':
+        time: '2026-11-26 01:02:32'
+        versions: ['<1.0.6']
+reference: 'composer://yireo/magento2-checkouttester2'

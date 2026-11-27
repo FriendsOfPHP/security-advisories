@@ -1,0 +1,8 @@
+title: 'IP allowlist bypass via spoofed client IP headers allows viewing and taking over orders'
+link: 'https://github.com/yireo/Yireo_CheckoutTester2/security/advisories/GHSA-j3v6-wf33-x9rx'
+cve: ~
+branches:
+    '1.0.x':
+        time: '2026-11-23 18:48:22'
+        versions: ['<1.0.5']
+reference: 'composer://yireo/magento2-checkouttester2'

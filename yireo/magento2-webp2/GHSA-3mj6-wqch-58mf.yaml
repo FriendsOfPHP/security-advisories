@@ -1,0 +1,8 @@
+title: 'Cross-site scripting via srcset descriptors and conversion of files outside of the public folder'
+link: 'https://github.com/yireo/Yireo_Webp2/security/advisories/GHSA-3mj6-wqch-58mf'
+cve: ~
+branches:
+    '0.14.x':
+        time: '2026-11-25 08:15:37'
+        versions: ['<0.14.5']
+reference: 'composer://yireo/magento2-webp2'

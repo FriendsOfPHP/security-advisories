@@ -1,0 +1,8 @@
+title: 'Unauthenticated visitors can make the store send emails through the WebP test controller'
+link: 'https://github.com/yireo/Yireo_Webp2/security/advisories/GHSA-hcg6-4mm4-2x26'
+cve: ~
+branches:
+    '0.14.x':
+        time: '2026-11-23 18:58:32'
+        versions: ['>=0.4.3', '<0.14.4']
+reference: 'composer://yireo/magento2-webp2'
