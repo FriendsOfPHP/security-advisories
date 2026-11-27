@@ -1,0 +1,8 @@
+title: 'Arbitrary file deletion through an unvalidated image attribute value'
+link: 'https://github.com/Alekseon/AlekseonEav/commit/ecf9ee1a7934d697b268f50cc340fe658863efd2'
+cve: ~
+branches:
+    '101.2.x':
+        time: '2026-11-23 14:04:37'
+        versions: ['<101.2.28']
+reference: 'composer://alekseon/alekseon-eav'

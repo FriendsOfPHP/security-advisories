@@ -1,0 +1,8 @@
+title: 'Missing ACL check on form and form field admin controllers'
+link: 'https://github.com/Alekseon/magento2-custom-forms-builder/commit/7b79905e1bdce96489dea5ea6fc4330ad6350321'
+cve: ~
+branches:
+    '102.4.x':
+        time: '2026-11-23 10:28:08'
+        versions: ['<102.4.1']
+reference: 'composer://alekseon/custom-forms-builder'
