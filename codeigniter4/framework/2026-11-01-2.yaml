@@ -1,0 +1,7 @@
+title:     "Mass assignment protection bypass in Model::replace() (see GHSA-jv74-fx4h-m63x)"
+link:      https://github.com/codeigniter4/CodeIgniter4/security/advisories/GHSA-jv74-fx4h-m63x
+branches:
+    master:
+        time:     2026-11-01 12:54:58
+        versions: ['<4.7.6']
+reference: composer://codeigniter4/framework
